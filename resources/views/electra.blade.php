@@ -57,7 +57,7 @@
               <a class="nav-link js-scroll-trigger" href="#">ABOUT US</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#">EVENT</a>
+              <a class="nav-link js-scroll-trigger" href="/login">EVENT</a>
             </li>
           </ul>
         </div>

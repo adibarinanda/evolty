@@ -39,6 +39,7 @@
   </head>
 
   <body id="page-top">
+
   <!-- VERTICAL DOTTED NAVIGATION-->
   <div id="cd-vertical-nav">
     <ul>
@@ -83,7 +84,7 @@
 
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light" id="mainNavEvolty">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="native/img/logokecil.png"></a>
 
@@ -120,7 +121,7 @@
               @auth
                 <a class="nav-link js-scroll-trigger" href="{{ url('home') }}">DASHBOARD</a>
               @else
-                <a class="nav-link" href="{{ url('login') }}"><button type="button" class="btn btn-info outline">SIGN IN</button></a>
+                <a class="nav-link" href="{{ url('login') }}">SIGN IN</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="{{ url('register') }} ">REGISTER</a>
@@ -463,7 +464,7 @@
     <script src="native/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="native/js/creative.min.js"></script>
+    <script src="native/js/creative.js"></script>
 
     <!-- SCRIPT FOR DROPDOWN LOGIN-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
