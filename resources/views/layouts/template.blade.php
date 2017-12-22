@@ -80,7 +80,7 @@
             <!-- <li> <a href="charts.html"> <i class="fa fa-bar-chart"></i>Charts </a></li>
             <li> <a href="forms.html"> <i class="icon-padnote"></i>Forms </a></li>
             <li> <a href="login.html"> <i class="icon-interface-windows"></i>Login Page</a></li> -->
-          </ul><span class="heading">Extras</span>
+          <!-- </ul><span class="heading">Extras</span> -->
           <!-- <ul class="list-unstyled">
             <li> <a href="#"> <i class="icon-flask"></i>Demo </a></li>
             <li> <a href="#"> <i class="icon-screen"></i>Demo </a></li>
