@@ -357,6 +357,7 @@ fieldset {
   width: 350px;
   border-radius: 5px;
   padding-top: 5px;
+  max-width: 100%;
 }
 .formholder input[type="email"], .formholder input[type="password"] {
   padding: 7px 5px;

@@ -285,7 +285,7 @@
           <div class="col-lg-5 my-auto">
             <div class="vid-border mx-0">
               <div class="mx-auto">
-                <iframe class="my-auto" style="max-height: 100%; max-width: 100%; position: absolute; left: 0;right: 0;top: 0;bottom: 0;" width="560" height="315" 
+                <iframe class="my-auto" style="max-height: 100%; max-width: 100%; position: absolute; left: 0;right: 0;top: 0;bottom: 0;" width="570px" height="480px" 
                   src="https://www.youtube.com/embed/hRVHoExj0i8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen>
                   </iframe>
               </div>                    

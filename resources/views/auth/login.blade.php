@@ -83,7 +83,7 @@
         <div class="row">
           <form method="POST" class="col-sm-12" action="{{ route('login')}} ">
             {{ csrf_field()}}
-            <img style="margin-top: 5em;height: 150px;margin-bottom: 2em" src="purple/img/logobesar.png">
+            <img style="margin-top: 5em;height: 150px;margin-bottom: 2em; max-width: 100%; max-height: 100%;" src="purple/img/logobesar.png">
 
 
                 <div class="form-group {{ $errors->has('email') ? ' has-error' : ''}} ">
