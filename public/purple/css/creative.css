@@ -79,6 +79,8 @@ h6 {
     .theme h1 {
       font-size: 4rem; } }
 
+
+
 .teaser{
     padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
@@ -110,9 +112,17 @@ h6 {
 .text-faded {
   color: rgba(255, 255, 255, 0.7); }
 
-.theme-text{
-  font-size: 5rem;
+.theme-text h1{
+  font-size: 3rem;
 }
+
+@media (min-width: 576px) {
+  .theme-text h1{font-size: 10px;}
+}
+
+@media (min-width: 768px) {
+  .theme-text h1{font-size: 14px;}
+}   
 
 section {
   padding: 8rem 0; }

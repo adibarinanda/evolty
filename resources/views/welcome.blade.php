@@ -137,7 +137,7 @@
       <div class="container mx-auto my-auto">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-12 col-lg-12 mx-auto">
-            <img src="native/img/logobesar.png">
+            <img src="native/img/logobesar.png" style="max-height: 100%; max-width: 100%">
           </div>
           <div class="col-12 col-sm-12 col-md-12 col-lg-12  mx-auto">
             <br>
@@ -265,7 +265,7 @@
                 <img src="native/img/theme.png">
               </div>
             </div>
-            <div class="col-lg-12">
+            <div class="col-lg-12 col-sm-12">
               <h1 class="theme-text">
               <strong>Advancing Technology</strong>
               <br>
@@ -284,8 +284,8 @@
 
           <div class="col-lg-5 my-auto">
             <div class="vid-border mx-0">
-              <div class="my-auto mx-auto">
-                <iframe width="560" height="315" 
+              <div class="mx-auto">
+                <iframe class="my-auto" style="max-height: 100%; max-width: 100%; position: absolute; left: 0;right: 0;top: 0;bottom: 0;" width="560" height="315" 
                   src="https://www.youtube.com/embed/hRVHoExj0i8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen>
                   </iframe>
               </div>                    
