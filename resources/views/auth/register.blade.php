@@ -62,9 +62,18 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">DIRECTION</a>
             </li>
+            @if (Route::has('login'))
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="register">SIGN IN / REGISTER</a>
+              @auth
+                <a class="nav-link js-scroll-trigger" href="{{ url('home') }}">DASHBOARD</a>
+              @else
+                <a class="nav-link" href="{{ url('login') }}">SIGN IN</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ url('register') }} ">REGISTER</a>
+              @endauth
+            </li>
+            @endif
           </ul>
         </div>
       </div>
