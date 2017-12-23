@@ -1,3 +1,4 @@
+@if(Auth::user()->id == 1)
 @extends('layouts.template')
 
 @section('content')
@@ -17,6 +18,7 @@
                 <tr>
                   <th>status</th>
                   <th>Bukti</th>
+                  <th>Verif</th>
                   <th>Event</th>
                   <th>Nama Tim</th>
                   <th>Email</th>
@@ -29,7 +31,6 @@
                   <th>Kelas Anggota 1</th>
                   <th>Nama Anggota 2</th>
                   <th>Kelas Anggota 2</th>
-                  <th>Password</th>
                 </tr>
               </thead>
               <tbody>
@@ -42,6 +43,15 @@
     <td> aktif</td>
   @endif
   <td>    <a href="public/uploads/bukti/{{$user->bukti}}" target="_blank">{{$user->bukti}}</a></td>
+  <td>
+    <form method="post" action="/admin">
+      {{csrf_field()}}
+      <input type="hidden" name="verifID" value="{{$user->id}}"/>
+      <button class="btn btn-success" type="submit">
+        Verif
+      </button>
+    </form>
+  </td>
   <td>{{$user->event}}</td>
   <td>{{$user->namatim}}</td>
   <td>{{$user->email}}</td>
@@ -54,7 +64,6 @@
   <td>{{$user->kelasanggota1}}</td>
   <td>{{$user->namaanggota2}}</td>
   <td>{{$user->kelasanggota2}}</td>
-  <td>{{$user->password}}</td>
 </tr>
 @endforeach
               </tbody>
@@ -67,6 +76,18 @@
 </section>
 @endsection
 
+@else
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+
+</body>
+</html>
+
+@endif
 <!-- @section('content')
 <div class="container">
     <div class="row">

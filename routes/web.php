@@ -17,6 +17,7 @@
 
 Route::view('/','welcome');
 Route::view('/electra', 'electra');
+Route::post('admin', 'VerifController@update');
 
 Auth::routes();
 

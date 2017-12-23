@@ -133,7 +133,20 @@
       </div>
     </nav>
 
+<style>
+      #particles-js {
+      /*background: url('img/background1.png');*/
+      background-size: cover;
+      position:fixed;
+      top:0;
+      right:0;
+      bottom:0;
+      left:0;
+      z-index:0; 
+      }
+   </style>
     <header class="masthead text-center text-white d-flex cd-section" id="section01">
+      <div id="particles-js"></div>
       <div class="container mx-auto my-auto">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-12 col-lg-12 mx-auto">
@@ -476,6 +489,9 @@
     <script src="native/js/vnav/jquery-2.1.1.js"></script>
     <script  src="native/js/vnav/main.js"></script>
     <script  src="native/js/vnav/modernizr.js"></script>
+
+    <script type="text/javascript" src="particles/particles.min.js"></script>
+    <script type="text/javascript" src="particles/app.js"></script>
 
   </body>
 

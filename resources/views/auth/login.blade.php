@@ -78,7 +78,21 @@
       </div>
     </nav>
 
+ 
+   <style>
+      #particles-js {
+      background: url('img/background1.png');
+      background-size: cover;
+      position:fixed;
+      top:0;
+      right:0;
+      bottom:0;
+      left:0;
+      z-index:1; 
+      }
+   </style>
     <header class="masthead text-center text-white d-flex">
+      <div id="particles-js"></div>
       <div class="my-auto mx-auto">
         <div class="row">
           <form method="POST" class="col-sm-12" action="{{ route('login')}} ">
@@ -145,6 +159,8 @@
      <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
     <script  src="purple/js/login.js"></script>
+    <script type="text/javascript" src="particles/particles.min.js"></script>
+    <script type="text/javascript" src="particles/app.js"></script>
 
   </body>
 

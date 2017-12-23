@@ -79,15 +79,29 @@
       </div>
     </nav>
 
+
+<style>
+      #particles-js {
+      background: url('img/background1.png');
+      background-size: cover;
+      position:fixed;
+      top:0;
+      right:0;
+      bottom:0;
+      left:0;
+      z-index:1; 
+      }
+   </style>
     <header class="masthead text-center text-white d-flex align-items-center">
+        <div id="particles-js"></div>
       <div class="mx-auto my-auto">
       <div class="row">
         <div class="col-lg-12" style="margin-bottom:2em;">
           <h1>Registration Page</h1>
         </div>
 
-        <div class="col-lg-6">
-          <img style="margin-top: 5em;height: 150px;margin-bottom: 2em; margin-right:5em" src="purple/img/logobesar.png">
+        <div class="col-lg-6" style="z-index: 1;">
+          <img style="margin-top: 5em;height: 150px;margin-bottom: 2em; margin-right:5em;" src="purple/img/logobesar.png">
           <div class="form-group pull-center">
                   <a style="text-decoration: none" href="login">Sudah punya akun? Login Disini</a>
               </div>
@@ -369,7 +383,8 @@
     <script  src="purple/js/login.js"></script>
 
     <script src="purple/js/app.js"></script>
-
+    <script type="text/javascript" src="particles/snow/particles.min.js"></script>
+    <script type="text/javascript" src="particles/snow/app.js"></script>
   </body>
 
 </html>
