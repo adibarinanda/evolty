@@ -47,9 +47,15 @@
     <form method="post" action="/admin">
       {{csrf_field()}}
       <input type="hidden" name="verifID" value="{{$user->id}}"/>
+      @if($user->status == 0)
       <button class="btn btn-success" type="submit">
         Verif
       </button>
+      @else
+      <button class="btn btn-unverif" type="submit">
+        Unverif
+      </button>
+      @endif
     </form>
   </td>
   <td>{{$user->event}}</td>

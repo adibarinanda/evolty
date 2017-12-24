@@ -23,6 +23,9 @@ hr.biru {
   max-width: 250px;
   border-color: #383395; }
 
+hr.black {
+border-color: #000; }
+
 a {
   color: #F05F40;
   -webkit-transition: all 0.2s;
@@ -318,22 +321,22 @@ body {
   #mainNavelect .navbar-brand {
     font-weight: 700;
     text-transform: uppercase;
-    color: #333C61;
+    color: #33CCFF;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
     #mainNavelect .navbar-brand:focus, #mainNavelect .navbar-brand:hover {
-      color: #333C61; }
+      color: #33CCFF; }
   #mainNavelect .navbar-nav > li.nav-item > a.nav-link,
   #mainNavelect .navbar-nav > li.nav-item > a.nav-link:focus {
     font-size: .9rem;
     font-weight: 700;
     text-transform: uppercase;
-    color: #212529; }
+    color: #33CCFF; }
     #mainNavelect .navbar-nav > li.nav-item > a.nav-link:hover,
     #mainNavelect .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-      color: #333C61; }
+      color: #33CCFF; }
     #mainNavelect .navbar-nav > li.nav-item > a.nav-link.active,
     #mainNavelect .navbar-nav > li.nav-item > a.nav-link:focus.active {
-      color: #333C61 !important;
+      color: #33CCFF !important;
       background-color: #ffffff; }
       #mainNavelect .navbar-nav > li.nav-item > a.nav-link.active:hover,
       #mainNavelect .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
@@ -344,9 +347,9 @@ body {
       border-color: #ffffff;
       background-color: #ffffff}
       #mainNavelect .navbar-brand {
-        color: rgb(33, 37, 41); }
+        color: rgb(51, 204, 255); }
         #mainNavelect .navbar-brand:focus, #mainNav .navbar-brand:hover {
-          color: #333C61; }
+          color: #33CCFF; }
       #mainNavelect .navbar-nav > li.nav-item > a.nav-link {
         padding: 0.5rem 1rem; }
       #mainNavelect .navbar-nav > li.nav-item > a.nav-link,
@@ -354,20 +357,20 @@ body {
         color: rgb(51, 204, 255); }
         #mainNavelect .navbar-nav > li.nav-item > a.nav-link:hover,
         #mainNavelect .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-          color: #333C61; }
+          color: #33CCFF; }
       #mainNavelect.navbar-shrink {
         border-bottom: 3px solid rgba(51, 204, 255, 1);
         background-color: #ffffff;}
         #mainNavelect.navbar-shrink .navbar-brand {
-          color: #333C61; }
+          color: #33CCFF; }
           #mainNavelect.navbar-shrink .navbar-brand:focus, #mainNavelect.navbar-shrink .navbar-brand:hover {
-            color: #333C61; }
+            color: #33CCFF; }
         #mainNavelect.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
         #mainNavelect.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-          color: #333C61; }
+          color: #33CCFF; }
           #mainNavelect.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
           #mainNavelect.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-            color: #333C61; } }
+            color: #33CCFF; } }
 
 header.masthead {
   padding-top: 10rem;

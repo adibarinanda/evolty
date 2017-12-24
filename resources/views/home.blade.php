@@ -4,11 +4,13 @@
 <section class="client">
             <div class="container-fluid">
               <div class="row">
+                 @if(Auth::user()->status==0)
+                        Akun anda belum diaktifkan. Hubungi panitia untuk mengaktifkan akun anda.
+                  @else
                 <!-- Work Amount  -->
                 <div class="col-lg-3">
                   <div class="work-amount card">
                     <div class="card-body">
-
                       <small>Email</small>
                       <h3>{{Auth::user()->email}}</h3>
                       <small>Asal Sekolah</small>
@@ -62,7 +64,7 @@
                     </div>
                   </div>
                 </div>
-
+                @endif
               </div>
             </div>
           </section>

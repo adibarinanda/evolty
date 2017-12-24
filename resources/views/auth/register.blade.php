@@ -33,7 +33,7 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
+      <div class="container" style="z-index: 1;">
         <a class="navbar-brand js-scroll-trigger" href="/"><img src="purple/img/logokecil.png"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -94,7 +94,7 @@
    </style>
     <header class="masthead text-center text-white d-flex align-items-center">
         <div id="particles-js"></div>
-      <div class="mx-auto my-auto">
+      <div class="mx-auto my-auto" style="z-index: 1;">
       <div class="row">
         <div class="col-lg-12" style="margin-bottom:2em;">
           <h1>Registration Page</h1>

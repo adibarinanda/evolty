@@ -1,1 +1,7 @@
 /* your styles go here */
+
+.btn-unverif {
+	color: #fff;
+	background-color: red;
+  	border-color: red;
+}

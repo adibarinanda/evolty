@@ -21,7 +21,7 @@
 
 
     <!-- Plugin CSS -->
-    <link href="{{url('native/css/magnific-popup/magnific-popup.css')}}" rel="stylesheet">
+    <link href="{{url('native/css/magnific-popup /magnific-popup.css')}}" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="{{url('native/css/creative.css')}} " rel="stylesheet">
@@ -241,7 +241,7 @@
           </div>
           </a>
 
-          <a href="/mage">
+          <a href="http://mage.telematics.its.ac.id/">
             <div class="events-card">
             <div class="events-header">
               <figure class="imghvr-fade" style="border-top-left-radius: 10px; border-top-right-radius: 10px">

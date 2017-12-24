@@ -93,7 +93,7 @@
    </style>
     <header class="masthead text-center text-white d-flex">
       <div id="particles-js"></div>
-      <div class="my-auto mx-auto">
+      <div class="my-auto mx-auto" style="z-index: 1;">
         <div class="row">
           <form method="POST" class="col-sm-12" action="{{ route('login')}} ">
             {{ csrf_field()}}
