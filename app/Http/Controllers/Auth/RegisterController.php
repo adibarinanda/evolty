@@ -103,7 +103,6 @@ class RegisterController extends Controller
             'bukti' => $fileName,
             'region' => $data['region'],
             'tipetes' => $data['tipetes']
-
         ]);
     // return dd();
     }

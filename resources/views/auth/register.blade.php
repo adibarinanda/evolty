@@ -170,22 +170,24 @@
                         <option value="Solo" @if (old('solo') == "solo") selected @endif>Solo</option>
                         <option value="Surabaya" @if (old('surabaya') == "surabaya") selected @endif>Surabaya</option>
                         <option value="Tuban" @if (old('tuban') == "tuban") selected @endif>Tuban</option>
+                        <option value="Online" @if (old('online') == "online") selected @endif>Online</option>
                       </select>
                     </div>
                 </div>
 
-                <div id="tipetes" class="form-group{{ $errors->has('tipetes') ? ' has-error' : '' }}">
+                <div id="tipetes-id" class="form-group{{ $errors->has('tipetes') ? ' has-error' : '' }}">
                     <div class="input-group">
-                        <select name="tipetes" placeholder="Tipe Tes" class="form-control">
-                          <option>Pilih Tipe Tes</option>
-                          <option value="online">Online</option>
-                          <option value="offline" selected>Offline</option>
+                        <select id="IDtipetes" name="tipetes" placeholder="Jenis Tes" class="form-control">
+                          <!-- <option>Pilih Tipe Tes</option> -->
+                          <option value="Online">Online</option>
+                          <option value="Offline">Offline</option>
                         </select>
                     </div>
 
                 </div>
 
                 <div class="form-group" id="surabayaoffline"><a>Anda otomatis terdaftar untuk Tes Offline apabila anda memilih region Surabaya.</a></div>
+                <div class="form-group" id="regiononline"><a>Anda otomatis terdaftar untuk Tes Online apabila anda memilih region Online.</a></div>
 
                 <div class="form-group{{ $errors->has('namatim') ? ' has-error' : '' }}">
                     <div class="input-group">
@@ -356,7 +358,7 @@
                         <a style="text-decoration: none" href="login">Sudah punya akun?</a>
                     </div> -->
 
-                <button type="submit" class="btn btn-lg btn-block">Daftar</button>
+                <button type="submit" class="btn btn-lg btn-block " onclick="fungsigantivalue()">Daftar</button>
 
             </form>
           </div>

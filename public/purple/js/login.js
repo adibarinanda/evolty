@@ -11,19 +11,33 @@ $('#loginform').click(function(){
 });
 
 $(document).ready(function(){
- $("#tipetes").show();
+ $("#tipetes-id").show();
  $("#surabayaoffline").hide();
+ $("#regiononline").hide();
  $("#region").on("change", function(){
    var v = $(this).val();
    if(v=="Surabaya"){
-      $("#tipetes").hide();
+      document.getElementById("IDtipetes").value = 'Offline';
+      $("#tipetes-id").hide();
+      // $('#tipetes-id').val('Offline');
       $("#surabayaoffline").show();
-   }else{
-     $("#tipetes").show();
+   }
+   else if(v=="Online"){
+    document.getElementById("IDtipetes").value = 'Online';
+      $("#tipetes-id").hide();
+      // $('#tipetes-id').val('Online').change();
+      // $('input[select="tipetes"]').val('online');
+      $("#regiononline").show();
+    }
+   else{
+     $("#tipetes-id").show();
      $("#surabayaoffline").hide();
+     $("#regiononline").hide();
    }
  });
 });
+
+
 
 $(document).mouseup(function (e)
 {
