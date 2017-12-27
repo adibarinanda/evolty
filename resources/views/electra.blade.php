@@ -37,7 +37,6 @@
 
     <link rel="stylesheet" type="text/css" href="native/css/testimoni/testimoni.css">
 
-    <link rel="stylesheet" type="text/css" href="native/css/video.css">
   </head>
 
   <body id="page-top">
@@ -582,20 +581,20 @@
       </header>
         
       <header id="section06">
-        <div>
-        <div class="videoWrapper">
-          <iframe width="560" height="215" src="https://www.youtube.com/embed/hRVHoExj0i8?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+        
+        <div >
+          <iframe width="1350" height="450" src="https://www.youtube.com/embed/hRVHoExj0i8?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen style="max-width: 100%;max-height: 100%"></iframe>
         </div>
-        <hr class="black">
+        <hr class="black" style="margin-top: 2vh">
         <div class="text-center" style="margin-top: 5vh">
           <h1><b>THROWBACK</b></h1>
         </div>
-        <div class="row" style="margin-top: 5vh">
+        <div class="row" style="margin-top: 2vh">
           <div class="col-sm-4"></div>
           <div class="col-sm-4 text-center"><h4>Ingin tau keseruan dan ada apa saja di Electra Competition sebelumnya? Kuy, cek video diatas ya guys.</h4></div>
           <div class="col-sm-4"></div>
         </div>
-        </div>
+        
       </header>
 
         <!--<div style="min-height: 100vh">
