@@ -95,19 +95,19 @@
     </header>
 
     <header  id="section02">
-      <div >
-        <div id="demo" class="carousel slide" data-ride="carousel">
+      <div>
+        <!--<div id="demo" class="carousel slide" data-ride="carousel">
 
-          <!-- Indicators -->
+          
           <ul class="carousel-indicators">
             <li data-target="#demo" data-slide-to="0" class="active"></li>
             <li data-target="#demo" data-slide-to="1"></li>
             <li data-target="#demo" data-slide-to="2"></li>
           </ul>
           
-          <!-- The slideshow -->
+          
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active">-->
               <div style="background-image: url(native/img/electra/bg-biru-new.png);background-size: cover;min-height: 100vh;position: relative;">
                 <div class="row">
                   <div class="col-sm-5 my-auto">
@@ -133,8 +133,8 @@
                   </div>
                 </div>
               </div>   
-            </div>
-            <div class="carousel-item">
+            <!--</div>-->
+            <!--<div class="carousel-item">
               <div style="background-image: url(native/img/electra/bg-biru-new.png);background-size: cover;min-height: 100vh;position: relative;">
                 <div class="row">
                   <div class="col-sm-4">
@@ -148,8 +148,8 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="carousel-item">
+            </div>-->
+            <!--<div class="carousel-item">
                <div style="background-image: url(native/img/electra/bg-biru-new.png);background-size: cover;min-height: 100vh;position: relative;">
                 <div class="row">
                   <div class="col-sm-4">
@@ -163,16 +163,16 @@
                   </div>
                 </div>
               </div>
-          </div>
+          </div>-->
           
           <!-- Left and right controls -->
-          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <!--<a class="carousel-control-prev" href="#demo" data-slide="prev">
             <span class="carousel-control-prev-icon"></span>
           </a>
           <a class="carousel-control-next" href="#demo" data-slide="next">
             <span class="carousel-control-next-icon"></span>
-          </a>
-        </div>
+          </a>-->
+        <!--</div>-->
       </div>
         
     </header>
@@ -598,11 +598,11 @@
         </div>
       </header>
 
-        <div style="min-height: 100vh">
+        <!--<div style="min-height: 100vh">
             <div class="text-center" style="margin-top: 30vh">
               <h1><b>SPONSORED BY</b></h1>
             </div>
-        </div>
+        </div>-->
 
      <!-- Bootstrap core JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
