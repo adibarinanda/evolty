@@ -328,7 +328,7 @@
               <hr class="putih">
             </div>
 
-            <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+            <!--<div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
                   <ul class="carousel-indicators">
                     <li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
                     <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
@@ -337,7 +337,39 @@
 
                   <div class="carousel-inner">
 
-                    <div class="carousel-item active">
+                    <div class="carousel-item active">-->
+                      <div class="col-lg-12" style="margin-bottom: 35px">
+                        <div class="whitebox">
+                          <div class="row">
+                            <div class="col-lg-2"><img src="native/img/bulet1.png"></div>
+
+                            <div class="col-lg-10 my-auto">
+                              <div class="row">
+                                  <div class="col-lg-12 col-sm-12 col-md-12"><h3 class="spacing"><strong>Aldo Pradipta</strong></h3></div>
+                                  <div class="col-lg-12"><p class="spacing"><strong>"Seru banget! Electra bener-bener bisa bikin paham tentang dunia perkuliahan terutama teknik elektro, karena electra juga dapet pencerahan tentang teknik elektro dan akhirnya masuk ke jurusan ini meskipun cuman sampai semifinal"</strong></p></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12" style="margin-bottom: 30px">
+                        <div class="whitebox">
+                          <div class="row">
+                            <div class="col-lg-2"><img src="native/img/bulet2.png"></div>
+
+                            <div class="col-lg-10 my-auto">
+                              <div class="row">
+                                  <div class="col-lg-12 col-sm-12 col-md-12"><h3 class="spacing"><strong>Muhammad Roychan Meliaz</strong></h3></div>
+                                  <div class="col-lg-12"><p class="spacing" style="font-size: 0.9em"><strong>"Dari sini saya belajar bahwa perjuangan memang tidak akan mengkhianati hasil. Apapun yang ingin kamu raih, fokuslah pada tujuan utama dan kesampingkan hal-hal yang tidak terlalu bermanfaat. Perjalanan jauh kami dari Batam hingga Surabaya terbayar sudah. Jika bukan karena MAGE 2017, mungkin saya sekarang tidak akan bisa berada disini,berkuliah di kampus impian, kampus pahlawan, Institut Teknologi Sepuluh Nopember Surabaya"</strong></p></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <!--</div>-->
+
+                      <!--<div class="carousel-item">
                       <div class="col-lg-12" style="margin-bottom: 35px">
                         <div class="whitebox">
                           <div class="row">
@@ -352,7 +384,6 @@
                           </div>
                         </div>
                       </div>
-
                       <div class="col-lg-12" style="margin-bottom: 30px">
                         <div class="whitebox">
                           <div class="row">
@@ -398,38 +429,7 @@
                           </div>
                         </div>
                       </div>
-                    </div>
-
-                      <div class="carousel-item">
-                      <div class="col-lg-12" style="margin-bottom: 35px">
-                        <div class="whitebox">
-                          <div class="row">
-                            <div class="col-lg-2"><img src="native/img/bulet.png"></div>
-
-                            <div class="col-lg-10 my-auto">
-                              <div class="row">
-                                  <div class="col-lg-12 col-sm-12 col-md-12"><h3 class="spacing"><strong>Muhammad Yogie Nugroho</strong></h3></div>
-                                  <div class="col-lg-12"><p class="spacing"><strong>"Menurut saya acara-acara di evolty sangat memacu produktivitas dan kreativitas sekali, untuk tahun ini tidak masalah tidak mendapat juara, next evolty pasti saya dapatkan"</strong></p></div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-12" style="margin-bottom: 30px">
-                        <div class="whitebox">
-                          <div class="row">
-                            <div class="col-lg-2"><img src="native/img/bulet.png"></div>
-
-                            <div class="col-lg-10 my-auto">
-                              <div class="row">
-                                  <div class="col-lg-12 col-sm-12 col-md-12"><h3 class="spacing"><strong>Muhammad Yogie Nugroho</strong></h3></div>
-                                  <div class="col-lg-12"><p class="spacing"><strong>"Menurut saya acara-acara di evolty sangat memacu produktivitas dan kreativitas sekali, untuk tahun ini tidak masalah tidak mendapat juara, next evolty pasti saya dapatkan"</strong></p></div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    </div>-->
 
                       <!-- <div class="col-lg-12" style="margin-bottom: 35px">
                         <div class="whitebox">
@@ -446,8 +446,8 @@
                       </div>
                     </div> -->
 
-                  </div>
-            </div>
+                  <!--</div>
+            </div>-->
           </div>
         </div>
     </section>
