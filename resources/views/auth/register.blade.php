@@ -96,7 +96,7 @@
         <div id="particles-js"></div>
       <div class="mx-auto my-auto" style="z-index: 1;">
       <div class="row">
-        <div class="col-lg-12" style="margin-bottom:2em;">
+        <div class="col-lg-12" style="margin-bottom:2em;margin-top: 5em">
           <h1>Registration Page</h1>
         </div>
 
@@ -144,13 +144,14 @@
                       <select id="event" name="event" placeholder="Pilih Event" class="form-control">
                         <option>Pilih Event</option>
                         <option value="electra" @if (old('event') == "Electra") selected @endif>Electra</option>
-                        <!-- <option>Baronas</option>
-                        <option>National Symphosium</option>
+                        <option value="baronas">Baronas</option>
+                        <!--<option>National Symphosium</option>
                         <option>MAGE</option> -->
                       </select>
                     </div>
                 </div>
 
+                <div id="form-electra" style="margin-bottom: 2em">
                 <div class="form-group{{ $errors->has('region') ? ' has-error' : '' }}">
                     <div class="input-group">
                       <select id="region" name="region" placeholder="Pilih Region" class="form-control">
@@ -326,7 +327,7 @@
                     </div>
                 </div>
 
-                <div class="form-group">
+                <div class="form-group" style="text-align: left;">
                                 <label>Upload Bukti Pembayaran</label>
                                 <input type="file" name="bukti" value="" />
                             </div>
@@ -359,6 +360,76 @@
                     </div> -->
 
                 <button type="submit" class="btn btn-lg btn-block " onclick="fungsigantivalue()">Daftar</button>
+              </div>
+
+              <div id="form-baronas" style="margin-bottom: 2em">
+                <div class="form-group">
+                    <div class="input-group">
+                      <select id="region" name="region" placeholder="Pilih Region" class="form-control">
+                        <option>Kategori Lomba</option>
+                        <option value="Elementary">Elementary Category</option>
+                        <option value="Junior">Junior Category</option>
+                        <option value="Senior">Senior Category</option>
+                        <option value="Open">Open Category</option>
+                      </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group">
+                    <input type="text" name="nama_team" class="form-control" placeholder="Nama Team">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group">
+                    <input type="text" name="nama_angg1" class="form-control" placeholder="Nama Anggota 1">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group">
+                    <input type="text" name="nama_angg2" class="form-control" placeholder="Nama Anggota 2">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group">
+                    <input type="text" name="nama_angg3" class="form-control" placeholder="Nama Anggota 3">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group">
+                    <input type="text" name="nama_pembimbing" class="form-control" placeholder="Nama Pembimbing">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group">
+                    <input type="text" name="asal_team" class="form-control" placeholder="Asal Sekolah/Institusi/Komunitas">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group">
+                    <input type="text" name="alamat" class="form-control" placeholder="Alamat Sekolah">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group">
+                    <input type="email" name="email" class="form-control" placeholder="Email">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group">
+                    <input type="text" name="cp" class="form-control" placeholder="Contact Person">
+                  </div>
+                </div>
+                <div class="form-group" style="text-align: left;">
+                                <label>Kartu Tanda Pelajar/Surat Keterangan : </label>
+                                <input type="file" name="ktp" value="" />
+                </div>
+                <div class="form-group" style="text-align: left;">
+                                <label>Foto : </label>
+                                <input type="file" name="foto" value="" />
+                </div>
+                <button type="submit" class="btn btn-lg btn-block " onclick="fungsigantivalue()">Daftar</button>
+              </div>
+
 
             </form>
           </div>
