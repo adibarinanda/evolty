@@ -142,7 +142,7 @@
                 <div class="form-group{{ $errors->has('event') ? ' has-error' : '' }}">
                     <div class="input-group">
                       <select id="event" name="event" placeholder="Pilih Event" class="form-control">
-                        <option>Pilih Event</option>
+                        <option selected disabled>Pilih Event</option>
                         <option value="electra" @if (old('event') == "Electra") selected @endif>Electra</option>
                         <option value="baronas">Baronas</option>
                         <!--<option>National Symphosium</option>
