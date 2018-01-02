@@ -50,7 +50,7 @@ class RegisterController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'namatim' => 'required|string|max:255',
+            'namatim' => 'string|max:255',
             'email' => 'required|string|email|max:255|unique:users',
             'password' => 'required|string|min:6|confirmed',
             'asalsekolah' => 'required|string|max:255',
@@ -65,7 +65,8 @@ class RegisterController extends Controller
             'notelp' => 'required|string|max:255',
             'bukti' => 'required|image|max:2048',
             'region' => 'required|string|max:25',
-            'tipetes' => 'required|string|max:25'
+            'tipetes' => 'required|string|max:25',
+            
 
         ]);
     }
@@ -105,5 +106,11 @@ class RegisterController extends Controller
             'tipetes' => $data['tipetes']
         ]);
     // return dd();
+    }
+
+    public function update(Request $request)
+    {
+        $uservar = User::find($request->verifID);
+        $uservar->no_peserta = $data['nopesertanew'];
     }
 }

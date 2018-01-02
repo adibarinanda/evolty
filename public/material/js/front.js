@@ -1,4 +1,37 @@
 /*global $, document, Chart, LINECHART, data, options, window*/
+
+// BUAT NAMPILIN MENU POPUP KALO TOMBOL VERIF DIPENCET
+function centerModal() {
+    $(this).css('display', 'block');
+    var $dialog = $(this).find(".modal-dialog");
+    var offset = ($(window).height() - $dialog.height()) / 2;
+    // Center modal vertically in window
+    $dialog.css("margin-top", offset);
+}
+
+$('.modal').on('show.bs.modal', centerModal);
+$(window).on("resize", function () {
+    $('.modal:visible').each(centerModal);
+});
+
+// BUAT FILTER REGION
+function filterText()
+  {  
+    var rex = new RegExp($('#filterText').val());
+    if(rex =="/all/"){clearFilter()}else{
+      $('#IDisitabel').hide();
+      $('#IDisitabel').filter(function() {
+      return rex.test($(this).text());
+      }).show();
+  }
+  }
+  
+function clearFilter()
+  {
+    $('#filterText').val('');
+    $('#IDisitabel').show();
+  }
+
 $(document).ready(function () {
 
     'use strict';

@@ -8,22 +8,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
     <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="material/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{url('material/vendor/bootstrap/css/bootstrap.min.css')}}">
     <!-- Fontastic Custom icon font-->
-    <link rel="stylesheet" href="material/css/fontastic.css">
+    <link rel="stylesheet" href="{{url('material/css/fontastic.css')}}">
     <!-- Font Awesome CSS-->
-    <link rel="stylesheet" href="material/vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{url('material/vendor/font-awesome/css/font-awesome.min.css')}}">
     <!-- Google fonts - Poppins -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,700">
     <!-- theme stylesheet-->
-    <link rel="stylesheet" href="material/css/style.default.css" id="theme-stylesheet">
+    <link rel="stylesheet" href="{{url('material/css/style.default.css')}}" id="theme-stylesheet">
     <!-- Custom stylesheet - for your changes-->
-    <link rel="stylesheet" href="material/css/custom.css">
+    <link rel="stylesheet" href="{{url('material/css/custom.css')}}">
     <!-- Favicon-->
     <link rel="shortcut icon" href="favicon.png">
+    <!-- <link rel="stylesheet" type="text/css" href="material/css/xeditable/xeditable.css"> -->
+
+
     <!-- Tweaks for older IEs--><!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+
+
   </head>
   <body>
     <div class="page home-page">
@@ -75,7 +80,18 @@
               </ul>
             </li>
             @if(Auth::user()->id==1)
-            <li> <a href="admin"> <i class="icon-grid"></i>Admin </a></li>
+            <!-- <li> <a href="admin"> <i class="icon-grid"></i>Admin </a></li> -->
+            <li><a href="#adminevent" aria-expanded="false" data-toggle="collapse"> <i class="icon-grid"></i>Admin </a>
+              <ul id="adminevent" class="collapse list-unstyled">
+                <li><a href="{{url('admin')}}">Electra</a></li>
+                <li><a href="{{url('admin/baronas')}}">Baronas</a></li>
+                <!-- <li><a href="#">Baronas</a></li>
+                <li><a href="#">NS</a></li> -->
+                <!-- <li><a href="#">Lupa Password</a></li> -->
+                <!-- <li><a href="#">Page</a></li>
+                <li><a href="#">Page</a></li> -->
+              </ul>
+            </li>
             @endif
             <!-- <li> <a href="charts.html"> <i class="fa fa-bar-chart"></i>Charts </a></li>
             <li> <a href="forms.html"> <i class="icon-padnote"></i>Forms </a></li>
@@ -104,63 +120,7 @@
             </div>
           </header>
           @yield('content')
-          <!-- SECTION TABEL -->
-          <!-- <section class="dashboard-counts no-padding-bottom">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="card">
-                    <div class="card-header d-flex align-items-center">
-                      <h3 class="h4">Basic Table</h3>
-                    </div>
-                    <div class="card-body" style="overflow-x:auto;">
-                      <table class="table">
-                        <thead>
-                          <tr>
-                            <th>status</th>
-                            <th>Bukti</th>
-                            <th>Event</th>
-                            <th>Nama Tim</th>
-                            <th>Email</th>
-                            <th>No Telp</th>
-                            <th>Asal Sekolah</th>
-                            <th>Alamat Sekolah</th>
-                            <th>Nama Ketua</th>
-                            <th>Kelas Ketua</th>
-                            <th>Nama Anggota 1</th>
-                            <th>Kelas Anggota 1</th>
-                            <th>Nama Anggota 2</th>
-                            <th>Kelas Anggota 2</th>
-                            <th>Password</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th scope="row"></th>
-                            <td>Markasdiuyansdaoinsudynoiausyndoiuasyndiouyn</td>
-                            <td>Ottosadinusadiunyasiudynoiausyndoiuaysndiasd</td>
-                            <td>@mdodasoidnuaosydioasndyiansydouiansydoiuyna</td>
-                          </tr>
-                          <tr>
-                            <th scope="row"></th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                          </tr>
-                          <tr>
-                            <th scope="row"></th>
-                            <td>Larry</td>
-                            <td>the Bird</td>
-                            <td>@twitter</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section> -->
+          
 
 
           <!-- Dashboard Header Section    -->
@@ -182,12 +142,12 @@
     </div>
     <!-- Javascript files-->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="material/vendor/popper.js/umd/popper.min.js"> </script>
-    <script src="material/vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="material/vendor/jquery.cookie/jquery.cookie.js"> </script>
-    <script src="material/vendor/jquery-validation/jquery.validate.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
-    <script src="material/js/charts-home.js"></script>
-    <script src="material/js/front.js"></script>
+    <script src="{{url('material/vendor/popper.js/umd/popper.min.js')}}"> </script>
+    <script src="{{url('material/vendor/bootstrap/js/bootstrap.min.js')}}"></script>
+    <script src="{{url('material/vendor/jquery.cookie/jquery.cookie.js')}}"> </script>
+    <script src="{{url('material/vendor/jquery-validation/jquery.validate.min.js')}}"></script>
+    <!-- <script src="{{url('material/js/charts-home.js')}}"></script> -->
+    <script src="{{url('material/js/front.js')}}"></script>   
   </body>
 </html>
