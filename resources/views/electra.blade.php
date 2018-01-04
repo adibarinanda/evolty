@@ -182,28 +182,29 @@
           <div class="col-lg-12" style="margin-top: 20vh;margin-bottom: 20vh; vertical-align: middle; text-align: center;">
             <img src="native/img/electra-lg.png" class="img-fluid" style="height: 100px;">
           </div>
-
-          <div class="row">
-            <div class="col-lg-6 my-auto">
-              <h1 style="margin-left: 0.5em">SYARAT DAN <h1 style="color: #4ebcdc;margin-left: 0.5em">KETENTUAN</h1></h1>
-              <br>
-              <h5 style="margin-left: 0.7em">Peserta Electra 7 Competition adalah siswa aktif/ belum lulus, dengan jenjang pendidikan maksimal SMA/SMK/MA/SMP/MTs/ sederajat.</h5>
-              <br>
-              <h5 style="margin-left: 0.7em">Peserta mendaftar secara online di website Evolty 2018 www.evolty-its.com atau bisa secara offline melalui panitia Electra 7 2018 secara langsung serta melunasi biaya pendaftaran sebesar Rp 120.000,00.</h5>
-              <br>
-              <h5 style="margin-left: 0.7em">Setiap sekolah boleh mengirimkan lebih dari satu peserta.</h5>
-            </div>
-            <div class="col-lg-6 my-auto" style="border-left: solid 1px black;">
-              <h1 style="margin-left: 0.5em">HADIAH DAN <h1 style="color: #4ebcdc;margin-left: 0.5em">PENGHARGAAN</h1></h1>
-              <br>
-              <h5 style="margin-left: 0.7em">Total Hadiah Rp 15.000.000,00</h5>
-              <br>
-              <h5 style="margin-left: 0.7em">Juara 1 : Rp 7.500.000 + Sertifikat + Trofi  + Freepass*</h5>
-              <h5 style="margin-left: 0.7em">Juara 2 : Rp 5.000.000 + Sertifikat + Trofi</h5>
-              <h5 style="margin-left: 0.7em">Juara 3 : Rp 2.500.000 + Sertifikat + Trofi</h5>
-              <br>
-              <h5 style="margin-left: 0.7em">*Diterima di Departemen Elektro ITS melalui jalur SNMPTN tahun 2018 berlaku untuk peserta yang duduk di kelas 12 saat lomba berlangsung dan lulus UN</h5>
-            </div>
+          <div class="container">
+              <div class="row">
+                <div class="col-lg-6 my-auto">
+                  <h1>SYARAT DAN <h1 style="color: #4ebcdc">KETENTUAN</h1></h1>
+                  <br>
+                  <h5>Peserta Electra 7 Competition adalah siswa aktif/ belum lulus, dengan jenjang pendidikan maksimal SMA/SMK/MA/SMP/MTs/ sederajat.</h5>
+                  <br>
+                  <h5>Peserta mendaftar secara online di website Evolty 2018 www.evolty-its.com atau bisa secara offline melalui panitia Electra 7 2018 secara langsung serta melunasi biaya pendaftaran sebesar Rp 120.000,00.</h5>
+                  <br>
+                  <h5>Setiap sekolah boleh mengirimkan lebih dari satu peserta.</h5>
+                </div>
+                <div class="col-lg-6 my-auto" style="border-left: solid 1px black;">
+                  <h1>HADIAH DAN <h1 style="color: #4ebcdc">PENGHARGAAN</h1></h1>
+                  <br>
+                  <h5>Total Hadiah Rp 15.000.000,00</h5>
+                  <br>
+                  <h5>Juara 1 : Rp 7.500.000 + Sertifikat + Trofi  + Freepass*</h5>
+                  <h5>Juara 2 : Rp 5.000.000 + Sertifikat + Trofi</h5>
+                  <h5>Juara 3 : Rp 2.500.000 + Sertifikat + Trofi</h5>
+                  <br>
+                  <h5>*Diterima di Departemen Elektro ITS melalui jalur SNMPTN tahun 2018 berlaku untuk peserta yang duduk di kelas 12 saat lomba berlangsung dan lulus UN</h5>
+                </div>
+              </div>
           </div>
         </div>
     </header>
