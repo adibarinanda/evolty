@@ -581,8 +581,7 @@
       </header>
         
       <header id="section06">
-        
-        <div >
+        <div class="img-fluid">
           <iframe width="1350" height="450" src="https://www.youtube.com/embed/hRVHoExj0i8?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen style="max-width: 100%;max-height: 100%"></iframe>
         </div>
         <hr class="black" style="margin-top: 2vh">
