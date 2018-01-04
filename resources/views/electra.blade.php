@@ -86,8 +86,8 @@
           </div>
           <div class="col-lg-10 mx-auto">
             <a href="#section02"><button type="button" class="btn btn-info" style="margin: 2em">Petunjuk</button></a>
-            <a href="#section02"><button type="button" class="btn btn-info" style="margin: 2em">Kisi Kisi</button></a>
-            <a href="#section02"><button type="button" class="btn btn-info" style="margin: 2em">Soal Soal</button></a>
+            <a href="https://drive.google.com/open?id=1_NkrSUGVpBEb5aIgZaf04uP9TLcdn5ex"><button type="button" class="btn btn-info" style="margin: 2em">Kisi Kisi</button></a>
+            <a href="https://drive.google.com/open?id=1GzyCHyB5kT9fLcMtk66ixiss3amoD6OL"><button type="button" class="btn btn-info" style="margin: 2em">Soal Soal</button></a>
           </div>
         </div>
       </div>

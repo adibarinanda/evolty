@@ -21,6 +21,7 @@ Route::post('admin', 'VerifController@update');
 Route::post('/admin/delete', 'AdminController@delete');
 Route::post('/admin/nopes', 'AdminController@nopes');
 Route::post('/admin/update', 'AdminController@update');
+Route::post('/admin/tambah', 'AdminController@tambah');
 Route::view('/admin/nopes', 'admin');
 Route::get('/admin/baronas', 'AdminController@baronasindex');
 

@@ -1,5 +1,10 @@
 /*global $, document, Chart, LINECHART, data, options, window*/
 
+
+ $(document).ready(function(){
+                $('.no_peserta').mask('00-000-000-0');
+              });
+
 // BUAT NAMPILIN MENU POPUP KALO TOMBOL VERIF DIPENCET
 function centerModal() {
     $(this).css('display', 'block');

@@ -66,6 +66,7 @@ class RegisterController extends Controller
             'bukti' => 'required|image|max:2048',
             'region' => 'required|string|max:25',
             'tipetes' => 'required|string|max:25',
+            'tipedaftar' => 'required|string|max:15',
             
 
         ]);
@@ -103,7 +104,8 @@ class RegisterController extends Controller
             'notelp' => $data['notelp'],
             'bukti' => $fileName,
             'region' => $data['region'],
-            'tipetes' => $data['tipetes']
+            'tipetes' => $data['tipetes'],
+            'tipedaftar' => $data['tipedaftar']
         ]);
     // return dd();
     }

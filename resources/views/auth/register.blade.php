@@ -139,6 +139,7 @@
 
                     </div>
                 </div> -->
+                <input type="hidden" name="tipedaftar" value="Online">
                 <div class="form-group{{ $errors->has('event') ? ' has-error' : '' }}">
                     <div class="input-group">
                       <select id="event" name="event" placeholder="Pilih Event" class="form-control">
@@ -362,7 +363,7 @@
                 <button type="submit" class="btn btn-lg btn-block " onclick="fungsigantivalue()">Daftar</button>
               </div>
 
-              <div id="form-baronas" style="margin-bottom: 2em">
+              <!-- <div id="form-baronas" style="margin-bottom: 2em">
                 <div class="form-group">
                     <div class="input-group">
                       <select id="region" name="region" placeholder="Pilih Region" class="form-control">
@@ -428,7 +429,7 @@
                                 <input type="file" name="foto" value="" />
                 </div>
                 <button type="submit" class="btn btn-lg btn-block " onclick="fungsigantivalue()">Daftar</button>
-              </div>
+              </div> -->
 
 
             </form>

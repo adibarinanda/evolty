@@ -341,7 +341,7 @@
                       <div class="col-lg-12" style="margin-bottom: 35px">
                         <div class="whitebox">
                           <div class="row">
-                            <div class="col-lg-2"><img src="native/img/bulet1.png"></div>
+                            <div class="col-lg-2"><img src="{{url('native/img/bulet1.png')}}"></div>
 
                             <div class="col-lg-10 my-auto">
                               <div class="row">
@@ -356,7 +356,7 @@
                       <div class="col-lg-12" style="margin-bottom: 30px">
                         <div class="whitebox">
                           <div class="row">
-                            <div class="col-lg-2"><img src="native/img/bulet2.png"></div>
+                            <div class="col-lg-2"><img src="{{url('native/img/bulet2.png')}}"></div>
 
                             <div class="col-lg-10 my-auto">
                               <div class="row">
