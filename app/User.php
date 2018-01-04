@@ -17,7 +17,7 @@ class User extends Authenticatable
     protected $fillable = [
         'namatim', 'email', 'password', 'asalsekolah', 'alamatsekolah', 'namaketua',
         'kelasketua', 'namaanggota1', 'kelasanggota1', 'namaanggota2', 'kelasanggota2',
-        'event', 'notelp', 'bukti', 'region', 'tipetes', 'no_peserta'
+        'event', 'notelp', 'bukti', 'region', 'tipetes', 'no_peserta', 'tipedaftar',
     ];
 
     /**

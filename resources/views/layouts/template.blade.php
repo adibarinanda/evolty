@@ -147,7 +147,9 @@
     <script src="{{url('material/vendor/bootstrap/js/bootstrap.min.js')}}"></script>
     <script src="{{url('material/vendor/jquery.cookie/jquery.cookie.js')}}"> </script>
     <script src="{{url('material/vendor/jquery-validation/jquery.validate.min.js')}}"></script>
-    <!-- <script src="{{url('material/js/charts-home.js')}}"></script> -->
     <script src="{{url('material/js/front.js')}}"></script>   
+    <script src="{{url('maskedinput/jquery.mask.js')}}"></script>
+    <!-- <script src="{{url('material/js/charts-home.js')}}"></script> -->
+    <!-- <script type="text/javascript" src="{{url('cleave/cleave.js')}}"></script> -->
   </body>
 </html>

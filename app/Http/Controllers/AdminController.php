@@ -69,6 +69,29 @@ public function baronasindex()
     return redirect('/admin');
   }
 
+  public function tambah(Request $inputnya)
+  {
+    DB::table('users')->insert([
+      ['namatim' => $inputnya->input('namatim'),
+      'region' => $inputnya->input('region'),
+      'asalsekolah' => $inputnya->input('asalsekolah'),
+      'alamatsekolah' => $inputnya->input('alamatsekolah'),
+      'namaketua' => $inputnya->input('namaketua'),
+      'kelasketua' => $inputnya->input('kelasketua'),
+      'namaanggota1' => $inputnya->input('namaanggota1'),
+      'kelasanggota1' => $inputnya->input('kelasanggota1'),
+      'namaanggota2' => $inputnya->input('namaanggota2'),
+      'kelasanggota2' => $inputnya->input('kelasanggota2'),
+      'email' => $inputnya->input('email'),
+      'notelp' => $inputnya->input('notelp'),
+      'password' => bcrypt($inputnya->input('password')),
+      'tipetes' => $inputnya->input('tipetes'),
+      'tipedaftar' => $inputnya->input('tipedaftar'),
+      'event' => $inputnya->input('event') ]
+    ]);
+    return redirect('/admin');
+  }
+
   public function delete(Request $request){
     
     $IDdelete = $request->input('deleteID');
