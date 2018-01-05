@@ -582,7 +582,7 @@
         
       <header id="section06">
         <div>
-          <iframe width="100%" height="450" src="https://www.youtube.com/embed/hRVHoExj0i8?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen style="max-width: 100%;max-height: 100%"></iframe>
+          <iframe width="100%" height="auto" src="https://www.youtube.com/embed/hRVHoExj0i8?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen style="max-width: 100%;max-height: 100%"></iframe>
         </div>
         <hr class="black" style="margin-top: 2vh">
         <div class="text-center" style="margin-top: 5vh">
