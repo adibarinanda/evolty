@@ -26,6 +26,11 @@ hr.biru {
 hr.black {
 border-color: #000; }
 
+hr.hijau {
+  max-width: 200px;
+  border-color: #6C9D4C;
+}
+
 a {
   color: #F05F40;
   -webkit-transition: all 0.2s;
@@ -372,6 +377,69 @@ body {
           #mainNavelect.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
             color: #33CCFF; } }
 
+#mainNavbaron {
+  border-bottom: 1px solid rgba(0,0,128, 0.1);
+  background: #F7F7F8;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s; }
+  #mainNavbaron .navbar-brand {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #F7F7F8;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+    #mainNavbaron .navbar-brand:focus, #mainNavelect .navbar-brand:hover {
+      color: #F7F7F8; }
+  #mainNavbaron .navbar-nav > li.nav-item > a.nav-link,
+  #mainNavbaron .navbar-nav > li.nav-item > a.nav-link:focus {
+    font-size: .9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #F7F7F8; }
+    #mainNavbaron .navbar-nav > li.nav-item > a.nav-link:hover,
+    #mainNavbaron .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+      color: #F7F7F8; }
+    #mainNavbaron .navbar-nav > li.nav-item > a.nav-link.active,
+    #mainNavbaron .navbar-nav > li.nav-item > a.nav-link:focus.active {
+      color: #F7F7F8 !important;
+      background-color: #F7F7F8; }
+      #mainNavbaron .navbar-nav > li.nav-item > a.nav-link.active:hover,
+      #mainNavbaron .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+        background-color: #F7F7F8
+        opacity: 1; }
+  @media (min-width: 992px) {
+    #mainNavbaron {
+      border-color: #F7F7F8;
+      background-color: #F7F7F8}
+      #mainNavbaron .navbar-brand {
+        color: rgb(247, 247, 248); }
+        #mainNavbaron .navbar-brand:focus, #mainNav .navbar-brand:hover {
+          color: #F7F7F8; }
+      #mainNavbaron .navbar-nav > li.nav-item > a.nav-link {
+        padding: 0.5rem 1rem; }
+      #mainNavbaron .navbar-nav > li.nav-item > a.nav-link,
+      #mainNavbaron .navbar-nav > li.nav-item > a.nav-link:focus {
+        color: rgb(247, 247, 248); }
+        #mainNavbaron .navbar-nav > li.nav-item > a.nav-link:hover,
+        #mainNavbaron .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+          color: #F7F7F8; }
+      #mainNavbaron.navbar-shrink {
+        border-bottom: 3px solid rgba(247, 247, 248, 1);
+        background-color: #F7F7F8;}
+        #mainNavbaron.navbar-shrink .navbar-brand {
+          color: #F7F7F8; }
+          #mainNavbaron.navbar-shrink .navbar-brand:focus, #mainNbaron.navbar-shrink .navbar-brand:hover {
+            color: #F7F7F8; }
+        #mainNavbaron.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
+        #mainNavbaron.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+          color: #F7F7F8; }
+          #mainNavbaron.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+          #mainNavbaron.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+            color: #F7F7F8; } }
+
+
+
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
@@ -433,6 +501,93 @@ header.mastheadelect {
         font-size: 3rem; } }
   @media (min-width: 1200px) {
     header.mastheadelect h1 {
+      font-size: 4rem; } }
+
+    header.mastheadbaron {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("../img/baronas/bg.png");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  header.mastheadbaron hr {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  header.mastheadbaron h1 {
+    font-size: 2rem; }
+  header.mastheadbaron p {
+    font-weight: 300; }
+  @media (min-width: 768px) {
+    header.mastheadbaron p {
+      font-size: 1.15rem; } }
+  @media (min-width: 992px) {
+    header.mastheadbaron {
+      height: 100vh;
+      min-height: 650px;
+      padding-top: 0;
+      padding-bottom: 0; }
+      header.mastheadbaron h1 {
+        font-size: 3rem; } }
+  @media (min-width: 1200px) {
+    header.mastheadbaron h1 {
+      font-size: 4rem; } }
+
+  header.kategoribaron {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("../img/baronas/bg_kategori.png");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  header.kategoribaron h1 {
+    font-size: 2rem; }
+  header.kategoribaron p {
+    font-weight: 300; }
+  @media (min-width: 768px) {
+    header.kategoribaron p {
+      font-size: 1.15rem; } }
+  @media (min-width: 992px) {
+    header.kategoribaron {
+      height: 100vh;
+      min-height: 650px;
+      padding-top: 0;
+      padding-bottom: 0; }
+      header.kategoribaron h1 {
+        font-size: 3rem; } }
+  @media (min-width: 1200px) {
+    header.kategoribaron h1 {
+      font-size: 4rem; } }
+
+  header.videobaron {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("../img/baronas/bg_video.png");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  header.videobaron h1 {
+    font-size: 2rem; }
+  header.videobaron p {
+    font-weight: 300; }
+  @media (min-width: 768px) {
+    header.videobaron p {
+      font-size: 1.15rem; } }
+  @media (min-width: 992px) {
+    header.videobaron {
+      height: 100vh;
+      min-height: 650px;
+      padding-top: 0;
+      padding-bottom: 0; }
+      header.videobaron h1 {
+        font-size: 3rem; } }
+  @media (min-width: 1200px) {
+    header.videobaron h1 {
       font-size: 4rem; } }
 
 .service-box {
