@@ -603,6 +603,52 @@
             </div>
         </div>-->
 
+      <footer style="background-color: #33CCFF;min-height: 30vh" class="text-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3" style="margin-top: 5vh">
+              <img src="native/img/baronas/logo-evolty3.png" class="img-fluid" style="height: 70px">
+              <div class="row">
+                <div class="col-sm-4" style="margin-top: 1vh">
+                  <img src="native/img/baronas/scan.png" class="img-fluid" style="height: 70px">
+                </div>
+                <div class="col-sm-8" style="margin-top: 1vh;text-align: left;">
+                  <img src="native/img/baronas/fb.png" class="img-fluid" style="height: 20px">
+                  <img src="native/img/baronas/yt.png" class="img-fluid" style="height: 20px">
+                  <img src="native/img/baronas/ig.png" class="img-fluid" style="height: 20px">
+                  <p>evolty_its</p>
+                  <p style="margin-top: 0.8em">Line : @czc7495e</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3" style="margin-top: 5vh">
+              <strong style="font-size: 2.5em">EVENTS</strong>
+              <p style="margin-top: 5vh;text-align: left;">Electra</p>
+              <p style="text-align: left;">National Symposium</p>
+              <p style="text-align: left;">Baronas</p>
+              <p style="text-align: left;">Mage</p>
+            </div>
+            <div class="col-sm-6" style="margin-top: 5vh">
+              <strong style="font-size: 2.5em">Event Of Electrical Faculty</strong>
+              <table style="margin-top: 5vh">
+                <tr>
+                  <td style="padding-right: 15px">Head Office </td>
+                  <td style="padding-right: 15px"> : 8211 Electrical Engineer Dept. FTE ITS</td>
+                </tr>
+                <tr>
+                  <td style="padding-right: 15px">Contact Person </td>
+                  <td style="padding-right: 15px"> : 085645114530</td>
+                </tr>
+                <tr>
+                  <td style="padding-right: 15px">Email </td>
+                  <td style="padding-right: 15px"> : event.himatektro@gmail.com</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </footer>
+
      <!-- Bootstrap core JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
