@@ -85,7 +85,7 @@
     </nav>
 
     <header class="mastheadbaron text-center text-white d-flex cd-section" id="section01">
-      <div class="container" style="margin-top: 10vh">
+      <div class="container mx-auto my-auto" style="margin-top: 10vh">
         <div class="row">
 
           <div class="col-lg-10 mx-auto">

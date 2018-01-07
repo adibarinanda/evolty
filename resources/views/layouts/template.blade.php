@@ -141,6 +141,7 @@
       </div>
     </div>
     <!-- Javascript files-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
     <script src="{{url('material/vendor/popper.js/umd/popper.min.js')}}"> </script>
@@ -149,6 +150,8 @@
     <script src="{{url('material/vendor/jquery-validation/jquery.validate.min.js')}}"></script>
     <script src="{{url('material/js/front.js')}}"></script>   
     <script src="{{url('maskedinput/jquery.mask.js')}}"></script>
+    <script src="{{url('tablefilter/ddtf.js')}}"></script>
+    <script >jQuery('#IDtabel').ddTableFilter();</script>
     <!-- <script src="{{url('material/js/charts-home.js')}}"></script> -->
     <!-- <script type="text/javascript" src="{{url('cleave/cleave.js')}}"></script> -->
   </body>

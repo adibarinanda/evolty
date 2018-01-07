@@ -20,17 +20,16 @@
                 <tr>
                   <th>Hapus</th>
                   <th>Edit</th>
-                  <th>Status</th>
-                  <th>Tipe Daftar</th>
-                  <th>No. Peserta</th>
-                  <th>Tipe Tes</th>
-                  <th>Bukti</th>
-                  <th>Verif</th>
-                  <th>Event</th>
+                  <th class="statusth">Status</th>
+                  <th class="tipedaftarth">Tipe Daftar</th>
+                  <th class="nopesth">No. Peserta</th>
+                  <th class="tipetesth">Tipe Tes</th>
+                  <th class="buktith">Bukti</th>
+                  <th class="verifth">Verif</th>
                   <th>Region 
                     <!-- <select id="filterText" style="display:inline-block" onchange="filterText()">
                       <option disabled selected>Select</option>
-                      <option value="Balikpapan">Balikpapan</option>
+                      <option value='Balikpapan'>Balikpapan</option>
                       <option value='Denpasar'>Denpasar</option>
                       <option value='Gresik'>Gresik</option>
                       <option value='Jember'>Jember</option>
@@ -48,17 +47,17 @@
                       <option value='all'>All</option>
                     </select> -->
                   </th>
-                  <th>Nama Tim</th>
-                  <th>Email</th>
-                  <th>No Telp</th>
-                  <th>Asal Sekolah</th>
-                  <th>Alamat Sekolah</th>
-                  <th>Nama Ketua</th>
-                  <th>Kelas Ketua</th>
-                  <th>Nama Anggota 1</th>
-                  <th>Kelas Anggota 1</th>
-                  <th>Nama Anggota 2</th>
-                  <th>Kelas Anggota 2</th>
+                  <th class="namatimth">Nama Tim</th>
+                  <th class="emailth">Email</th>
+                  <th class="notelpth">No Telp</th>
+                  <th class="asalsekolahth">Asal Sekolah</th>
+                  <th class="alamatsekolahth">Alamat Sekolah</th>
+                  <th class="namaketuath">Nama Ketua</th>
+                  <th class="kelasketuath">Kelas Ketua</th>
+                  <th class="namaanggota1th">Nama Anggota 1</th>
+                  <th class="kelasanggota1th">Kelas Anggota 1</th>
+                  <th class="namaanggota2th">Nama Anggota 2</th>
+                  <th class="kelasanggota2th">Kelas Anggota 2</th>
                 </tr>
               </thead>
               <tbody>
@@ -72,7 +71,7 @@
 </script> -->
 
 @foreach($jumlahuser as $user)
- <tr>
+ <tr class="tablecontent">
   <td>
     <form method="post" action="/admin/delete">
       {{csrf_field()}}
@@ -80,7 +79,8 @@
       <button class="btn btn-unverif" type="submit">Hapus</button>
     </form>
   </td>
-<td>
+
+  <td>
     <button type="button" data-toggle="modal" data-target="#{{ $user->id }}" data-uid="{{$user->id}} " class="update btn btn-warning btn-sm">Edit</button>
       <div id="{{ $user->id }}" class="modal fade" role="dialog">
         <div class="modal-dialog">
@@ -232,7 +232,7 @@
 
 <td>{{$user->tipedaftar}}</td>
 
-  <td>
+  <td class="block">
     @if($user->no_peserta == NULL)
     <p>-  </p>
       @else
@@ -258,7 +258,6 @@
       @endif
     </form>       
   </td>
-  <td>{{$user->event}}</td>
   <td>{{$user->region}}</td>
   <td>{{$user->namatim}}</td>
   <td>{{$user->email}}</td>

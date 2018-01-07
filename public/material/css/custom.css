@@ -11,3 +11,122 @@
 	background-color: #0080ff;
   	border-color: #0080ff;
 }
+
+.ddtf-processed th.statusth > select{
+    display:none;
+}
+.ddtf-processed th.statusth > div{
+    display:block !important;
+}
+
+.ddtf-processed th.tipedaftarth > select{
+    display:none;
+}
+.ddtf-processed th.tipedaftarth > div{
+    display:block !important;
+}
+
+.ddtf-processed th.nopesth > select{
+    display:none;
+}
+.ddtf-processed th.nopesth > div{
+    display:block !important;
+}
+
+.ddtf-processed th.tipetesth > select{
+    display:none;
+}
+.ddtf-processed th.tipetesth > div{
+    display:block !important;
+}
+
+.ddtf-processed th.buktith > select{
+    display:none;
+}
+.ddtf-processed th.buktith > div{
+    display:block !important;
+}
+
+.ddtf-processed th.verifth > select{
+    display:none;
+}
+.ddtf-processed th.verifth > div{
+    display:block !important;
+}
+
+.ddtf-processed th.namatimth > select{
+    display:none;
+}
+.ddtf-processed th.namatimth > div{
+    display:block !important;
+}
+
+.ddtf-processed th.emailth > select{
+    display:none;
+}
+.ddtf-processed th.emailth > div{
+    display:block !important;
+}
+
+.ddtf-processed th.notelpth > select{
+    display:none;
+}
+.ddtf-processed th.notelpth > div{
+    display:block !important;
+}
+
+.ddtf-processed th.asalsekolahth > select{
+    display:none;
+}
+.ddtf-processed th.asalsekolahth > div{
+    display:block !important;
+}
+
+.ddtf-processed th.alamatsekolahth > select{
+    display:none;
+}
+.ddtf-processed th.alamatsekolahth > div{
+    display:block !important;
+}
+
+.ddtf-processed th.namaketuath > select{
+    display:none;
+}
+.ddtf-processed th.namaketuath > div{
+    display:block !important;
+}
+
+.ddtf-processed th.kelasketuath > select{
+    display:none;
+}
+.ddtf-processed th.kelasketuath > div{
+    display:block !important;
+}
+
+.ddtf-processed th.namaanggota1th > select{
+    display:none;
+}
+.ddtf-processed th.namaanggota1th > div{
+    display:block !important;
+}
+
+.ddtf-processed th.kelasanggota1th > select{
+    display:none;
+}
+.ddtf-processed th.kelasanggota1th > div{
+    display:block !important;
+}
+
+.ddtf-processed th.namaanggota2th > select{
+    display:none;
+}
+.ddtf-processed th.namaanggota2th > div{
+    display:block !important;
+}
+
+.ddtf-processed th.kelasanggota2th > select{
+    display:none;
+}
+.ddtf-processed th.kelasanggota2th > div{
+    display:block !important;
+}
