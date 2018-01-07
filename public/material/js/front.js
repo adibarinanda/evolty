@@ -1,6 +1,27 @@
 /*global $, document, Chart, LINECHART, data, options, window*/
 
 
+
+// function filterText()
+//     {  
+//         var rex = new RegExp($('#filterText').val());
+//         if(rex =="/all/"){
+//             clearFilter()
+//         }
+//         else{
+//             $('.tablecontent').hide();
+//             $('.tablecontent').filter(function() {
+//             return rex.test($(this).text());
+//             }).show();
+//     }
+//     }
+    
+// function clearFilter()
+//     {
+//         $('.filterText').val('');
+//         $('.tablecontent').show();
+//     }
+
  $(document).ready(function(){
                 $('.no_peserta').mask('00-000-000-0');
               });

@@ -17,6 +17,7 @@
 
 Route::view('/','welcome');
 Route::view('/electra', 'electra');
+Route::view('/baronas', 'baronas');
 Route::post('admin', 'VerifController@update');
 Route::post('/admin/delete', 'AdminController@delete');
 Route::post('/admin/nopes', 'AdminController@nopes');
