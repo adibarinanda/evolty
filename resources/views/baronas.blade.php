@@ -133,7 +133,7 @@
     </header>
 
     <header class="kategoribaron text-white cd-section d-flex" id="section03">
-        <div class="container" style="margin-top: 5vh">
+        <div class="container mx-auto" style="margin-top: 5vh">
           <div class="text-center">
             <h2>KATEGORI</h2>
             <hr class="hijau">
@@ -145,7 +145,7 @@
                   </div>
           </div>
 
-          <div class="container" style="margin-top: 5vh;" id="elementary">
+          <div class="container" style="margin-top: 15vh;" id="elementary">
             <div class="row">
               <div class="col-sm-4">
                 <img src="native/img/baronas/kategori-1.png" style="height: 350px" class="img-fluid">
@@ -173,7 +173,7 @@
             </div>
           </div>
 
-          <div class="container" style="margin-top: 5vh;" id="junior">
+          <div class="container" style="margin-top: 15vh;" id="junior">
             <div class="row">
               <div class="col-sm-4">
                 <img src="native/img/baronas/kategori-2.png" style="height: 350px" class="img-fluid">
@@ -202,7 +202,7 @@
             </div>
           </div>
 
-          <div class="container" style="margin-top: 5vh;" id="senior">
+          <div class="container" style="margin-top: 15vh;" id="senior">
             <div class="row">
               <div class="col-sm-4">
                 <img src="native/img/baronas/kategori-3.png" style="height: 350px" class="img-fluid">
@@ -231,7 +231,7 @@
             </div>
           </div>
 
-          <div class="container" style="margin-top: 5vh;" id="umum">
+          <div class="container" style="margin-top: 15vh;" id="umum">
             <div class="row">
               <div class="col-sm-4">
                 <img src="native/img/baronas/kategori-4.png" style="height: 350px" class="img-fluid">

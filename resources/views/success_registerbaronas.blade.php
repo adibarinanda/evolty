@@ -12,23 +12,23 @@
     <title>EVOLTY</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="purple/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{url('purple/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="purple/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="{{url('purple/vendor/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
 
     <!-- Plugin CSS -->
-    <link href="purple/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="{{url('purple/vendor/magnific-popup/magnific-popup.css')}}" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="{{url('native/css/eventscard.css')}}">
     <link rel="stylesheet" type="text/css" href="{{url('native/css/imagehover.css')}}">
 
     <!-- Custom styles for this template -->
-    <link href="purple/css/creative.css" rel="stylesheet">
+    <link href="{{url('purple/css/creative.css')}}" rel="stylesheet">
 
   </head>
 
@@ -37,7 +37,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container" style="z-index: 1;">
-        <a class="navbar-brand js-scroll-trigger" href="/"><img src="purple/img/logokecil.png"></a>
+        <a class="navbar-brand js-scroll-trigger" href="/"><img src="{{url('purple/img/logokecil.png')}}"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -97,92 +97,46 @@
    </style>
     <header class="masthead text-center text-white d-flex align-items-center">
         <div id="particles-js"></div>
-      <div class="mx-auto my-auto" style="z-index: 1;">
+      <div class="container mx-auto my-auto" style="z-index: 1;">
       <div class="row">
-        <div class="col-lg-12" style="margin-bottom:2em;margin-top: 5em">
-          <h1>Registration Page</h1>
-        </div>
 
-        <div class="col-lg-6" style="z-index: 1;">
-          <img style="margin-top: 5em;height: 150px;margin-bottom: 2em; margin-right:5em;" src="purple/img/logobesar.png">
+        <div class="col-lg-12" style="z-index: 1;">
+          <img style="margin-top: 5em;height: 150px;margin-bottom: 2em;" src="{{url('purple/img/logobesar.png')}}">
           <div class="form-group pull-center">
-                  <a style="text-decoration: none" href="login">Sudah punya akun? Login Disini</a>
+                  <a href="/"><button type="button" class="btn btn-info outline">Kembali ke Halaman Depan</button></a>
               </div>
         </div>
 
-        <div class="col-lg-6" >
-          <div class="content" style="max-height: 500px">
-            <div class="row">
-
-            <div class="col-lg-4">
-              <a href="/register/electra">
-              <div class="events-card">
-                <div class="events-header">
-                    <img style="border-radius: 10px" src="native/img/electra123.png" width="250px" height="285px">
-                </div>
-              </div>
-              </a>
-            </div>
-
-            <div class="col-lg-4">
-              <a href="/register/baronas">
-              <div class="events-card">
-                <div class="events-header">
-                    <img style="border-radius: 10px" src="native/img/baronas123.png" width="250px" height="285px">
-                </div>
-              </div>
-              </a>
-            </div>
-            </div>
-
-            <div class="row">
-              <div class="col-lg-4">
-              <a href="/register/ns">
-              <div class="events-card">
-                <div class="events-header">
-                    <img style="border-radius: 10px" src="native/img/ns123.png" width="250px" height="285px">
-                </div>
-              </div>
-              </a>
-            </div>
-
-            <div class="col-lg-4">
-              <a href="/register/mage">
-              <div class="events-card">
-                <div class="events-header">
-                    <img style="border-radius: 10px" src="native/img/mage123.png" width="250px" height="285px">
-                </div>
-              </div>
-              </a>
-            </div>
-            </div>
-
-          </div>
+        <div class="col-lg-12" style="margin-bottom:2em;margin-top: 1em">
+          <h1>Pendaftaran Berhasil!</h1> 
+            <h5>Username dan password akan dikirim via contact person, silahkan tunggu max 1x24 jam. Jika belum username dan password belum dikirim, silahkan hubungi ...</h5>
         </div>
+
+        
       </div>
     </div>
     </header>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="purple/vendor/jquery/jquery.min.js"></script>
-    <script src="purple/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="{{url('purple/vendor/jquery/jquery.min.js')}}"></script>
+    <script src="{{url('purple/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="purple/vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="purple/vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="purple/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="{{url('purple/vendor/jquery-easing/jquery.easing.min.js')}}"></script>
+    <script src="{{url('purple/vendor/scrollreveal/scrollreveal.min.js')}}"></script>
+    <script src="{{url('purple/vendor/magnific-popup/jquery.magnific-popup.min.js')}}"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="purple/js/creative.min.js"></script>
+    <script src="{{url('purple/js/creative.min.js')}}"></script>
 
     <!-- SCRIPT FOR DROPDOWN LOGIN-->
      <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
-    <script  src="purple/js/login.js"></script>
+    <script  src="{{url('purple/js/login.js')}}"></script>
 
-    <script src="purple/js/app.js"></script>
-    <script type="text/javascript" src="particles/snow/particles.min.js"></script>
-    <script type="text/javascript" src="particles/snow/app.js"></script>
+    <script src="{{url('purple/js/app.js')}}"></script>
+    <script type="text/javascript" src="{{url('particles/snow/particles.min.js')}}"></script>
+    <script type="text/javascript" src="{{url('particles/snow/app.js')}}"></script>
   </body>
 
 </html>

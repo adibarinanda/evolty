@@ -37,21 +37,21 @@ $(document).ready(function(){
  });
 });
 
-$(document).ready(function(){
-  $("#form-electra").hide();
-  $("#form-baronas").hide();
-  $("#event").on("change", function(){
-    var v = $(this).val();
-    if (v=="electra") {
-      $("#form-electra").show();
-      $("#form-baronas").hide();
-    }
-    else{
-      $("#form-baronas").show();
-      $("#form-electra").hide();
-    }
-  });
-});
+// $(document).ready(function(){
+//   $("#form-electra").hide();
+//   $("#form-baronas").hide();
+//   $("#event").on("change", function(){
+//     var v = $(this).val();
+//     if (v=="electra") {
+//       $("#form-electra").show();
+//       $("#form-baronas").hide();
+//     }
+//     else{
+//       $("#form-baronas").show();
+//       $("#form-electra").hide();
+//     }
+//   });
+// });
 
 
 $(document).mouseup(function (e)

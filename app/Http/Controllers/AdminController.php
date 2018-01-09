@@ -35,7 +35,7 @@ class AdminController extends Controller
 
 public function baronasindex()
   {
-    $jumlahuser = DB::table('users')->where('event', 'baronas')->get();
+    $jumlahuser = DB::table('users')->where('event','baronas')->get();
       return view('adminbaronas', compact('jumlahuser'));
   }
 

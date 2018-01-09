@@ -15,14 +15,15 @@
             <table id="IDtabel" class="table">
               <thead>
                 <tr>
-                  
-                  <th>status</th>
+                  <th>Hapus</th>
+                  <th>Edit</th>
+                  <th>Status</th>
                   <th>No. Peserta</th>
                   <th>Bukti</th>
                   <th>Verif</th>
-                  <th>Kategori</th>
                   <th>Nama Tim</th>
                   <th>Contact Person</th>
+                  <th>Kategori</th>
                   <th>Nama Anggota 1</th>
                   <th>Nama Anggota 2</th>
                   <th>Nama Anggota 3</th>
@@ -33,14 +34,24 @@
                   <th>Alamat Sekolah</th>
                   <th>Kartu Pelajar</th>
                   <th>Foto</th>
-                  <th>Hapus</th>
+                  
                 </tr>
               </thead>
               <tbody>
 
 @foreach($jumlahuser as $user)
  <tr>
-  
+  <td>
+    <form method="post" action="/admin/delete">
+      {{csrf_field()}}
+      <input type="hidden" name="deleteID" value="{{$user->id}}">
+      <button class="btn btn-unverif" type="submit">Hapus</button>
+    </form>
+  </td>
+<td>
+  <button type="button" data-toggle="modal" data-target="#{{ $user->id }}" data-uid="{{$user->id}} " class="update btn btn-warning btn-sm">Edit</button>
+</td>
+
   @if($user->status == 0)
     <td> nonaktif</td>
   @else
@@ -77,7 +88,7 @@
       {{$user->no_peserta}}
       @endif
   </td>
-  <td>    <a href="public/uploads/bukti/{{$user->bukti}}" target="_blank">{{$user->bukti}}</a></td>
+  <td>    <a href="../public/uploads/baronas_bukti/{{$user->baronas_bukti}}" target="_blank">{{$user->baronas_bukti}}</a></td>
   
   <td>
 <form method="post" action="/admin">
@@ -95,24 +106,12 @@
     </form>       
   </td>
   
-  <td>{{$user->baronas_kategori}}</td>
-  <td>{{$user->baronas_namatim}}</td>
-  <td>{{$user->baronas_contactperson}}</td>
-  <td>{{$user->baronas_namaanggota1}}</td>
-  <td>{{$user->baronas_namaanggota2}}</td>
-  <td>{{$user->baronas_namaanggota3}}</td>
-  <td>{{$user->baronas_namapembimbing}}</td>
-  <td>{{$user->baronas_email}}</td>
-  <td>{{$user->baronas_asalsekolah}}</td>
-  <td>{{$user->baronas_alamatsekolah}}</td>
   
-  <td>
-    <form method="post" action="/admin/delete">
-      {{csrf_field()}}
-      <input type="hidden" name="deleteID" value="{{$user->id}}">
-      <button class="btn btn-unverif" type="submit">Hapus</button>
-    </form>
-  </td>
+  <td>{{$user->baronas_namatim}}</td>
+  <td>{{$user->baronas_cp}}</td>
+
+  
+  
 </tr>
 @endforeach
               </tbody>

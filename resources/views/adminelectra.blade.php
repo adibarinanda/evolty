@@ -26,27 +26,7 @@
                   <th class="tipetesth">Tipe Tes</th>
                   <th class="buktith">Bukti</th>
                   <th class="verifth">Verif</th>
-                  <th>Region 
-                    <!-- <select id="filterText" style="display:inline-block" onchange="filterText()">
-                      <option disabled selected>Select</option>
-                      <option value='Balikpapan'>Balikpapan</option>
-                      <option value='Denpasar'>Denpasar</option>
-                      <option value='Gresik'>Gresik</option>
-                      <option value='Jember'>Jember</option>
-                      <option value='Jombang'>Jombang</option>
-                      <option value='Kediri'>Kediri</option>
-                      <option value='Madiun'>Madiun</option>
-                      <option value='Malang'>Malang</option>
-                      <option value='Pamekasan'>Pamekasan</option>
-                      <option value='Probolinggo'>Probolinggo</option>
-                      <option value='Semarang'>Semarang</option>
-                      <option value='Solo'>Solo</option>
-                      <option value='Surabaya'>Surabaya</option>
-                      <option value='Tuban'>Tuban</option>
-                      <option value='Online'>Online</option>
-                      <option value='all'>All</option>
-                    </select> -->
-                  </th>
+                  <th>Region</th>
                   <th class="namatimth">Nama Tim</th>
                   <th class="emailth">Email</th>
                   <th class="notelpth">No Telp</th>
