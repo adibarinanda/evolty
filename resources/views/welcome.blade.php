@@ -197,7 +197,7 @@
             <div class="events-card">
             <div class="events-header">
               <figure class="imghvr-fade" style="border-top-left-radius: 10px; border-top-right-radius: 10px">
-                <img src="native/img/baronas123.png" height="285px" width="250px">
+                <img src="native/img/baronas1234.png" height="285px" width="250px">
                 <figcaption>
                   <p class="spacing"><strong>Baronas (Lomba Robot Nasional) merupakan salah satu sub event Evolty dimana siswa SD, SMP, SMA, dan umum dapat mengasah kemampuan mereka dalam bidang robotika.</strong></p>
                 </figcaption>

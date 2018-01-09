@@ -133,7 +133,7 @@
     </header>
 
     <header class="kategoribaron text-white cd-section d-flex" id="section03">
-        <div class="container mx-auto" style="margin-top: 5vh">
+        <div class="container" style="margin-top: 5vh">
           <div class="text-center">
             <h2>KATEGORI</h2>
             <hr class="hijau">
@@ -145,7 +145,7 @@
                   </div>
           </div>
 
-          <div class="container" style="margin-top: 15vh;" id="elementary">
+          <div class="container" style="margin-top: 5vh;" id="elementary">
             <div class="row">
               <div class="col-sm-4">
                 <img src="native/img/baronas/kategori-1.png" style="height: 350px" class="img-fluid">
@@ -169,11 +169,13 @@
                 <p style="font-size: 1em">- Diambil point dan waktu terbaik</p>
                 <br>
                 <p style="font-size: 1em">Pendaftaran: 150.000</p>
+                <br>
+                <a href="https://drive.google.com/folderview?id=1PyfaLXVjwAqnyAA01XQv91Fe0P0qENHS" target="_blank"><p style="color: #6C9D4C;">DOWNLOAD RULEBOOK</p></a>
               </div>
             </div>
           </div>
 
-          <div class="container" style="margin-top: 15vh;" id="junior">
+          <div class="container" style="margin-top: 5vh;" id="junior">
             <div class="row">
               <div class="col-sm-4">
                 <img src="native/img/baronas/kategori-2.png" style="height: 350px" class="img-fluid">
@@ -198,11 +200,13 @@
                 <p style="font-size: 1em">- Diambil point dan waktu terbaik</p>
                 <br>
                 <p style="font-size: 1em">Pendaftaran: 175.000</p>
+                <br>
+                <a href="https://drive.google.com/folderview?id=1LtuyvzGRl1Vhhc3Unv91svHtEmYT1SZI" target="_blank"><p style="color: #6C9D4C;">DOWNLOAD RULEBOOK</p></a>
               </div>
             </div>
           </div>
 
-          <div class="container" style="margin-top: 15vh;" id="senior">
+          <div class="container" style="margin-top: 5vh;" id="senior">
             <div class="row">
               <div class="col-sm-4">
                 <img src="native/img/baronas/kategori-3.png" style="height: 350px" class="img-fluid">
@@ -227,11 +231,13 @@
                 <p style="font-size: 1em">- Diambil point dan waktu terbaik</p>
                 <br>
                 <p style="font-size: 1em">Pendaftaran: 200.000</p>
+                <br>
+                <a href="https://drive.google.com/folderview?id=1MFeG0_45ds1CGjR0nx8SjeHG8XF0hz-i" target="_blank"><p style="color: #6C9D4C;">DOWNLOAD RULEBOOK</p></a>
               </div>
             </div>
           </div>
 
-          <div class="container" style="margin-top: 15vh;" id="umum">
+          <div class="container" style="margin-top: 5vh;" id="umum">
             <div class="row">
               <div class="col-sm-4">
                 <img src="native/img/baronas/kategori-4.png" style="height: 350px" class="img-fluid">
@@ -255,6 +261,8 @@
                 <p style="font-size: 1em">- Knock Out</p>
                 <br>
                 <p style="font-size: 1em">Pendaftaran: 250.000</p>
+                <br>
+                <a href="https://drive.google.com/folderview?id=192GShjDJ_UI2gYDA5rmIbjH_4Scv8g6M" target="_blank"><p style="color: #6C9D4C;">DOWNLOAD RULEBOOK</p></a>
               </div>
             </div>
           </div>
@@ -272,8 +280,8 @@
           <div class="col-sm-8" style="background-image: url(native/img/baronas/shadow-box.png);background-size: cover;height: 450px;">
             <h1 style="font-size: 4.5em;margin-top: 1em;margin-left: 0.5em">TOTAL HADIAH</h1>
             <h1 style="font-size: 4.5em;margin-left: 0.5em">LEBIH DARI</h1>
-            <h1 style="font-size: 4.5em;margin-left: 0.5em">40 JUTA</h1>
-            <img src="native/img/baronas/logo2.png" class="img-fluid" style="height: 70px; margin-left: 2em">
+            <h1 style="font-size: 4.5em;margin-left: 0.5em">30 JUTA</h1>
+            <img src="native/img/baronas/logo3.png" class="img-fluid" style="height: 70px; margin-left: 2em">
           </div>
         </div>
       </div>
