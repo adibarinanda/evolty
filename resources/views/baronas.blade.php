@@ -168,7 +168,7 @@
                 <p style="font-size: 1em">- Durasi per pertandingan 5 menit dengan 1 menit persiapan dan 4 menit running</p>
                 <p style="font-size: 1em">- Diambil point dan waktu terbaik</p>
                 <br>
-                <p style="font-size: 1em">Pendaftaran: 175.000</p>
+                <p style="font-size: 1em">Pendaftaran: 150.000</p>
               </div>
             </div>
           </div>
@@ -197,7 +197,7 @@
                 <p style="font-size: 1em">- Durasi per pertandingan 5 menit dengan 1 menit persiapan dan 4 menit running</p>
                 <p style="font-size: 1em">- Diambil point dan waktu terbaik</p>
                 <br>
-                <p style="font-size: 1em">Pendaftaran: 200.000</p>
+                <p style="font-size: 1em">Pendaftaran: 175.000</p>
               </div>
             </div>
           </div>
@@ -226,7 +226,7 @@
                 <p style="font-size: 1em">- Durasi per pertandingan 5 menit dengan 1 menit persiapan dan 4 menit running</p>
                 <p style="font-size: 1em">- Diambil point dan waktu terbaik</p>
                 <br>
-                <p style="font-size: 1em">Pendaftaran: 225.000</p>
+                <p style="font-size: 1em">Pendaftaran: 200.000</p>
               </div>
             </div>
           </div>
@@ -254,7 +254,7 @@
                 <p style="font-size: 1em">- Fase Group</p>
                 <p style="font-size: 1em">- Knock Out</p>
                 <br>
-                <p style="font-size: 1em">Pendaftaran: 275.000</p>
+                <p style="font-size: 1em">Pendaftaran: 250.000</p>
               </div>
             </div>
           </div>
