@@ -109,7 +109,7 @@
 
         <div class="col-lg-12" style="margin-bottom:2em;margin-top: 1em">
           <h1>Pendaftaran Berhasil!</h1> 
-            <h5>Username dan password akan dikirim via contact person, silahkan tunggu max 1x24 jam. Jika belum username dan password belum dikirim, silahkan hubungi ...</h5>
+            <h5>Username dan password akan dikirim via contact person, silahkan tunggu max 1x24 jam. Jika belum username dan password belum dikirim, silahkan hubungi 085735950340 (Andre) atau 082245160164 (Nina)</h5>
         </div>
 
         

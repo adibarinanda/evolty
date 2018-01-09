@@ -92,6 +92,18 @@ public function baronasindex()
     return redirect('/admin');
   }
 
+  public function baronasadduser(Request $inputnya)
+  {
+    $IDupdate = $inputnya->input('updateID');
+    $baru = User::find($IDupdate);
+    $passwordcrypted = bcrypt($inputnya->input('password'));
+
+    $baru->email = $inputnya->input('email');
+    $baru->password = $passwordcrypted;
+    $baru->save();
+    return redirect('/admin/baronas');
+  }
+
   public function delete(Request $request){
     
     $IDdelete = $request->input('deleteID');

@@ -18,11 +18,13 @@
                   <th>Hapus</th>
                   <th>Edit</th>
                   <th>Status</th>
-                  <th>No. Peserta</th>
                   <th>Bukti</th>
                   <th>Verif</th>
                   <th>Nama Tim</th>
                   <th>Contact Person</th>
+                  <th>Username</th>
+                  <th>Password</th>
+                  <th>No. Peserta</th>
                   <th>Kategori</th>
                   <th>Nama Anggota 1</th>
                   <th>Nama Anggota 2</th>
@@ -48,8 +50,9 @@
       <button class="btn btn-unverif" type="submit">Hapus</button>
     </form>
   </td>
+
 <td>
-  <button type="button" data-toggle="modal" data-target="#{{ $user->id }}" data-uid="{{$user->id}} " class="update btn btn-warning btn-sm">Edit</button>
+
 </td>
 
   @if($user->status == 0)
@@ -58,7 +61,25 @@
     <td> aktif</td>
   @endif
 
+  <td>    <a href="../public/uploads/baronas_bukti/{{$user->baronas_bukti}}" target="_blank">{{$user->baronas_bukti}}</a></td>
+
   <td>
+<form method="post" action="/admin">
+      {{csrf_field()}}
+      <input type="hidden" name="verifID" value="{{$user->id}}"/>
+      @if($user->status == 0)
+      <button class="btn btn-success" type="submit">
+        Verif
+      </button>
+      @else
+      <button class="btn btn-unverif" type="submit">
+        Unverif
+      </button>
+      @endif
+    </form>       
+  </td>
+
+  <!-- <td>
     @if($user->no_peserta == NULL)
     <button type="button" data-toggle="modal" data-target="#{{ $user->id }}" data-uid="{{$user->id}} " class="update btn btn-warning btn-sm">Input Nomor Peserta </button>
       <div id="{{ $user->id }}" class="modal fade" role="dialog">
@@ -87,29 +108,182 @@
       @else
       {{$user->no_peserta}}
       @endif
-  </td>
-  <td>    <a href="../public/uploads/baronas_bukti/{{$user->baronas_bukti}}" target="_blank">{{$user->baronas_bukti}}</a></td>
+  </td> -->
   
-  <td>
-<form method="post" action="/admin">
-      {{csrf_field()}}
-      <input type="hidden" name="verifID" value="{{$user->id}}"/>
-      @if($user->status == 0)
-      <button class="btn btn-success" type="submit">
-        Verif
-      </button>
-      @else
-      <button class="btn btn-unverif" type="submit">
-        Unverif
-      </button>
-      @endif
-    </form>       
-  </td>
+  
+  
   
   
   <td>{{$user->baronas_namatim}}</td>
   <td>{{$user->baronas_cp}}</td>
+  <td>
+    @if($user->email == NULL)
+<button type="button" data-toggle="modal" data-target="#{{ $user->id }}" data-uid="{{$user->id}} " class="update btn btn-warning btn-sm">Tambah Username dan Password</button>
+  <div id="{{ $user->id }}" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">×</button>
+              <h4 class="modal-title">Edit Data Peserta</h4>
+            </div>
+            <form method="post" action="/admin/baronas/adduser">
+              {{csrf_field()}}
+              
+                <div class="modal-body" style="overflow-y: auto; max-height: 400px">
+                  <input type="hidden" name="updateID" value="{{$user->id}}">
+                  <div class="input-group">
+                    <p class="my-auto col-lg-4">Email :</p>
+                    @if($user->email == NULL)
+                    <input id="email" type="text" class="form-control col-lg-8" name="email" placeholder="Email" value="@evolty-its.com" required>
+                    @else
+                    <input id="email" type="text" class="form-control col-lg-8" name="email" placeholder="Email" value="{{$user->email}}" required>
+                    @endif
+                  </div>
+                  <br>
+                  <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
+                          <div class="input-group">
+                            <p class="my-auto col-lg-4">Password :</p>
+                            <input id="password" type="text" class="form-control" name="password" placeholder="Password" aria-describedby="addon_password1" required>
+                            @if ($errors->has('password'))
+                            <span class="help-block">
+                                <strong>{{ $errors->first('password') }}</strong>
+                            </span>
+                            @endif
+                          </div>
+                        </div>
 
+                  <!-- <div class="input-group">
+                    <p class="my-auto col-lg-4">Nomor Peserta :</p>
+                    <input type="hidden" name="updateID" value="{{$user->id}}"/>
+                    @if($user->no_peserta == NULL)
+                    <input id="no_peserta" type="text" class="no_peserta col-lg-8 form-control" name="no_peserta" value="{{ old('no_peserta') }}" required>
+                    @else
+                    <input id="no_peserta" type="text" class="no_peserta col-lg-8 form-control" name="no_peserta" value="{{$user->no_peserta}}" required>
+                    @endif
+                  </div>
+
+                  
+                 
+
+                  <br>
+                  <div class="input-group">
+                    <p class="my-auto col-lg-4">Nama Tim :</p>
+                    @if($user->namatim == NULL)
+                    <input id="namatim" type="text" class="form-control col-lg-8" name="namatim" placeholder="Nama Tim" value="{{ old('namatim') }}" required>
+                    @else
+                    <input id="namatim" type="text" class="form-control col-lg-8" name="namatim" placeholder="Nama Tim" value="{{$user->namatim}}" required>
+                    @endif
+                  </div>
+                  <br>
+                  <div class="input-group">
+                    <p class="my-auto col-lg-4">Email :</p>
+                    @if($user->email == NULL)
+                    <input id="email" type="text" class="form-control col-lg-8" name="email" placeholder="Email" value="{{ old('email') }}" required>
+                    @else
+                    <input id="email" type="text" class="form-control col-lg-8" name="email" placeholder="Email" value="{{$user->email}}" required>
+                    @endif
+                  </div>
+                  <br>
+                  <div class="input-group">
+                    <p class="my-auto col-lg-4">Region :</p>
+                    @if($user->region == NULL)
+                    <input id="region" type="text" class="form-control col-lg-8" name="region" placeholder="Region" value="{{ old('region') }}" required>
+                    @else
+                    <input id="region" type="text" class="form-control col-lg-8" name="region" placeholder="Region" value="{{$user->region}}" required>
+                    @endif
+                  </div>
+                    <br>
+                  <div class="input-group">
+                    <p class="my-auto col-lg-4">Nomor Telepon :</p>
+                    @if($user->notelp == NULL)
+                    <input id="notelp" type="text" class="form-control col-lg-8" name="notelp" placeholder="Nomor Telepon" value="{{ old('notelp') }}" required>
+                    @else
+                    <input id="notelp" type="text" class="form-control col-lg-8" name="notelp" placeholder="Nomor Telepon" value="{{$user->notelp}}" required>
+                    @endif
+                  </div>
+                   <br>
+                  <div class="input-group">
+                    <p class="my-auto col-lg-4">Asal Sekolah :</p>
+                    @if($user->asalsekolah == NULL)
+                    <input id="asalsekolah" type="text" class="form-control col-lg-8" name="asalsekolah" placeholder="Asal Sekolah" value="{{ old('asalsekolah') }}" required>
+                    @else
+                    <input id="asalsekolah" type="text" class="form-control col-lg-8" name="asalsekolah" placeholder="Asal Sekolah" value="{{$user->asalsekolah}}" required>
+                    @endif
+                  </div>
+                  <br>
+                  <div class="input-group">
+                    <p class="my-auto col-lg-4">Alamat Sekolah :</p>
+                    @if($user->alamatsekolah == NULL)
+                    <input id="alamatsekolah" type="text" class="form-control col-lg-8" name="alamatsekolah" placeholder="Alamat Sekolah" value="{{ old('alamatsekolah') }}" required>
+                    @else
+                    <input id="alamatsekolah" type="text" class="form-control col-lg-8" name="alamatsekolah" placeholder="Alamat Sekolah" value="{{$user->alamatsekolah}}" required>
+                    @endif
+                  </div>
+                  <br>
+                  <div class="input-group">
+                    <p class="my-auto col-lg-4">Nama Ketua :</p>
+                    @if($user->namaketua == NULL)
+                    <input id="namaketua" type="text" class="form-control col-lg-8" name="namaketua" placeholder="Nama Ketua" value="{{ old('namaketua') }}" required>
+                    @else
+                    <input id="namaketua" type="text" class="form-control col-lg-8" name="namaketua" placeholder="Nama Ketua" value="{{$user->namaketua}}" required>
+                    @endif
+                  </div>
+                  <br>
+                  <div class="input-group">
+                    <p class="my-auto col-lg-4">Kelas Ketua :</p>
+                    @if($user->kelasketua == NULL)
+                    <input id="kelasketua" type="text" class="form-control col-lg-8" name="kelasketua" placeholder="Kelas Ketua" value="{{ old('kelasketua') }}" required>
+                    @else
+                    <input id="kelasketua" type="text" class="form-control col-lg-8" name="kelasketua" placeholder="Kelas Ketua" value="{{$user->kelasketua}}" required>
+                    @endif
+                  </div>
+                  <br>
+                  <div class="input-group">
+                    <p class="my-auto col-lg-4">Nama Anggota 1 :</p>
+                    @if($user->namaanggota1 == NULL)
+                    <input id="namaanggota1" type="text" class="form-control col-lg-8" name="namaanggota1" placeholder="Nama Anggota 1" value="{{ old('namaanggota1') }}" required>
+                    @else
+                    <input id="namaanggota1" type="text" class="form-control col-lg-8" name="namaanggota1" placeholder="Nama Anggota 1" value="{{$user->namaanggota1}}" required>
+                    @endif
+                  </div>
+                  <br>
+                  <div class="input-group">
+                    <p class="my-auto col-lg-4">Kelas Anggota 1 :</p>
+                    @if($user->kelasanggota1 == NULL)
+                    <input id="kelasanggota1" type="text" class="form-control col-lg-8" name="kelasanggota1" placeholder="Kelas Anggota 1" value="{{ old('kelasanggota1') }}" required>
+                    @else
+                    <input id="kelasanggota1" type="text" class="form-control col-lg-8" name="kelasanggota1" placeholder="Kelas Anggota 1" value="{{$user->kelasanggota1}}" required>
+                    @endif
+                  </div>
+                  <br>
+                  <div class="input-group">
+                    <p class="my-auto col-lg-4">Nama Anggota 2 :</p>
+                    @if($user->namaanggota2 == NULL)
+                    <input id="namaanggota2" type="text" class="form-control col-lg-8" name="namaanggota2" placeholder="Nama Anggota 2" value="{{ old('namaanggota2') }}" required>
+                    @else
+                    <input id="namaanggota2" type="text" class="form-control col-lg-8" name="namaanggota2" placeholder="Nama Anggota 2" value="{{$user->namaanggota2}}" required>
+                    @endif
+                  </div>
+                  <br>
+                  <div class="input-group">
+                    <p class="my-auto col-lg-4">Kelas Anggota 2 :</p>
+                    @if($user->kelasanggota2 == NULL)
+                    <input id="kelasanggota2" type="text" class="form-control col-lg-8" name="kelasanggota2" placeholder="Kelas Anggota 2" value="{{ old('kelasanggota2') }}" required>
+                    @else
+                    <input id="kelasanggota2" type="text" class="form-control col-lg-8" name="kelasanggota2" placeholder="Kelas Anggota 2" value="{{$user->kelasanggota2}}" required>
+                    @endif
+                  </div> -->
+
+                <div class="modal-footer">
+                  <button type="submit" class="btn btn-success">Masukkan Data Peserta</button>
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    @else{{$user->email}}
+  @endif</td>
   
   
 </tr>

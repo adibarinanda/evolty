@@ -26,6 +26,7 @@ Route::post('/admin/delete', 'AdminController@delete');
 Route::post('/admin/nopes', 'AdminController@nopes');
 Route::post('/admin/update', 'AdminController@update');
 Route::post('/admin/tambah', 'AdminController@tambah');
+Route::post('/admin/baronas/adduser', 'AdminController@baronasadduser');
 Route::view('/admin/nopes', 'admin');
 Route::get('/admin/baronas', 'AdminController@baronasindex');
 Route::post('/register/baronas/register', 'RegisterBaronasController@daftar');

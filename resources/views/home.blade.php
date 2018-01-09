@@ -6,7 +6,7 @@
               <div class="row">
                  @if(Auth::user()->status==0)
                         Akun anda belum diaktifkan. Hubungi panitia untuk mengaktifkan akun anda.
-                  @else
+                  @elseif(Auth::user()->status==1 && Auth::user()->event=='electra')
                 <!-- Work Amount  -->
                 <div class="col-lg-3">
                   <div class="work-amount card">
@@ -64,6 +64,8 @@
                     </div>
                   </div>
                 </div>
+                @elseif(Auth::user()->status==1 && Auth::user()->event=='baronas')
+                  Baronas Verified
                 @endif
               </div>
             </div>
