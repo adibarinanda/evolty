@@ -103,7 +103,7 @@
           <h1>Registration Page</h1>
         </div>
 
-        <div class="col-lg-6" style="z-index: 1;">
+        <div class="my-auto col-lg-6" style="z-index: 1;">
           <img style="margin-top: 5em;height: 150px;margin-bottom: 2em; margin-right:5em;" src="purple/img/logobesar.png">
           <div class="form-group pull-center">
                   <a style="text-decoration: none" href="login">Sudah punya akun? Login Disini</a>
@@ -114,21 +114,74 @@
           <div class="content" style="max-height: 500px">
             <div class="row">
 
-            <div class="col-lg-4">
-              <a href="/register/electra">
-              <div class="events-card">
-                <div class="events-header">
-                    <img style="border-radius: 10px" src="native/img/electra123.png" width="250px" height="285px">
-                </div>
+              <div class="col-lg-4">
+                <a href="/register/electra">
+                  <div class="events-card">
+                    <div class="events-header">
+                      <figure class="imghvr-fade" style="border-radius:  10px">
+                        <img src="native/img/electra123.png" height="285px" width="250px">
+                        <figcaption>
+                          <p class="spacing"><strong><br><br><br><br>Electra</strong></p>
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                </a>
               </div>
-              </a>
+
+              <div class="col-lg-4">
+                <a href="/register/baronas">
+                  <div class="events-card">
+                    <div class="events-header">
+                      <figure class="imghvr-fade" style="border-radius:  10px">
+                        <img src="native/img/baronas1234.png" height="285px" width="250px">
+                        <figcaption>
+                          <p class="spacing"><strong><br><br><br><br>Baronas</strong></p>
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                </a>
+              </div>
             </div>
 
-            <div class="col-lg-4">
+              <div class="row">
+              <div class="col-lg-4">
+                <a href="/register/ns">
+                  <div class="events-card">
+                    <div class="events-header">
+                      <figure class="imghvr-fade" style="border-radius:  10px">
+                        <img src="native/img/ns123.png" height="285px" width="250px">
+                        <figcaption>
+                          <p class="spacing"><strong><br><br><br><br>National Symphosium</strong></p>
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-lg-4">
+                <a href="http://mage.telematics.its.ac.id" target="_blank">
+                  <div class="events-card">
+                    <div class="events-header">
+                      <figure class="imghvr-fade" style="border-radius:  10px">
+                        <img src="native/img/mage123.png" height="285px" width="250px">
+                        <figcaption>
+                          <p class="spacing"><strong><br><br><br><br>Mage</strong></p>
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <!-- <div class="col-lg-4">
               <a href="/register/baronas">
               <div class="events-card">
                 <div class="events-header">
-                    <img style="border-radius: 10px" src="native/img/baronas123.png" width="250px" height="285px">
+                    <img style="border-radius: 10px" src="native/img/baronas1234.png" width="250px" height="285px">
                 </div>
               </div>
               </a>
@@ -154,7 +207,7 @@
                 </div>
               </div>
               </a>
-            </div>
+            </div> -->
             </div>
 
           </div>

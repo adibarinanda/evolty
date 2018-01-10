@@ -117,17 +117,17 @@
               {{csrf_field()}}
               <input type="hidden" name="event" value="baronas">
               <div id="form-baronas" style="margin-bottom: 2em">
-                <!-- <div class="form-group">
+                <div class="form-group">
                     <div class="input-group">
-                      <select id="region" name="region" placeholder="Pilih Region" class="form-control">
-                        <option>Kategori Lomba</option>
+                      <select id="baronas_kategori" name="baronas_kategori" placeholder="Pilih Kategori Lomba" class="form-control">
+                        <option selected disabled>Pilih Kategori Lomba</option>
                         <option value="Elementary">Elementary Category</option>
                         <option value="Junior">Junior Category</option>
                         <option value="Senior">Senior Category</option>
                         <option value="Open">Open Category</option>
                       </select>
                     </div>
-                </div> -->
+                </div>
                 
 
                 <div class="form-group">
@@ -170,6 +170,8 @@
                     <input type="email" name="email" class="form-control" placeholder="Email">
                   </div>
                 </div> -->
+
+
                 <div class="form-group">
                   <div class="input-group">
                     <input type="text" name="baronas_cp" class="form-control" placeholder="Nomor Handphone">
