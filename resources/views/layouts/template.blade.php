@@ -20,7 +20,7 @@
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="{{url('material/css/custom.css')}}">
     <!-- Favicon-->
-    <link rel="shortcut icon" href="favicon.png">
+    <link rel="icon" type="image/png" href="{{url('native/img/favicon.png')}}">
     <!-- <link rel="stylesheet" type="text/css" href="material/css/xeditable/xeditable.css"> -->
 
 

@@ -11,33 +11,34 @@
     <title>Baronas 2018</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="native/css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{url('native/css/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="native/css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="{{url('native/css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="icon" type="image/png" href="{{url('native/img/favicon.png')}}">
 
 
     <!-- Plugin CSS -->
-    <link href="native/css/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="{{url('native/css/magnific-popup/magnific-popup.css')}}" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="native/css/creative.css" rel="stylesheet">
-    <link href="native/css/buttons.css" rel="stylesheet">
+    <link href="{{url('native/css/creative.css')}}" rel="stylesheet">
+    <link href="{{url('native/css/buttons.css')}}" rel="stylesheet">
 
     <!-- CSS BUAT VERTICAL DOTTED NAV -->
-    <link href="native/css/vnav/reset.css" rel="stylesheet"> 
-    <link href="nativecss/vnav/style.css" rel="stylesheet">
+    <link href="{{url('native/css/vnav/reset.css')}}" rel="stylesheet"> 
+    <link href="{{url('native/css/vnav/style.css')}}" rel="stylesheet">
 
     <!-- CSS BUAT EVENTS CARD -->
-    <link rel="stylesheet" type="text/css" href="native/css/eventscard.css">
-    <link rel="stylesheet" type="text/css" href="native/css/imagehover.css">
+    <link rel="stylesheet" type="text/css" href="{{url('native/css/eventscard.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url('native/css/imagehover.css')}}">
 
-    <link rel="stylesheet" type="text/css" href="native/css/testimoni/testimoni.css">
+    <link rel="stylesheet" type="text/css" href="{{url('native/css/testimoni/testimoni.css')}}">
 
-    <link rel="stylesheet" type="text/css" href="native/css/video.css">
+    <link rel="stylesheet" type="text/css" href="{{url('native/css/video.css')}}">
   </head>
 
   <body id="page-top">
@@ -46,7 +47,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light" id="mainNbaron">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="native/img/baronas/logo-evolty2.png" style="height: 50px;"></a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="{{url('native/img/baronas/logo-evolty2.png')}}" style="height: 50px;"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -89,7 +90,7 @@
         <div class="row">
 
           <div class="col-lg-10 mx-auto">
-            <img src="native/img/baronas/logo.png" class="img-fluid" style="height: 200px;">
+            <img src="{{url('native/img/baronas/logo.png')}}" class="img-fluid" style="height: 200px;">
           </div>
           <div class="col-lg-10 mx-auto">
             <br>
@@ -113,17 +114,17 @@
         <div class="container text-center" style="margin-top: 10vh">
           <div class="row">
             <div class="col-sm-4">
-              <img src="native/img/baronas/timeline-1.png" class="img-fluid" style="height: 300px">
+              <img src="{{url('native/img/baronas/timeline-1.png')}}" class="img-fluid" style="height: 300px">
               <h2 style="color: #6C9D4C">Pendaftaran</h2>
               <h3>8 Januari - 17 Maret</h3>
             </div>
             <div class="col-sm-4">
-              <img src="native/img/baronas/timeline-2.png" class="img-fluid" style="height: 300px">
+              <img src="{{url('native/img/baronas/timeline-2.png')}}" class="img-fluid" style="height: 300px">
               <h2 style="color: #6C9D4C">Technical Meeting</h2>
               <h3>8 Januari - 17 Maret</h3>
             </div>
             <div class="col-sm-4">
-              <img src="native/img/baronas/timeline-3.png" class="img-fluid" style="height: 300px">
+              <img src="{{url('native/img/baronas/timeline-3.png')}}" class="img-fluid" style="height: 300px">
               <h2 style="color: #6C9D4C">Pelaksanaan</h2>
               <h3>31 Maret - 1 April 2018</h3>
             </div>
@@ -148,7 +149,7 @@
           <div class="container" style="margin-top: 5vh;" id="elementary">
             <div class="row">
               <div class="col-sm-4">
-                <img src="native/img/baronas/kategori-1.png" style="height: 350px" class="img-fluid">
+                <img src="{{url('native/img/baronas/kategori-1.png')}}" style="height: 350px" class="img-fluid">
               </div>
               <div class="col-sm-8">
                 <h3 style="color: #6C9D4C">Elementary Category</h3>
@@ -178,7 +179,7 @@
           <div class="container" style="margin-top: 5vh;" id="junior">
             <div class="row">
               <div class="col-sm-4">
-                <img src="native/img/baronas/kategori-2.png" style="height: 350px" class="img-fluid">
+                <img src="{{url('native/img/baronas/kategori-2.png')}}" style="height: 350px" class="img-fluid">
               </div>
               <div class="col-sm-8">
                 <h3 style="color: #6C9D4C">Junior Category</h3>
@@ -209,7 +210,7 @@
           <div class="container" style="margin-top: 5vh;" id="senior">
             <div class="row">
               <div class="col-sm-4">
-                <img src="native/img/baronas/kategori-3.png" style="height: 350px" class="img-fluid">
+                <img src="{{url('native/img/baronas/kategori-3.png')}}" style="height: 350px" class="img-fluid">
               </div>
               <div class="col-sm-8">
                 <h3 style="color: #6C9D4C">Senior Category</h3>
@@ -240,7 +241,7 @@
           <div class="container" style="margin-top: 5vh;" id="umum">
             <div class="row">
               <div class="col-sm-4">
-                <img src="native/img/baronas/kategori-4.png" style="height: 350px" class="img-fluid">
+                <img src="{{url('native/img/baronas/kategori-4.png')}}" style="height: 350px" class="img-fluid">
               </div>
               <div class="col-sm-8">
                 <h3 style="color: #6C9D4C">Open Category</h3>
@@ -272,16 +273,16 @@
 
     <header id="section04" class="d-flex cd-section">
       <div class="container" style="min-height: 100vh">
-        <img src="native/img/baronas/hadiah.png" style="height: 100px;margin-top: 10vh" class="img-fluid">
+        <img src="{{url('native/img/baronas/hadiah.png')}}" style="height: 100px;margin-top: 10vh" class="img-fluid">
         <div class="row">
           <div class="col-sm-4 text-center">
-            <img src="native/img/baronas/piala.png" style="height: 400px;margin-top: 5vh" class="img-fluid">
+            <img src="{{url('native/img/baronas/piala.png')}}" style="height: 400px;margin-top: 5vh" class="img-fluid">
           </div>
           <div class="col-sm-8" style="background-image: url(native/img/baronas/shadow-box.png);background-size: cover;height: 450px;">
             <h1 style="font-size: 4.5em;margin-top: 1em;margin-left: 0.5em">TOTAL HADIAH</h1>
             <h1 style="font-size: 4.5em;margin-left: 0.5em">LEBIH DARI</h1>
             <h1 style="font-size: 4.5em;margin-left: 0.5em">30 JUTA</h1>
-            <img src="native/img/baronas/logo3.png" class="img-fluid" style="height: 70px; margin-left: 2em">
+            <img src="{{url('native/img/baronas/logo3.png')}}" class="img-fluid" style="height: 70px; margin-left: 2em">
           </div>
         </div>
       </div>
@@ -316,30 +317,30 @@
           <hr class="hijau">
           <div class="row" style="margin-top: 5vh">
             <div class="col-sm-3">
-              <img src="native/img/baronas/galeri-1.png" class="img-fluid" style="height: 150px;">
+              <img src="{{url('native/img/baronas/galeri-1.png')}}" class="img-fluid" style="height: 150px;">
             </div>
             <div class="col-sm-3">
-              <img src="native/img/baronas/galeri-2.png" class="img-fluid" style="height: 150px;">
+              <img src="{{url('native/img/baronas/galeri-2.png')}}" class="img-fluid" style="height: 150px;">
             </div>
             <div class="col-sm-3">
-              <img src="native/img/baronas/galeri-3.png" class="img-fluid" style="height: 150px;">
+              <img src="{{url('native/img/baronas/galeri-3.png')}}" class="img-fluid" style="height: 150px;">
             </div>
             <div class="col-sm-3">
-              <img src="native/img/baronas/galeri-4.png" class="img-fluid" style="height: 150px;">
+              <img src="{{url('native/img/baronas/galeri-4.png')}}" class="img-fluid" style="height: 150px;">
             </div>
           </div>
           <div class="row" style="margin-top: 10vh">
             <div class="col-sm-3">
-              <img src="native/img/baronas/galeri-5.png" class="img-fluid" style="height: 150px;">
+              <img src="{{url('native/img/baronas/galeri-5.png')}}" class="img-fluid" style="height: 150px;">
             </div>
             <div class="col-sm-3">
-              <img src="native/img/baronas/galeri-6.png" class="img-fluid" style="height: 150px;">
+              <img src="{{url('native/img/baronas/galeri-6.png')}}" class="img-fluid" style="height: 150px;">
             </div>
             <div class="col-sm-3">
-              <img src="native/img/baronas/galeri-7.png" class="img-fluid" style="height: 150px;">
+              <img src="{{url('native/img/baronas/galeri-7.png')}}" class="img-fluid" style="height: 150px;">
             </div>
             <div class="col-sm-3">
-              <img src="native/img/baronas/galeri-8.png" class="img-fluid" style="height: 150px;">
+              <img src="{{url('native/img/baronas/galeri-8.png')}}" class="img-fluid" style="height: 150px;">
             </div>
           </div>
         </div>
@@ -349,15 +350,15 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-3" style="margin-top: 5vh">
-              <img src="native/img/baronas/logo-evolty3.png" class="img-fluid" style="height: 70px">
+              <img src="{{url('native/img/baronas/logo-evolty3.png')}}" class="img-fluid" style="height: 70px">
               <div class="row">
                 <div class="col-sm-4" style="margin-top: 1vh">
-                  <img src="native/img/baronas/scan.png" class="img-fluid" style="height: 70px">
+                  <img src="{{url('native/img/baronas/scan.png')}}" class="img-fluid" style="height: 70px">
                 </div>
                 <div class="col-sm-8" style="margin-top: 1vh;text-align: left;">
-                  <img src="native/img/baronas/fb.png" class="img-fluid" style="height: 20px">
-                  <img src="native/img/baronas/yt.png" class="img-fluid" style="height: 20px">
-                  <img src="native/img/baronas/ig.png" class="img-fluid" style="height: 20px">
+                  <img src="{{url('native/img/baronas/fb.png')}}" class="img-fluid" style="height: 20px">
+                  <img src="{{url('native/img/baronas/yt.png')}}" class="img-fluid" style="height: 20px">
+                  <img src="{{url('native/img/baronas/ig.png')}}" class="img-fluid" style="height: 20px">
                   <p>evolty_its</p>
                   <p style="margin-top: 0.8em">Line : @czc7495e</p>
                 </div>
@@ -397,26 +398,26 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
 
     <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
-    <script src="native/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="{{url('native/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="native/vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="native/vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="native/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="{{url('native/vendor/jquery-easing/jquery.easing.min.js')}}"></script>
+    <script src="{{url('native/vendor/scrollreveal/scrollreveal.min.js')}}"></script>
+    <script src="{{url('native/vendor/magnific-popup/jquery.magnific-popup.min.js')}}"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="native/js/creative.min.js"></script>
+    <script src="{{url('native/js/creative.min.js')}}"></script>
 
     <!-- SCRIPT FOR DROPDOWN LOGIN-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
      <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
-    <script  src="native/js/login.js"></script>
+    <script  src="{{url('native/js/login.js')}}"></script>
 
     <!-- SCRIPT BUAT VERTICAL DOTTED NAVIGATION -->
-    <script src="native/js/vnav/jquery-2.1.1.js"></script>
-    <script  src="native/js/vnav/main.js"></script>
-    <script  src="native/js/vnav/modernizr.js"></script>
+    <script src="{{url('native/js/vnav/jquery-2.1.1.js')}}"></script>
+    <script  src="{{url('native/js/vnav/main.js')}}"></script>
+    <script  src="{{url('native/js/vnav/modernizr.js')}}"></script>
     
 
   </body>

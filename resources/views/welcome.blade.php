@@ -18,7 +18,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
+    <link rel="icon" type="image/png" href="{{url('native/img/favicon.png')}}">
 
     <!-- Plugin CSS -->
     <link href="{{url('native/css/magnific-popup /magnific-popup.css')}}" rel="stylesheet">
@@ -86,7 +86,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light" id="mainNavEvolty">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="native/img/baronas/logo-evolty3.png" style="height: 50px"></a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="{{url('native/img/baronas/logo-evolty3.png')}}" style="height: 50px"></a>
 
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -150,7 +150,7 @@
       <div class="container mx-auto my-auto">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-12 col-lg-12 mx-auto">
-            <img src="native/img/logobesar.png" style="max-height: 100%; max-width: 100%">
+            <img src="{{url('native/img/logobesar.png')}}" style="max-height: 100%; max-width: 100%">
           </div>
           <div class="col-12 col-sm-12 col-md-12 col-lg-12  mx-auto">
             <br>
@@ -173,7 +173,7 @@
           <a href="/electra"><div class="events-card">
             <div class="events-header">
               <figure class="imghvr-fade" style="border-top-left-radius: 10px; border-top-right-radius: 10px">
-                <img src="native/img/electra123.png" width="250px" height="285px">
+                <img src="{{url('native/img/electra123.png')}}" width="250px" height="285px">
                 <figcaption>
                   <p class="spacing"><strong>Electra (Electrical Competition Tour and Rally) merupakan olimpiade nasional untuk tingkat SMA / MA dan sederajat yang meliputi bidang Fisika, Matematika, dan Komputer dalam bentuk tour dan rally.</strong></p>
                 </figcaption>
@@ -197,7 +197,7 @@
             <div class="events-card">
             <div class="events-header">
               <figure class="imghvr-fade" style="border-top-left-radius: 10px; border-top-right-radius: 10px">
-                <img src="native/img/baronas1234.png" height="285px" width="250px">
+                <img src="{{url('native/img/baronas1234.png')}}" height="285px" width="250px">
                 <figcaption>
                   <p class="spacing"><strong>Baronas (Lomba Robot Nasional) merupakan salah satu sub event Evolty dimana siswa SD, SMP, SMA, dan umum dapat mengasah kemampuan mereka dalam bidang robotika.</strong></p>
                 </figcaption>
@@ -221,7 +221,7 @@
             <div class="events-card">
             <div class="events-header">
               <figure class="imghvr-fade" style="border-top-left-radius: 10px; border-top-right-radius: 10px">
-                <img src="native/img/ns123.png" height="285px" width="250px">
+                <img src="{{url('native/img/ns123.png')}}" height="285px" width="250px">
                 <figcaption>
                   <p class="spacing"><strong>NS (National Symphosium) merupakan subevent dari Evolty yang berbentuk diskusi formal dari berbagai sudut pandang beberapa narasumber ahli.</strong></p>
                 </figcaption>
@@ -245,7 +245,7 @@
             <div class="events-card">
             <div class="events-header">
               <figure class="imghvr-fade" style="border-top-left-radius: 10px; border-top-right-radius: 10px">
-                <img src="native/img/mage123.png" height="285px" width="250px">
+                <img src="{{url('native/img/mage123.png')}}" height="285px" width="250px">
                 <figcaption>
                   <p class="spacing"><strong>MAGE (Multimedia and Game Event) adalah serangkaian event IT tahunan yang berusaha menginspirasi serta mengkolaborasikan masyarakat untuk menggali potensi digital yang masih terpendam di Indonesia.</strong></p>
                 </figcaption>
@@ -275,7 +275,7 @@
           <div class="row">
             <div class="col-lg-4">
               <div class="bluebox">
-                <img src="native/img/theme.png">
+                <img src="{{url('native/img/theme.png')}}">
               </div>
             </div>
             <div class="col-lg-12 col-sm-12">
@@ -467,15 +467,15 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-3" style="margin-top: 5vh">
-              <img src="native/img/baronas/logo-evolty3.png" class="img-fluid" style="height: 70px">
+              <img src="{{url('native/img/baronas/logo-evolty3.png')}}" class="img-fluid" style="height: 70px">
               <div class="row">
                 <div class="col-sm-4" style="margin-top: 1vh">
-                  <img src="native/img/baronas/scan.png" class="img-fluid" style="height: 70px">
+                  <img src="{{url('native/img/baronas/scan.png')}}" class="img-fluid" style="height: 70px">
                 </div>
                 <div class="col-sm-8" style="margin-top: 1vh;text-align: left;">
-                  <img src="native/img/baronas/fb.png" class="img-fluid" style="height: 20px">
-                  <img src="native/img/baronas/yt.png" class="img-fluid" style="height: 20px">
-                  <img src="native/img/baronas/ig.png" class="img-fluid" style="height: 20px">
+                  <img src="{{url('native/img/baronas/fb.png')}}" class="img-fluid" style="height: 20px">
+                  <img src="{{url('native/img/baronas/yt.png')}}" class="img-fluid" style="height: 20px">
+                  <img src="{{url('native/img/baronas/ig.png')}}" class="img-fluid" style="height: 20px">
                   <p>evolty_its</p>
                   <p style="margin-top: 0.8em">Line : @czc7495e</p>
                 </div>
@@ -515,29 +515,29 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
 
     <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
-    <script src="native/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="{{url('native/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="native/vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="native/vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="native/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="{{url('native/vendor/jquery-easing/jquery.easing.min.js')}}"></script>
+    <script src="{{url('native/vendor/scrollreveal/scrollreveal.min.js')}}"></script>
+    <script src="{{url('native/vendor/magnific-popup/jquery.magnific-popup.min.js')}}"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="native/js/creative.js"></script>
+    <script src="{{url('native/js/creative.js')}}"></script>
 
     <!-- SCRIPT FOR DROPDOWN LOGIN-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
      <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
-    <script  src="native/js/login.js"></script>
+    <script  src="url{{native/js/login.js')}}"></script>
 
     <!-- SCRIPT BUAT VERTICAL DOTTED NAVIGATION -->
-    <script src="native/js/vnav/jquery-2.1.1.js"></script>
-    <script  src="native/js/vnav/main.js"></script>
-    <script  src="native/js/vnav/modernizr.js"></script>
+    <script src="{{url('native/js/vnav/jquery-2.1.1.js')}}"></script>
+    <script  src="{{url('native/js/vnav/main.js')}}"></script>
+    <script  src="{{url('native/js/vnav/modernizr.js')}}"></script>
 
-    <script type="text/javascript" src="particles/particles.min.js"></script>
-    <script type="text/javascript" src="particles/app.js"></script>
+    <script type="text/javascript" src="{{url('particles/particles.min.js')}}"></script>
+    <script type="text/javascript" src="{{url('particles/app.js')}}"></script>
 
   </body>
 
