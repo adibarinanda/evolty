@@ -137,3 +137,57 @@
 .ddtf-processed th.cpth > div{
     display:block !important;
 }
+
+.ddtf-processed th.kategorith > select{
+    display:none;
+}
+.ddtf-processed th.kategorith > div{
+    display:block !important;
+}
+
+/*BUAT COUNTDOWN TIMER*/
+
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+#days {
+  font-size: 50px;
+  color: #db4844;
+}
+#hours {
+  font-size: 50px;
+  color: #f07c22;
+}
+#minutes {
+  font-size: 50px;
+  color: #f6da74;
+}
+#seconds {
+  font-size: 50px;
+  color: #abcd58;
+}
+
+.rata {
+  display: inline-block;
+  line-height: 1;
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+}
+
+/*span {
+  display: block;
+  font-size: 20px;
+  color: white;
+}
+
+body {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  color: white;
+  background: #222;
+}*/
+
+/*------------ we are  -----*/
+.we a{
+    font-size:12px;
+}

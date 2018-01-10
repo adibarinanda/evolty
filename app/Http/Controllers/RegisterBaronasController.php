@@ -15,7 +15,7 @@ class RegisterBaronasController extends Controller
 	public function validator(array $data)
     {
         return Validator::make($data, [
-
+            'baronas_kategori' => 'string|max:255',
             'baronas_namatim' => 'string|max:255',
             'baronas_cp' => 'string|max:255',
             'baronas_bukti' => 'required|image|max:2048',
@@ -32,7 +32,8 @@ class RegisterBaronasController extends Controller
 
     DB::table('users')->insert([
     	
-    [	'baronas_namatim' => $inputnya->input('baronas_namatim'),
+    [	'baronas_kategori' => $inputnya->input('baronas_kategori'),
+      'baronas_namatim' => $inputnya->input('baronas_namatim'),
       	'baronas_cp' => $inputnya->input('baronas_cp'),
   		'baronas_bukti' => $fileName,
   		'event' => $inputnya->input('event')

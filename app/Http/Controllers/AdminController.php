@@ -100,6 +100,7 @@ public function baronasindex()
 
     $baru->email = $inputnya->input('email');
     $baru->password = $passwordcrypted;
+    $baru->no_peserta = $inputnya->input('no_peserta');
     $baru->save();
     return redirect('/admin/baronas');
   }

@@ -17,15 +17,14 @@
                 <tr>
                   <th>Hapus</th>
                   <th>Edit</th>
-                  <th>Status</th>
+                  <th class="statusth">Status</th>
                   <th class="buktith">Bukti</th>
-                  <th>Verif</th>
+                  <th class="verifth">Verif</th>
                   <th class="namatimth">Nama Tim</th>
                   <th class="cpth">Contact Person</th>
-                  <th>Username</th>
-                  <th>Password</th>
-                  <th>No. Peserta</th>
-                  <th>Kategori</th>
+                  <th class="emailth">Username</th>
+                  <th class="nopesth">No. Peserta</th>
+                  <th class="kategorith">Kategori</th>
                   <th>Nama Anggota 1</th>
                   <th>Nama Anggota 2</th>
                   <th>Nama Anggota 3</th>
@@ -118,19 +117,18 @@
   <td>{{$user->baronas_cp}}</td>
   <td>
     @if($user->email == NULL)
-<button type="button" data-toggle="modal" data-target="#{{ $user->id }}" data-uid="{{$user->id}} " class="update btn btn-warning btn-sm">Tambah Username dan Password</button>
-  <div id="{{ $user->id }}" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal">×</button>
-              <h4 class="modal-title">Edit Data Peserta</h4>
-            </div>
-            <form method="post" action="/admin/baronas/adduser">
-              {{csrf_field()}}
-              
-                <div class="modal-body" style="overflow-y: auto; max-height: 400px">
-                  <input type="hidden" name="updateID" value="{{$user->id}}">
+    <button type="button" data-toggle="modal" data-target="#{{ $user->id }}" data-uid="{{$user->id}} " class="update btn btn-warning btn-sm">Tambah Username dan Password</button>
+    <div id="{{ $user->id }}" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">×</button>
+            <h4 class="modal-title">Edit Data Peserta</h4>
+          </div>
+          <form method="post" action="/admin/baronas/adduser">
+            {{csrf_field()}}            
+              <div class="modal-body" style="overflow-y: auto; max-height: 400px">
+                <input type="hidden" name="updateID" value="{{$user->id}}">
                   <div class="input-group">
                     <p class="my-auto col-lg-4">Email :</p>
                     @if($user->email == NULL)
@@ -141,16 +139,25 @@
                   </div>
                   <br>
                   <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
-                          <div class="input-group">
-                            <p class="my-auto col-lg-4">Password :</p>
-                            <input id="password" type="text" class="form-control" name="password" placeholder="Password" aria-describedby="addon_password1" required>
-                            @if ($errors->has('password'))
-                            <span class="help-block">
-                                <strong>{{ $errors->first('password') }}</strong>
-                            </span>
-                            @endif
-                          </div>
-                        </div>
+                    <div class="input-group">
+                      <p class="my-auto col-lg-4">Password :</p>
+                      <input id="password" type="text" class="form-control" name="password" placeholder="Password" aria-describedby="addon_password1" required>
+                      @if ($errors->has('password'))
+                        <span class="help-block">
+                          <strong>{{ $errors->first('password') }}</strong>
+                        </span>
+                      @endif
+                    </div>
+                  </div>
+                  
+                  <div class="input-group">
+                    <p class="my-auto col-lg-4">Nomor Peserta :</p>
+                    @if($user->no_peserta == NULL)
+                    <input id="no_peserta" type="text" class="no_peserta_baronas col-lg-8 form-control" name="no_peserta" value="{{ old('no_peserta') }}" required>
+                    @else
+                    <input id="no_peserta" type="text" class="no_peserta_baronas col-lg-8 form-control" name="no_peserta" value="{{$user->no_peserta}}" required>
+                    @endif
+                  </div>
 
                   <!-- <div class="input-group">
                     <p class="my-auto col-lg-4">Nomor Peserta :</p>
@@ -284,6 +291,8 @@
       </div>
     @else{{$user->email}}
   @endif</td>
+  <td>{{$user->no_peserta}}</td>
+  <td>{{$user->baronas_kategori}}</td>
   
   
 </tr>

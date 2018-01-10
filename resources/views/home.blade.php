@@ -6,7 +6,38 @@
               <div class="row">
                  @if(Auth::user()->status==0)
                         Akun anda belum diaktifkan. Hubungi panitia untuk mengaktifkan akun anda.
+
                   @elseif(Auth::user()->status==1 && Auth::user()->event=='electra')
+
+                  
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="card">
+          <div class="card-header d-flex align-items-center">
+            <h3 class="h4 col-lg-10 pull-left">Countdown</h3>
+          </div>
+             <div class="card-body" style="overflow-x:auto;">
+              <div class="container">
+                
+                  <div id="timer">
+                    <div class="row">
+                    <div id="days" class="rata"></div>
+                    <div id="hours" class="rata"></div>
+                    <div id="minutes" class="rata"></div>
+                    <div id="seconds" class="rata"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+
+
                 <!-- Work Amount  -->
                 <div class="col-lg-3">
                   <div class="work-amount card">
