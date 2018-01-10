@@ -130,3 +130,10 @@
 .ddtf-processed th.kelasanggota2th > div{
     display:block !important;
 }
+
+.ddtf-processed th.cpth > select{
+    display:none;
+}
+.ddtf-processed th.cpth > div{
+    display:block !important;
+}

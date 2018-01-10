@@ -128,7 +128,7 @@
               <a href="/register/baronas">
               <div class="events-card">
                 <div class="events-header">
-                    <img style="border-radius: 10px" src="native/img/baronas123.png" width="250px" height="285px">
+                    <img style="border-radius: 10px" src="native/img/baronas1234.png" width="250px" height="285px">
                 </div>
               </div>
               </a>

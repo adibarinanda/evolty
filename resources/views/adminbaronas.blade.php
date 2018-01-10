@@ -18,10 +18,10 @@
                   <th>Hapus</th>
                   <th>Edit</th>
                   <th>Status</th>
-                  <th>Bukti</th>
+                  <th class="buktith">Bukti</th>
                   <th>Verif</th>
-                  <th>Nama Tim</th>
-                  <th>Contact Person</th>
+                  <th class="namatimth">Nama Tim</th>
+                  <th class="cpth">Contact Person</th>
                   <th>Username</th>
                   <th>Password</th>
                   <th>No. Peserta</th>
