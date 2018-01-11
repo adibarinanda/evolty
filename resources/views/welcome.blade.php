@@ -529,12 +529,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
      <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
-    <script  src="url{{native/js/login.js')}}"></script>
+    <script src="{{url('native/js/login.js')}}"></script>
 
     <!-- SCRIPT BUAT VERTICAL DOTTED NAVIGATION -->
     <script src="{{url('native/js/vnav/jquery-2.1.1.js')}}"></script>
-    <script  src="{{url('native/js/vnav/main.js')}}"></script>
-    <script  src="{{url('native/js/vnav/modernizr.js')}}"></script>
+    <script src="{{url('native/js/vnav/main.js')}}"></script>
+    <script src="{{url('native/js/vnav/modernizr.js')}}"></script>
 
     <script type="text/javascript" src="{{url('particles/particles.min.js')}}"></script>
     <script type="text/javascript" src="{{url('particles/app.js')}}"></script>
