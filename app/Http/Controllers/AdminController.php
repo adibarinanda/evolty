@@ -105,6 +105,20 @@ public function baronasindex()
     return redirect('/admin/baronas');
   }
 
+  public function updateuserbaronas(Request $inputnya)
+  {
+    $IDupdate = $inputnya->input('updateID');
+    $baru = User::find($IDupdate);
+    $baru->namaanggota1 = $inputnya->input('namaanggota1');
+    $baru->namaanggota2 = $inputnya->input('namaanggota2');
+    $baru->namaanggota3 = $inputnya->input('namaanggota3');
+    $baru->asalsekolah = $inputnya->input('asalsekolah');
+    $baru->alamatsekolah = $inputnya->input('alamatsekolah');
+    $baru->baronas_email = $inputnya->input('baronas_email');
+    $baru->save();
+    return redirect('/home');
+  }
+
   public function delete(Request $request){
     
     $IDdelete = $request->input('deleteID');

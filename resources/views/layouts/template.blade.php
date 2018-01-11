@@ -64,7 +64,11 @@
           <div class="sidebar-header d-flex align-items-center">
             <!-- <div class="avatar"><img src="img/avatar-1.jpg" alt="..." class="img-fluid rounded-circle"></div> -->
             <div class="title">
+              @if(Auth::user()->event == 'electra')
               <h1 class="h4">Halo Tim {{Auth::user()->namatim}} </h1>
+              @elseif(Auth::user()->event == 'baronas')
+              <h1 class="h4">Halo Tim {{Auth::user()->baronas_namatim}} </h1>
+              @endif
               <!-- <p>Web Designer</p> -->
             </div>
           </div>
@@ -128,10 +132,10 @@
 
 
           <!-- Page Footer-->
-          <footer class="main-footer">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-sm-6">
+          <footer class="main-footer" style="z-index: 1;">
+            <div class="container-fluid" style="z-index: 1;">
+              <div class="row" style="z-index: 1;">
+                <div class="col-sm-6" style="z-index: 1;">
                   <p>Evolty &copy; 2018</p>
                 </div>
               </div>
