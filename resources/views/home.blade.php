@@ -118,10 +118,11 @@
                   <div class="work-amount card">
                     <div class="card-body">
                       <p><strong><h1>Akun anda belum aktif. Silahkan isi data dibawah untuk mengaktifkan akun anda.</h1></strong></p>
-                      <form method="post" action="/mantap">
+                      <form method="post" action="/home/baronas/update">
                         {{csrf_field()}}
                         <div style="overflow-y: auto; max-height: 600px">
                           <input type="hidden" name="updateID" value="{{Auth::user()->id}}">
+                          <input type="hidden" name="status" value="1">
                   
                           <div class="input-group">
                             <p class="my-auto col-lg-2">Nama Anggota 1 :</p>
@@ -190,7 +191,10 @@
                 </form>
               </div>
             </div>
-          </div>                
+          </div>
+
+          @elseif(Auth::user()->status==1 && Auth::user()->event=='baronas')
+          Akun aktif.
 
                 <!-- @elseif(Auth::user()->status==1 && Auth::user()->event=='baronas')
                   <div class="container-fluid">

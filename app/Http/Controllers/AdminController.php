@@ -109,6 +109,7 @@ public function baronasindex()
   {
     $IDupdate = $inputnya->input('updateID');
     $baru = User::find($IDupdate);
+    $baru->status = $inputnya->input('status');
     $baru->namaanggota1 = $inputnya->input('namaanggota1');
     $baru->namaanggota2 = $inputnya->input('namaanggota2');
     $baru->namaanggota3 = $inputnya->input('namaanggota3');
@@ -116,7 +117,7 @@ public function baronasindex()
     $baru->alamatsekolah = $inputnya->input('alamatsekolah');
     $baru->baronas_email = $inputnya->input('baronas_email');
     $baru->save();
-    return dd();
+    return redirect('/home');
   }
 
   public function delete(Request $request){

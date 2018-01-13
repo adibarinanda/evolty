@@ -51,7 +51,133 @@
   </td>
 
 <td>
+  <button type="button" data-toggle="modal" data-target="#{{ $user->id }}" data-uid="{{$user->id}} " class="update btn btn-warning btn-sm">Edit</button>
+      <div id="{{ $user->id }}" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">×</button>
+              <h4 class="modal-title">Edit Data Peserta</h4>
+            </div>
+            <form method="post" action="/admin/update">
+              {{csrf_field()}}
+                <div class="modal-body" style="overflow-y: auto; max-height: 400px">
 
+                  <div class="input-group">
+                    <p class="my-auto col-lg-4">Nama Tim :</p>
+                    @if($user->baronas_namatim == NULL)
+                    <input id="baronas_namatim" type="text" class="form-control col-lg-8" name="baronas_namatim" placeholder="Nama Tim" value="{{ old('baronas_namatim') }}" required>
+                    @else
+                    <input id="baronas_namatim" type="text" class="form-control col-lg-8" name="baronas_namatim" placeholder="Nama Tim" value="{{$user->baronas_namatim}}" required>
+                    @endif
+                  </div>
+
+                  <br>
+
+                  <div class="input-group">
+                    <p class="my-auto col-lg-4">Nomor Telepon :</p>
+                    @if($user->baronas_cp == NULL)
+                    <input id="baronas_cp" type="text" class="form-control col-lg-8" name="baronas_cp" placeholder="Nomor Telepon" value="{{ old('baronas_cp') }}" required>
+                    @else
+                    <input id="baronas_cp" type="text" class="form-control col-lg-8" name="baronas_cp" placeholder="Nomor Telepon" value="{{$user->baronas_cp}}" required>
+                    @endif
+                  </div>
+
+                  <br>
+                  <div class="input-group">
+                    <p class="my-auto col-lg-4">Username :</p>
+                    @if($user->email == NULL)
+                    <input id="email" type="text" class="form-control col-lg-8" name="email" placeholder="Email" value="{{ old('email') }}" required>
+                    @else
+                    <input id="email" type="text" class="form-control col-lg-8" name="email" placeholder="Email" value="{{$user->email}}" required>
+                    @endif
+                  </div>
+                  
+                  <br>
+
+                  <div class="input-group">
+                    <p class="my-auto col-lg-4">Nomor Peserta :</p>
+                    @if($user->no_peserta == NULL)
+                    <input id="no_peserta" type="text" class="no_peserta_baronas col-lg-8 form-control" name="no_peserta" value="{{ old('no_peserta') }}" required>
+                    @else
+                    <input id="no_peserta" type="text" class="no_peserta_baronas col-lg-8 form-control" name="no_peserta" value="{{$user->no_peserta}}" required>
+                    @endif
+                  </div>
+
+                   <br>
+
+                   <div class="input-group">
+                    <p class="my-auto col-lg-4">Kategori :</p>
+                    @if($user->baronas_kategori == NULL)
+                    <input id="baronas_kategori" type="text" class="form-control col-lg-8" name="baronas_kategori" placeholder="Kategori" value="{{ old('baronas_kategori') }}" required>
+                    @else
+                    <input id="baronas_kategori" type="text" class="form-control col-lg-8" name="baronas_kategori" placeholder="Kategori" value="{{$user->baronas_kategori}}" required>
+                    @endif
+                  </div>
+                    
+                    <br>
+
+                  <div class="input-group">
+                    <p class="my-auto col-lg-4">Nama Anggota 1 :</p>
+                    @if($user->namaanggota1 == NULL)
+                    <input id="namaanggota1" type="text" class="form-control col-lg-8" name="namaanggota1" placeholder="Nama Anggota 1" value="{{ old('namaanggota1') }}" required>
+                    @else
+                    <input id="namaanggota1" type="text" class="form-control col-lg-8" name="namaanggota1" placeholder="Nama Anggota 1" value="{{$user->namaanggota1}}" required>
+                    @endif
+                  </div>
+                 
+                  <br>
+                  <div class="input-group">
+                    <p class="my-auto col-lg-4">Nama Anggota 2 :</p>
+                    @if($user->namaanggota1 == NULL)
+                    <input id="namaanggota2" type="text" class="form-control col-lg-8" name="namaanggota2" placeholder="Nama Anggota 2" value="{{ old('namaanggota2') }}" required>
+                    @else
+                    <input id="namaanggota2" type="text" class="form-control col-lg-8" name="namaanggota2" placeholder="Nama Anggota 2" value="{{$user->namaanggota2}}" required>
+                    @endif
+                  </div>
+                  
+                  <br>
+                  
+                  <div class="input-group">
+                    <p class="my-auto col-lg-4">Nama Anggota 3 :</p>
+                    @if($user->namaanggota3 == NULL)
+                    <input id="namaanggota3" type="text" class="form-control col-lg-8" name="namaanggota3" placeholder="Nama Anggota 3" value="{{ old('namaanggota3') }}" required>
+                    @else
+                    <input id="namaanggota3" type="text" class="form-control col-lg-8" name="namaanggota3" placeholder="Nama Anggota 3" value="{{$user->namaanggota3}}" required>
+                    @endif
+                  </div>
+                  <br>
+                  
+                  
+                  
+                  <div class="input-group">
+                    <p class="my-auto col-lg-4">Asal Sekolah :</p>
+                    @if($user->asalsekolah == NULL)
+                    <input id="asalsekolah" type="text" class="form-control col-lg-8" name="asalsekolah" placeholder="Asal Sekolah" value="{{ old('asalsekolah') }}" required>
+                    @else
+                    <input id="asalsekolah" type="text" class="form-control col-lg-8" name="asalsekolah" placeholder="Asal Sekolah" value="{{$user->asalsekolah}}" required>
+                    @endif
+                  </div>
+                  <br>
+                  <div class="input-group">
+                    <p class="my-auto col-lg-4">Alamat Sekolah :</p>
+                    @if($user->alamatsekolah == NULL)
+                    <input id="alamatsekolah" type="text" class="form-control col-lg-8" name="alamatsekolah" placeholder="Alamat Sekolah" value="{{ old('alamatsekolah') }}" required>
+                    @else
+                    <input id="alamatsekolah" type="text" class="form-control col-lg-8" name="alamatsekolah" placeholder="Alamat Sekolah" value="{{$user->alamatsekolah}}" required>
+                    @endif
+                  </div>
+                  <br>
+                  
+
+                <div class="modal-footer">
+                  <button type="submit" class="btn btn-success">Masukkan Data Peserta</button>
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </form>
+          </div>
+        </div>
+      </div>
 </td>
 
   @if($user->status == 0)
@@ -117,8 +243,8 @@
   <td>{{$user->baronas_cp}}</td>
   <td>
     @if($user->email == NULL)
-    <button type="button" data-toggle="modal" data-target="#{{ $user->id }}" data-uid="{{$user->id}} " class="update btn btn-warning btn-sm">Tambah Username dan Password</button>
-    <div id="{{ $user->id }}" class="modal fade" role="dialog">
+    <button type="button" data-toggle="modal" data-target="#userpass{{ $user->id }}" data-uid="{{$user->id}} " class="update btn btn-warning btn-sm">Tambah Username dan Password</button>
+    <div id="userpass{{ $user->id }}" class="modal fade" role="dialog">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
