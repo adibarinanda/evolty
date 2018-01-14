@@ -123,7 +123,7 @@
               <button type="button" class="close" data-dismiss="modal">×</button>
               <h4 class="modal-title">Edit Data Peserta</h4>
             </div>
-            <form method="post" action="/dashboard/baronasupdate">
+            <form method="post" action="/home/baronas/update">
               {{ csrf_field() }}
                 <div class="modal-body" style="overflow-y: auto; max-height: 400px">
                  <input type="hidden" name="updateID" value="{{Auth::user()->id}}">

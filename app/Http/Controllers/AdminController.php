@@ -118,7 +118,7 @@ public function baronasindex()
     // $baru->alamatsekolah = $inputnya->input('alamatsekolah');
     // $baru->baronas_email = $inputnya->input('baronas_email');
     $baru->save();
-    return redirect('/dashboard');
+    return redirect('/home');
   }
 
   public function delete(Request $request){
