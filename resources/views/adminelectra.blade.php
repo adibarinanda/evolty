@@ -20,7 +20,7 @@
                 <tr>
                   <th>Hapus</th>
                   <th>Edit</th>
-                  <th class="statusth">Status</th>
+                  <th>Status</th>
                   <th class="tipedaftarth">Tipe Daftar</th>
                   <th class="nopesth">No. Peserta</th>
                   <th class="tipetesth">Tipe Tes</th>
@@ -82,7 +82,15 @@
                     @endif
                   </div>
 
-                  
+                  <br>
+                  <div class="input-group">
+                    <p class="my-auto col-lg-4">Tipe Tes :</p>
+                    @if($user->tipetes == NULL)
+                    <input id="tipetes" type="text" class="form-control col-lg-8" name="tipetes" placeholder="Tipe Tes" value="{{ old('tipetes') }}" required>
+                    @else
+                    <input id="tipetes" type="text" class="form-control col-lg-8" name="tipetes" placeholder="Tipe Tes" value="{{$user->tipetes}}" required>
+                    @endif
+                  </div>
                  
 
                   <br>

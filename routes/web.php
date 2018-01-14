@@ -17,6 +17,7 @@
 
 
 Route::view('/','welcome');
+Route::view('/dashboard', 'home');
 Route::view('/electra', 'electra');
 Route::view('/baronas', 'baronas');
 Route::view('/register/electra', 'registerelectra');
@@ -27,7 +28,7 @@ Route::post('/admin/delete', 'AdminController@delete');
 Route::post('/admin/nopes', 'AdminController@nopes');
 Route::post('/admin/update', 'AdminController@update');
 Route::post('/admin/tambah', 'AdminController@tambah');
-Route::post('/home/baronas/update', 'AdminController@updateuserbaronas');
+Route::post('/dashboard/baronasupdate', 'AdminController@updateuserbaronas');
 Route::post('/admin/baronas/adduser', 'AdminController@baronasadduser');
 Route::view('/admin/nopes', 'admin');
 Route::get('/admin/baronas', 'AdminController@baronasindex');

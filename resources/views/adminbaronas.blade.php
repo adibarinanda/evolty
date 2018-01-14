@@ -147,6 +147,17 @@
                     @endif
                   </div>
                   <br>
+
+                  <div class="input-group">
+                    <p class="my-auto col-lg-4">Nama Pembimbing :</p>
+                    @if($user->baronas_namapembimbing == NULL)
+                    <input id="baronas_namapembimbing" type="text" class="form-control col-lg-8" name="baronas_namapembimbing" placeholder="Nama Pembimbing" value="{{ old('baronas_namapembimbing') }}" required>
+                    @else
+                    <input id="baronas_namapembimbing" type="text" class="form-control col-lg-8" name="baronas_namapembimbing" placeholder="Nama Pembimbing" value="{{$user->baronas_namapembimbing}}" required>
+                    @endif
+                  </div>
+                  
+                  <br>
                   
                   
                   
