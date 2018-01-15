@@ -52,6 +52,7 @@
                          document.getElementById('logout-form').submit();" class="nav-link logout">Logout<i class="fa fa-sign-out"></i></a>
                          <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                              {{ csrf_field() }}
+                         </form>
                        </li>
               </ul>
             </div>

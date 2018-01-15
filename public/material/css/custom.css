@@ -145,6 +145,62 @@
     display:block !important;
 }
 
+.ddtf-processed th.namaanggota3th > select{
+    display:none;
+}
+.ddtf-processed th.namaanggota3th > div{
+    display:block !important;
+}
+
+.ddtf-processed th.namapembimbingth > select{
+    display:none;
+}
+.ddtf-processed th.namapembimbingth > div{
+    display:block !important;
+}
+
+.ddtf-processed th.kartupelajar1th > select{
+    display:none;
+}
+.ddtf-processed th.kartupelajar1th > div{
+    display:block !important;
+}
+
+.ddtf-processed th.foto1th > select{
+    display:none;
+}
+.ddtf-processed th.foto1th > div{
+    display:block !important;
+}
+
+.ddtf-processed th.kartupelajar2th > select{
+    display:none;
+}
+.ddtf-processed th.kartupelajar2th > div{
+    display:block !important;
+}
+
+.ddtf-processed th.foto2th > select{
+    display:none;
+}
+.ddtf-processed th.foto2th > div{
+    display:block !important;
+}
+
+.ddtf-processed th.kartupelajar3th > select{
+    display:none;
+}
+.ddtf-processed th.kartupelajar3th > div{
+    display:block !important;
+}
+
+.ddtf-processed th.foto3th > select{
+    display:none;
+}
+.ddtf-processed th.foto3th > div{
+    display:block !important;
+}
+
 /*BUAT COUNTDOWN TIMER*/
 
 @import url('https://fonts.googleapis.com/css?family=Lobster');

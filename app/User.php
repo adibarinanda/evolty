@@ -17,7 +17,7 @@ class User extends Authenticatable
     protected $fillable = [
         'namatim', 'email', 'password', 'asalsekolah', 'alamatsekolah', 'namaketua',
         'kelasketua', 'namaanggota1', 'kelasanggota1', 'namaanggota2', 'kelasanggota2',
-        'event', 'notelp', 'bukti', 'region', 'tipetes', 'no_peserta', 'tipedaftar', 'baronas_namatim', 'baronas_cp', 'baronas_bukti', 'baronas_kategori', 'namaanggota3', 'baronas_email'
+        'event', 'notelp', 'bukti', 'region', 'tipetes', 'no_peserta', 'tipedaftar', 'baronas_namatim', 'baronas_cp', 'baronas_bukti', 'baronas_kategori', 'namaanggota3', 'baronas_email', 'baronas_kartupelajar1', 'baronas_kartupelajar2', 'baronas_kartupelajar3', 'baronas_foto1', 'baronas_foto2', 'baronas_foto3'
     ];
 
     /**
