@@ -105,7 +105,7 @@
       </div>
     </header>
 
-    <header  id="section02">
+    <header class="cd-section" id="section02">
       <div class="container" style="margin-top: 7vh;min-height: 100vh">
         <div class="text-center">
           <h2>TIMELINE</h2>
@@ -406,7 +406,7 @@
     <script src="{{url('native/vendor/magnific-popup/jquery.magnific-popup.min.js')}}"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="{{url('native/js/creative.min.js')}}"></script>
+    <script src="{{url('native/js/creative.js')}}"></script>
 
     <!-- SCRIPT FOR DROPDOWN LOGIN-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

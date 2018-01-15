@@ -93,7 +93,7 @@
       </div>
     </header>
 
-    <header  id="section02">
+    <header class="cd-section" id="section02">
       <div>
         <!--<div id="demo" class="carousel slide" data-ride="carousel">
 
@@ -176,7 +176,7 @@
         
     </header>
 
-    <header id="section03">
+    <header class="cd-section" id="section03">
         <div style="min-height: 100vh;position: relative;">
           
           <div class="col-lg-12" style="margin-top: 20vh;margin-bottom: 20vh; vertical-align: middle; text-align: center;">
@@ -209,7 +209,7 @@
         </div>
     </header>
 
-    <header id="section04">
+    <header class="cd-section" id="section04">
         <div>
           <div id="demo1" class="carousel slide" data-ride="carousel">
 
@@ -324,7 +324,7 @@
         </div>
       </header>
       
-      <header id="section05"> 
+      <header class="cd-section" id="section05"> 
         <div>
           </div>
             <div id="demo2" class="carousel slide" data-ride="carousel">
@@ -581,7 +581,7 @@
         </div>
       </header>
         
-      <header id="section06">
+      <header class="cd-section" id="section06">
         <div>
           <iframe width="100%" height="auto" src="https://www.youtube.com/embed/hRVHoExj0i8?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen style="max-width: 100%;max-height: 100%"></iframe>
         </div>
@@ -663,7 +663,7 @@
     <script src="{{url('native/vendor/magnific-popup/jquery.magnific-popup.min.js')}}"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="{{url('native/js/creative.min.js')}}"></script>
+    <script src="{{url('native/js/creative.js')}}"></script>
 
     <!-- SCRIPT FOR DROPDOWN LOGIN-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
