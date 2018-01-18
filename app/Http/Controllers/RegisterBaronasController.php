@@ -109,4 +109,6 @@ class RegisterBaronasController extends Controller
     $baru->save();
     return redirect('/home');
   }
+
+  
 }

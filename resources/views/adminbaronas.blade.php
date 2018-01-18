@@ -27,7 +27,7 @@
                   <th class="cpth">Contact Person</th>
                   <th class="emailth">Username</th>
                   <th class="nopesth">No. Peserta</th>
-                  <th class="kategorith">Kategori</th>
+                  <th class="">Kategori</th>
                   <th class="namaanggota1th">Nama Anggota 1</th>
                   <th class="kartupelajar1th">Kartu Pelajar 1</th>
                   <th class="foto1th">Foto 1</th>
@@ -165,128 +165,6 @@
                     @endif
                   </div>
 
-                  <!-- <div class="input-group">
-                    <p class="my-auto col-lg-4">Nomor Peserta :</p>
-                    <input type="hidden" name="updateID" value="{{$user->id}}"/>
-                    @if($user->no_peserta == NULL)
-                    <input id="no_peserta" type="text" class="no_peserta col-lg-8 form-control" name="no_peserta" value="{{ old('no_peserta') }}" required>
-                    @else
-                    <input id="no_peserta" type="text" class="no_peserta col-lg-8 form-control" name="no_peserta" value="{{$user->no_peserta}}" required>
-                    @endif
-                  </div>
-
-                  
-                 
-
-                  <br>
-                  <div class="input-group">
-                    <p class="my-auto col-lg-4">Nama Tim :</p>
-                    @if($user->namatim == NULL)
-                    <input id="namatim" type="text" class="form-control col-lg-8" name="namatim" placeholder="Nama Tim" value="{{ old('namatim') }}" required>
-                    @else
-                    <input id="namatim" type="text" class="form-control col-lg-8" name="namatim" placeholder="Nama Tim" value="{{$user->namatim}}" required>
-                    @endif
-                  </div>
-                  <br>
-                  <div class="input-group">
-                    <p class="my-auto col-lg-4">Email :</p>
-                    @if($user->email == NULL)
-                    <input id="email" type="text" class="form-control col-lg-8" name="email" placeholder="Email" value="{{ old('email') }}" required>
-                    @else
-                    <input id="email" type="text" class="form-control col-lg-8" name="email" placeholder="Email" value="{{$user->email}}" required>
-                    @endif
-                  </div>
-                  <br>
-                  <div class="input-group">
-                    <p class="my-auto col-lg-4">Region :</p>
-                    @if($user->region == NULL)
-                    <input id="region" type="text" class="form-control col-lg-8" name="region" placeholder="Region" value="{{ old('region') }}" required>
-                    @else
-                    <input id="region" type="text" class="form-control col-lg-8" name="region" placeholder="Region" value="{{$user->region}}" required>
-                    @endif
-                  </div>
-                    <br>
-                  <div class="input-group">
-                    <p class="my-auto col-lg-4">Nomor Telepon :</p>
-                    @if($user->notelp == NULL)
-                    <input id="notelp" type="text" class="form-control col-lg-8" name="notelp" placeholder="Nomor Telepon" value="{{ old('notelp') }}" required>
-                    @else
-                    <input id="notelp" type="text" class="form-control col-lg-8" name="notelp" placeholder="Nomor Telepon" value="{{$user->notelp}}" required>
-                    @endif
-                  </div>
-                   <br>
-                  <div class="input-group">
-                    <p class="my-auto col-lg-4">Asal Sekolah :</p>
-                    @if($user->asalsekolah == NULL)
-                    <input id="asalsekolah" type="text" class="form-control col-lg-8" name="asalsekolah" placeholder="Asal Sekolah" value="{{ old('asalsekolah') }}" required>
-                    @else
-                    <input id="asalsekolah" type="text" class="form-control col-lg-8" name="asalsekolah" placeholder="Asal Sekolah" value="{{$user->asalsekolah}}" required>
-                    @endif
-                  </div>
-                  <br>
-                  <div class="input-group">
-                    <p class="my-auto col-lg-4">Alamat Sekolah :</p>
-                    @if($user->alamatsekolah == NULL)
-                    <input id="alamatsekolah" type="text" class="form-control col-lg-8" name="alamatsekolah" placeholder="Alamat Sekolah" value="{{ old('alamatsekolah') }}" required>
-                    @else
-                    <input id="alamatsekolah" type="text" class="form-control col-lg-8" name="alamatsekolah" placeholder="Alamat Sekolah" value="{{$user->alamatsekolah}}" required>
-                    @endif
-                  </div>
-                  <br>
-                  <div class="input-group">
-                    <p class="my-auto col-lg-4">Nama Ketua :</p>
-                    @if($user->namaketua == NULL)
-                    <input id="namaketua" type="text" class="form-control col-lg-8" name="namaketua" placeholder="Nama Ketua" value="{{ old('namaketua') }}" required>
-                    @else
-                    <input id="namaketua" type="text" class="form-control col-lg-8" name="namaketua" placeholder="Nama Ketua" value="{{$user->namaketua}}" required>
-                    @endif
-                  </div>
-                  <br>
-                  <div class="input-group">
-                    <p class="my-auto col-lg-4">Kelas Ketua :</p>
-                    @if($user->kelasketua == NULL)
-                    <input id="kelasketua" type="text" class="form-control col-lg-8" name="kelasketua" placeholder="Kelas Ketua" value="{{ old('kelasketua') }}" required>
-                    @else
-                    <input id="kelasketua" type="text" class="form-control col-lg-8" name="kelasketua" placeholder="Kelas Ketua" value="{{$user->kelasketua}}" required>
-                    @endif
-                  </div>
-                  <br>
-                  <div class="input-group">
-                    <p class="my-auto col-lg-4">Nama Anggota 1 :</p>
-                    @if($user->namaanggota1 == NULL)
-                    <input id="namaanggota1" type="text" class="form-control col-lg-8" name="namaanggota1" placeholder="Nama Anggota 1" value="{{ old('namaanggota1') }}" required>
-                    @else
-                    <input id="namaanggota1" type="text" class="form-control col-lg-8" name="namaanggota1" placeholder="Nama Anggota 1" value="{{$user->namaanggota1}}" required>
-                    @endif
-                  </div>
-                  <br>
-                  <div class="input-group">
-                    <p class="my-auto col-lg-4">Kelas Anggota 1 :</p>
-                    @if($user->kelasanggota1 == NULL)
-                    <input id="kelasanggota1" type="text" class="form-control col-lg-8" name="kelasanggota1" placeholder="Kelas Anggota 1" value="{{ old('kelasanggota1') }}" required>
-                    @else
-                    <input id="kelasanggota1" type="text" class="form-control col-lg-8" name="kelasanggota1" placeholder="Kelas Anggota 1" value="{{$user->kelasanggota1}}" required>
-                    @endif
-                  </div>
-                  <br>
-                  <div class="input-group">
-                    <p class="my-auto col-lg-4">Nama Anggota 2 :</p>
-                    @if($user->namaanggota2 == NULL)
-                    <input id="namaanggota2" type="text" class="form-control col-lg-8" name="namaanggota2" placeholder="Nama Anggota 2" value="{{ old('namaanggota2') }}" required>
-                    @else
-                    <input id="namaanggota2" type="text" class="form-control col-lg-8" name="namaanggota2" placeholder="Nama Anggota 2" value="{{$user->namaanggota2}}" required>
-                    @endif
-                  </div>
-                  <br>
-                  <div class="input-group">
-                    <p class="my-auto col-lg-4">Kelas Anggota 2 :</p>
-                    @if($user->kelasanggota2 == NULL)
-                    <input id="kelasanggota2" type="text" class="form-control col-lg-8" name="kelasanggota2" placeholder="Kelas Anggota 2" value="{{ old('kelasanggota2') }}" required>
-                    @else
-                    <input id="kelasanggota2" type="text" class="form-control col-lg-8" name="kelasanggota2" placeholder="Kelas Anggota 2" value="{{$user->kelasanggota2}}" required>
-                    @endif
-                  </div> -->
-
                 <div class="modal-footer">
                   <button type="submit" class="btn btn-success">Masukkan Data Peserta</button>
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -333,198 +211,166 @@
                     <button type="button" class="close" data-dismiss="modal">×</button>
                     <h4 class="modal-title">Tambah Peserta Baru Baronas</h4>
                   </div>
-                  <form method="post" action="/admin/tambah">
+                  <form method="post" action="/admin/baronas/tambah" enctype="multipart/form-data">
                     {{csrf_field()}}
                       <div class="modal-body" style="overflow-x: auto; overflow-y: auto; max-height: 700px">
                       
-                        <div id="form-electra" style="margin-bottom: 2em">
+                        <div id="form-baronas" style="margin-bottom: 2em">
 
                           <input type="hidden" name="tipedaftar" value="Offline">
-                          <input type="hidden" name="event" value="electra">
+                          <input type="hidden" name="event" value="baronas">
+                          <input type="hidden" name="status" value="1">
 
-                          <div class="form-group{{ $errors->has('region') ? ' has-error' : '' }}">
+                          <div class="form-group">
                             <div class="input-group">
-                              <p class="my-auto col-lg-4">Region :</p>
-                              <select id="region" name="region" placeholder="Pilih Region" class="form-control">
-                                <option>Pilih Region</option>
-                                <option value="Balikpapan" @if (old('balikpapan') == "Balikpapan") selected @endif>Balikpapan</option>
-                                <option value="Denpasar" @if (old('denpasar') == "denpasar") selected @endif>Denpasar</option>
-                                <option value="Gresik" @if (old('gresik') == "gresik") selected @endif>Gresik</option>
-                                <option value="Jakarta" @if (old('jakarta') == "jakarta") selected @endif>Jakarta</option>
-                                <option value="Jember" @if (old('jember') == "jember") selected @endif>Jember</option>
-                                <option value="Jombang" @if (old('jombang') == "jombang") selected @endif>Jombang</option>
-                                <option value="Kediri" @if (old('kediri') == "kediri") selected @endif>Kediri</option>
-                                <option value="Madiun" @if (old('madiun') == "madiun") selected @endif>Madiun</option>
-                                <option value="Malang" @if (old('malang') == "malang") selected @endif>Malang</option>
-                                <option value="Pamekasan" @if (old('pamekasan') == "pamekasan") selected @endif>Pamekasan</option>
-                                <option value="Probolinggo" @if (old('probolinggo') == "probolinggo") selected @endif>Probolinggo</option>
-                                <option value="Semarang" @if (old('semarang') == "semarang") selected @endif>Semarang</option>
-                                <option value="Solo" @if (old('solo') == "solo") selected @endif>Solo</option>
-                                <option value="Surabaya" @if (old('surabaya') == "surabaya") selected @endif>Surabaya</option>
-                                <option value="Tuban" @if (old('tuban') == "tuban") selected @endif>Tuban</option>
-                                <option value="Online" @if (old('online') == "online") selected @endif>Online</option>
+                              <p class="my-auto col-lg-4">Kategori :</p>
+                              <select id="baronas_kategori" name="baronas_kategori" placeholder="Pilih Kategori Lomba" class="form-control">
+                                <option selected disabled>Pilih Kategori Lomba</option>
+                                <option value="Elementary">Elementary Category</option>
+                                <option value="Junior">Junior Category</option>
+                                <option value="Senior">Senior Category</option>
+                                <option value="Open">Open Category</option>
                               </select>
                             </div>
                         </div>
+                
 
-                         <div id="tipetes-id" class="form-group{{ $errors->has('tipetes') ? ' has-error' : '' }}">
-                          <div class="input-group">
-                            <p class="my-auto col-lg-4">Tipe Tes :</p>
-                            <select id="IDtipetes" name="tipetes" placeholder="Jenis Tes" class="form-control">
-                              <option value="Online">Online</option>
-                              <option value="Offline">Offline</option>
-                            </select>
+                          <div class="form-group">
+                            <div class="input-group">
+                              <p class="my-auto col-lg-4">Nama Tim :</p>
+                              <input type="text" name="baronas_namatim" class="form-control" placeholder="Nama Tim">
+                            </div>
                           </div>
-                        </div>
 
-                        <div class="form-group{{ $errors->has('namatim') ? ' has-error' : '' }}">
                           <div class="input-group">
-                            <p class="my-auto col-lg-4">Nama Tim :</p>
-                            <input id="namatim" type="text" class="form-control" name="namatim" placeholder="Nama Tim" value="{{ old('namatim') }}" required >
-                            @if ($errors->has('namatim'))
-                            <span class="help-block">
-                                <strong>{{ $errors->first('namatim') }}</strong>
-                            </span>
-                            @endif
-                          </div>
-                        </div>
+                                  <p class="my-auto col-lg-4">Nama Pembimbing :</p>
+                                  
+                                    <input id="baronas_namapembimbing" type="text" class="form-control col-lg-8" name="baronas_namapembimbing" placeholder="Nama Pembimbing" value="{{ old('baronas_namapembimbing') }}" required>
+                                  
+                                </div>
+                              <br> 
 
-                        <div class="form-group{{ $errors->has('asalsekolah') ? ' has-error' : '' }}">
-                          <div class="input-group">
-                            <p class="my-auto col-lg-4">Asal Sekolah :</p>
-                            <input id="asalsekolah" type="text" class="form-control" name="asalsekolah" placeholder="Asal Sekolah" value="{{ old('asalsekolah') }}" required >
-                            @if ($errors->has('asalsekolah'))
-                            <span class="help-block">
-                                <strong>{{ $errors->first('asalsekolah') }}</strong>
-                            </span>
-                            @endif
-                          </div>
-                        </div>
+                              <div class="form-group">
+                                <div class="input-group">
+                                  <p class="my-auto col-lg-4">Contact Person :</p>
+                                  <input type="text" name="baronas_cp" class="form-control" placeholder="Contact Person">
+                                </div>
+                              </div>
 
-                        <div class="form-group{{ $errors->has('alamatsekolah') ? ' has-error' : '' }}">
-                          <div class="input-group">
-                            <p class="my-auto col-lg-4">Alamat Sekolah :</p>
-                            <input id="alamatsekolah" type="text" class="form-control" name="alamatsekolah" placeholder="Alamat Sekolah" value="{{ old('alamatsekolah') }}" required >
-                            @if ($errors->has('alamatsekolah'))
-                            <span class="help-block">
-                                <strong>{{ $errors->first('alamatsekolah') }}</strong>
-                            </span>
-                            @endif
-                          </div>
-                        </div>
+                                <div class="input-group">
+                                  <p class="my-auto col-lg-4">Nama Anggota 1 :</p>
+                                   <input type="hidden" name="updateID" value="{{Auth::user()->id}}">
+                                
+                                  
+                                    <input id="namaanggota1" type="text" class="form-control col-lg-8" name="namaanggota1" placeholder="Nama Anggota 1" value="{{ old('namaanggota1') }}" required>
+                                  
+                                </div>
+                              <br>
 
-                        <div class="form-group{{ $errors->has('namaketua') ? ' has-error' : '' }}">
-                          <div class="input-group">
-                            <p class="my-auto col-lg-4">Nama Ketua :</p>
-                            <input id="namaketua" type="text" class="form-control" name="namaketua" placeholder="Nama Ketua" value="{{ old('namaketua') }}" required >
-                            @if ($errors->has('namaketua'))
-                            <span class="help-block">
-                                <strong>{{ $errors->first('namaketua') }}</strong>
-                            </span>
-                            @endif
-                          </div>
-                        </div>
+                              <div class="input-group" style="text-align: left;">
+                                <p class="my-auto col-lg-4">Upload Kartu Pelajar Anggota 1</p>
+                                <input type="file" name="baronas_kartupelajar1" value="" />
+                              </div>
+                              <span class="text-danger">
+                                {{ $errors->first('baronas_kartupelajar1') }}
+                              </span>
+                              <br>
 
-                        <div class="form-group{{ $errors->has('kelasketua') ? ' has-error' : '' }}">
-                          <div class="input-group">
-                            <p class="my-auto col-lg-4">Kelas Ketua :</p>
-                            <select id="kelasketua" name="kelasketua" placeholder="Pilih Kelas Ketua" class="form-control">
-                              <option>Pilih Kelas Ketua</option>
-                              <option value="10" @if (old('10') == "10") selected @endif>10</option>
-                              <option value="11" @if (old('11') == "11") selected @endif>11</option>
-                              <option value="12" @if (old('12') == "12") selected @endif>12</option>
-                            </select>
-                          </div>
-                        </div>
+                              <div class="input-group" style="text-align: left;">
+                                <p class="my-auto col-lg-4">Upload Foto Anggota 1</p>
+                                <input type="file" name="baronas_foto1" value="" />
+                              </div>
+                              <span class="text-danger">
+                                {{ $errors->first('baronas_foto1') }}
+                              </span>
+                              <br>
+                            
+                                <div class="input-group">
+                                  <p class="my-auto col-lg-4">Nama Anggota 2 :</p>
+                                  
+                                    <input id="namaanggota2" type="text" class="form-control col-lg-8" name="namaanggota2" placeholder="Nama Anggota 2" value="{{ old('namaanggota2') }}" required>
+                                  
+                                  @endif
+                                </div>
+                              <br>
 
-                        <div class="form-group{{ $errors->has('namaanggota1') ? ' has-error' : '' }}">
-                          <div class="input-group">
-                            <p class="my-auto col-lg-4">Nama Anggota 1 :</p>
-                            <input id="namaanggota1" type="text" class="form-control" name="namaanggota1" placeholder="Nama Anggota 1" value="{{ old('namaanggota1') }}" required >
-                            @if ($errors->has('namaanggota1'))
-                            <span class="help-block">
-                                <strong>{{ $errors->first('namaanggota1') }}</strong>
-                            </span>
-                            @endif
-                          </div>
-                        </div>
+                              <div class="input-group" style="text-align: left;">
+                                <p class="my-auto col-lg-4">Upload Kartu Pelajar Anggota 2</p>
+                                <input type="file" name="baronas_kartupelajar2" value="" />
+                              </div>
+                              <span class="text-danger">
+                                {{ $errors->first('baronas_kartupelajar2') }}
+                              </span>
+                              <br>
 
-                        <div class="form-group{{ $errors->has('kelasanggota1') ? ' has-error' : '' }}">
-                          <div class="input-group">
-                            <p class="my-auto col-lg-4">Kelas Anggota 1 :</p>
-                            <select id="kelasanggota1" name="kelasanggota1" placeholder="Pilih Kelas Anggota 1" class="form-control">
-                              <option>Pilih Kelas Anggota 1</option>
-                              <option value="10" @if (old('10') == "10") selected @endif>10</option>
-                              <option value="11" @if (old('11') == "11") selected @endif>11</option>
-                              <option value="12" @if (old('12') == "12") selected @endif>12</option>
-                            </select>
-                          </div>
-                        </div>
+                              <div class="input-group" style="text-align: left;">
+                                <p class="my-auto col-lg-4">Upload Foto Anggota 2</p>
+                                <input type="file" name="baronas_foto2" value="" />
+                              </div>
+                              <span class="text-danger">
+                                {{ $errors->first('baronas_foto2') }}
+                              </span>
+                              <br>
 
-                        <div class="form-group{{ $errors->has('namaanggota2') ? ' has-error' : '' }}">
-                          <div class="input-group">
-                            <p class="my-auto col-lg-4">Nama Anggota 2 :</p>
-                            <input id="namaanggota2" type="text" class="form-control" name="namaanggota2" placeholder="Nama Anggota 2" value="{{ old('namaanggota2') }}" required >
-                            @if ($errors->has('namaanggota2'))
-                            <span class="help-block">
-                                <strong>{{ $errors->first('namaanggota2') }}</strong>
-                            </span>
-                            @endif
-                          </div>
-                        </div>
+                                <div class="input-group">
+                                 <p class="my-auto col-lg-4">Nama Anggota 3 :</p>
+                                  
+                                    <input id="namaanggota3" type="text" class="form-control col-lg-8" name="namaanggota3" placeholder="Nama Anggota 3" value="{{ old('namaanggota3') }}" required>
+                                  
+                                </div>
+                              <br>      
 
-                        <div class="form-group{{ $errors->has('kelasanggota2') ? ' has-error' : '' }}">
-                          <div class="input-group">
-                            <p class="my-auto col-lg-4">Kelas Anggota 2 :</p>
-                            <select id="kelasanggota2" name="kelasanggota2" placeholder="Pilih Kelas Anggota 2" class="form-control">
-                              <option>Pilih Kelas Anggota 2</option>
-                              <option value="10" @if (old('10') == "10") selected @endif>10</option>
-                              <option value="11" @if (old('11') == "11") selected @endif>11</option>
-                              <option value="12" @if (old('12') == "12") selected @endif>12</option>
-                            </select>
-                          </div>
-                        </div>
+                              <div class="input-group" style="text-align: left;">
+                                <p class="my-auto col-lg-4">Upload Kartu Pelajar Anggota 3</p>
+                                <input type="file" name="baronas_kartupelajar3" value="" />
+                              </div>
+                              <span class="text-danger">
+                                {{ $errors->first('baronas_kartupelajar3') }}
+                              </span>
+                              <br>
 
-                        <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-                          <div class="input-group">
-                            <p class="my-auto col-lg-4">Email :</p>
-                            <input id="email" type="email" class="form-control" name="email" placeholder="Email" value="{{ old('email') }}" required >
-                            @if ($errors->has('email'))
-                            <span class="help-block">
-                                <strong>{{ $errors->first('email') }}</strong>
-                            </span>
-                            @endif
-                          </div>
-                        </div>
+                              <div class="input-group" style="text-align: left;">
+                                <p class="my-auto col-lg-4">Upload Foto Anggota 3</p>
+                                <input type="file" name="baronas_foto3" value="" />
+                              </div>
+                              <span class="text-danger">
+                                {{ $errors->first('baronas_foto3') }}
+                              </span>
+                              <br>       
+                        
+                                <div class="input-group">
+                                  <p class="my-auto col-lg-4">Asal Sekolah :</p>
+                                 
+                                    <input id="asalsekolah" type="text" class="form-control col-lg-8" name="asalsekolah" placeholder="Asal Sekolah" value="{{ old('asalsekolah') }}" required>
+                                  
+                                </div>
+                              <br>
+                        
+                                <div class="input-group">
+                                  <p class="my-auto col-lg-4">Alamat Sekolah :</p>
+                                  
+                                    <input id="alamatsekolah" type="text" class="form-control col-lg-8" name="alamatsekolah" placeholder="Alamat Sekolah" value="{{ old('alamatsekolah') }}" required>
+                                  
+                                </div>
+                              <br>
 
-                        <div class="form-group{{ $errors->has('notelp') ? ' has-error' : '' }}">
-                          <div class="input-group">
-                            <p class="my-auto col-lg-4">Nomor Telepon :</p>
-                          <input id="notelp" type="notelp" class="form-control" name="notelp" placeholder="Nomor Telepon" value="{{ old('notelp') }}" required >
-                          @if ($errors->has('notelp'))
-                            <span class="help-block">
-                                <strong>{{ $errors->first('notelp') }}</strong>
-                            </span>
-                          @endif
-                          </div>
-                        </div>
+                                <div class="input-group">
+                                  <p class="my-auto col-lg-4">Email :</p>
+                                  
+                                    <input id="baronas_email" type="text" class="form-control col-lg-8" name="baronas_email" placeholder="Email" value="{{ old('baronas_email') }}" required>
+                                 
+                                </div>
+                              <br>
 
-                        <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
-                          <div class="input-group">
-                            <p class="my-auto col-lg-4">Password :</p>
-                            <input id="password" type="text" class="form-control" name="password" placeholder="Password" aria-describedby="addon_password1" required value="1234">
-                            @if ($errors->has('password'))
-                            <span class="help-block">
-                                <strong>{{ $errors->first('password') }}</strong>
-                            </span>
-                            @endif
-                          </div>
-                        </div>
-
-
+                              <div class="input-group">
+                                <p class="my-auto col-lg-4">Nomor Peserta :</p>
+                                
+                                  <input id="no_peserta" type="text" class="no_peserta_baronas col-lg-8 form-control" name="no_peserta" value="{{ old('no_peserta') }}" required>
+                                
+                              </div>
 
                       <div class="modal-footer">
-                        <button type="submit" class="btn btn-biru">Tambahkan Peserta Baru Electra</button>
+                        <button type="submit" class="btn btn-biru">Tambahkan Peserta Baru Baronas</button>
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                       </div>
                     </div>
@@ -538,5 +384,3 @@
 </section>
 
 @endsection
-
-@endif

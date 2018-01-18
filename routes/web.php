@@ -29,6 +29,7 @@ Route::post('/admin/update', 'AdminController@update');
 Route::post('/admin/tambah', 'AdminController@tambah');
 Route::post('/home/baronas/update-profile', 'RegisterBaronasController@updateuserbaronas');
 Route::post('/admin/baronas/adduser', 'AdminController@baronasadduser');
+Route::post('/admin/baronas/tambah', 'AdminController@baronaskestari');
 Route::view('/admin/nopes', 'admin');
 Route::get('/admin/baronas', 'AdminController@baronasindex');
 Route::post('/register/baronas/register', 'RegisterBaronasController@daftar');
