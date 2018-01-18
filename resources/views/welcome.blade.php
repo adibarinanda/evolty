@@ -121,10 +121,10 @@
               @auth
                 <a class="nav-link js-scroll-trigger" href="{{ url('home') }}">DASHBOARD</a>
               @else
-                <a class="nav-link" href="{{ url('login') }}">SIGN IN</a>
+                <a class="nav-link kecuali" href="{{ url('login') }}">SIGN IN</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{ url('register') }} ">REGISTER</a>
+                <a class="nav-link kecuali" href="{{ url('register') }} ">REGISTER</a>
               @endauth
             </li>
             @endif

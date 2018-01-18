@@ -61,10 +61,10 @@
               <a class="nav-link js-scroll-trigger" href="#section04">EVENT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="/login">SIGN IN</a>
+              <a class="nav-link js-scroll-trigger kecuali" href="/login">SIGN IN</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="/register">REGISTER</a>
+              <a class="nav-link js-scroll-trigger kecuali" href="/register">REGISTER</a>
             </li>
           </ul>
         </div>

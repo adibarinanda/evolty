@@ -72,13 +72,13 @@
               <a class="nav-link js-scroll-trigger" href="#section06">GALLERY</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#">DIRECTION</a>
+              <a class="nav-link js-scroll-trigger" href="#section07">DIRECTION</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="/login">SIGN IN</a>
+              <a class="nav-link js-scroll-trigger kecuali" href="/login">SIGN IN</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="/register">REGISTER</a>
+              <a class="nav-link js-scroll-trigger kecuali" href="/register">REGISTER</a>
             </li>
           </ul>
         </div>
@@ -345,6 +345,17 @@
           </div>
         </div>
       </header>
+
+<section class="teaser d-flex cd-section" id="section07">
+  <div class="container-fluid p-0">
+    <iframe  width="100%" height="100%"
+  frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAtyavZgbsptubk2NC-mSo0mrFWsGGRGGg
+    &q=Departemen+Teknologi+Elektro+ITS" allowfullscreen>
+</iframe>
+
+  </div>
+</section>
 
       <footer style="background-color: #424242;min-height: 30vh" class="text-white">
         <div class="container">

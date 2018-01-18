@@ -50,12 +50,18 @@ jQuery(document).ready(function($){
 
 jQuery(document).ready(function($){
 	var contentSections = $('.cd-section'),
-		navigationItems = $('#mainNavEvolty a');
+		navigationItems = $('#mainNavEvolty a'),
+		navigationItemskecuali = $('.kecuali');
 
 	updateNavigation();
 	$(window).on('scroll', function(){
 		updateNavigation();
 	});
+
+	//smooth scroll to the section
+	navigationItemskecuali.on('click', function(event){
+        smoothScroll($(this.hash));
+    });
 
 	//smooth scroll to the section
 	navigationItems.on('click', function(event){
@@ -100,12 +106,19 @@ jQuery(document).ready(function($){
 
 jQuery(document).ready(function($){
 	var contentSections = $('.cd-section'),
-		navigationItems = $('#mainNavelect a');
+		navigationItems = $('#mainNavelect a'),
+		navigationItemskecuali = $('.kecuali');
 
 	updateNavigation();
 	$(window).on('scroll', function(){
 		updateNavigation();
 	});
+
+
+	//smooth scroll to the section
+	navigationItemskecuali.on('click', function(event){
+        smoothScroll($(this.hash));
+    });
 
 	//smooth scroll to the section
 	navigationItems.on('click', function(event){
@@ -150,12 +163,18 @@ jQuery(document).ready(function($){
 
 jQuery(document).ready(function($){
 	var contentSections = $('.cd-section'),
-		navigationItems = $('#mainNbaron a');
+		navigationItems = $('#mainNbaron a'),
+		navigationItemskecuali = $('.kecuali');
 
 	updateNavigation();
 	$(window).on('scroll', function(){
 		updateNavigation();
 	});
+
+	//smooth scroll to the section
+	navigationItemskecuali.on('click', function(event){
+        smoothScroll($(this.hash));
+    });
 
 	//smooth scroll to the section
 	navigationItems.on('click', function(event){

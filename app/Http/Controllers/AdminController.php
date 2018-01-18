@@ -29,6 +29,7 @@ class AdminController extends Controller
    */
   public function index()
   {
+    $userspag = DB::table('users')->paginate(3);
     $jumlahuser = DB::table('users')->where('event','electra')->get();
       return view('adminelectra', compact('jumlahuser'));
   }
