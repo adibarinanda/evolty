@@ -150,7 +150,7 @@
       <div class="container mx-auto my-auto">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-12 col-lg-12 mx-auto">
-            <img src="{{url('native/img/logobesar.png')}}" style="max-height: 100%; max-width: 100%">
+            <img src="{{url('native/img/baronas/logo-evolty3.png')}}" style="max-height: 100%; max-width: 100%" class="img-fluid">
           </div>
           <div class="col-12 col-sm-12 col-md-12 col-lg-12  mx-auto">
             <br>
@@ -169,7 +169,7 @@
             <h2 class="section-heading text-center"><strong>Events</strong></h2>
             <hr class="biru my-auto">
           </div>
-
+          <div class="text-center">
           <a href="/electra"><div class="events-card">
             <div class="events-header">
               <figure class="imghvr-fade" style="border-top-left-radius: 10px; border-top-right-radius: 10px">
@@ -264,28 +264,28 @@
             </a>
           </div>
           </a>
-
+        </div>
         </div>
       </div>
     </section>
 
 
     <section class="theme text-white d-flex cd-section" id="section03">
-        <div class="container my-auto">
+        <div class="container-fluid my-auto mx-auto">
           <div class="row">
             <div class="col-lg-4">
               <div class="bluebox">
-                <img src="{{url('native/img/theme.png')}}">
+                <img src="{{url('native/img/theme.png')}}" class="img-fluid">
               </div>
             </div>
             <div class="col-lg-12 col-sm-12">
-              <h1 class="theme-text">
-              <strong>Advancing Technology</strong>
+              <div class="container-fluid">
+              <h1><strong>Advancing Technology</strong></h1>
               <br>
-              <strong>for Better</strong>
+              <h1><strong>for Better</strong></h1>
               <br>
-              <strong>Indonesian Society</strong>
-              </h1>
+              <h1><strong>Indonesian Society</strong></h1>
+              </div>
             </div>
           </div>
         </div>
@@ -345,8 +345,8 @@
 
                             <div class="col-lg-10 my-auto">
                               <div class="row">
-                                  <div class="col-lg-12 col-sm-12 col-md-12"><h3 class="spacing"><strong>Aldo Pradipta</strong></h3></div>
-                                  <div class="col-lg-12"><p class="spacing"><strong>"Seru banget! Electra bener-bener bisa bikin paham tentang dunia perkuliahan terutama teknik elektro, karena electra juga dapet pencerahan tentang teknik elektro dan akhirnya masuk ke jurusan ini meskipun cuman sampai semifinal"</strong></p></div>
+                                  <div class="col-lg-12 col-sm-12 col-md-12"><h3 class="spacing" style="font-size: 2.5vw"><strong>Aldo Pradipta</strong></h3></div>
+                                  <div class="col-lg-12"><p class="spacing" style="font-size: 1.25vw"><strong>"Seru banget! Electra bener-bener bisa bikin paham tentang dunia perkuliahan terutama teknik elektro, karena electra juga dapet pencerahan tentang teknik elektro dan akhirnya masuk ke jurusan ini meskipun cuman sampai semifinal"</strong></p></div>
                               </div>
                             </div>
                           </div>
@@ -360,8 +360,8 @@
 
                             <div class="col-lg-10 my-auto">
                               <div class="row">
-                                  <div class="col-lg-12 col-sm-12 col-md-12"><h3 class="spacing"><strong>Muhammad Roychan Meliaz</strong></h3></div>
-                                  <div class="col-lg-12"><p class="spacing" style="font-size: 0.9em"><strong>"Dari sini saya belajar bahwa perjuangan memang tidak akan mengkhianati hasil. Apapun yang ingin kamu raih, fokuslah pada tujuan utama dan kesampingkan hal-hal yang tidak terlalu bermanfaat. Perjalanan jauh kami dari Batam hingga Surabaya terbayar sudah. Jika bukan karena MAGE 2017, mungkin saya sekarang tidak akan bisa berada disini,berkuliah di kampus impian, kampus pahlawan, Institut Teknologi Sepuluh Nopember Surabaya"</strong></p></div>
+                                  <div class="col-lg-12 col-sm-12 col-md-12"><h3 class="spacing" style="font-size: 2.5vw"><strong>Muhammad Roychan Meliaz</strong></h3></div>
+                                  <div class="col-lg-12"><p class="spacing" style="font-size: 1vw"><strong>"Dari sini saya belajar bahwa perjuangan memang tidak akan mengkhianati hasil. Apapun yang ingin kamu raih, fokuslah pada tujuan utama dan kesampingkan hal-hal yang tidak terlalu bermanfaat. Perjalanan jauh kami dari Batam hingga Surabaya terbayar sudah. Jika bukan karena MAGE 2017, mungkin saya sekarang tidak akan bisa berada disini,berkuliah di kampus impian, kampus pahlawan, Institut Teknologi Sepuluh Nopember Surabaya"</strong></p></div>
                               </div>
                             </div>
                           </div>
