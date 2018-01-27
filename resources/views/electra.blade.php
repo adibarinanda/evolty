@@ -72,22 +72,26 @@
     </nav>
 
     <header class="mastheadelect text-center text-white d-flex cd-section" id="section01">
-      <div class="my-auto">
+      <div class="container my-auto mx-auto">
         <div class="row">
 
-          <div class="col-lg-10 mx-auto">
+          <div class="col-lg-10 mx-auto my-auto">
             <img src="{{url('native/img/electra-hd.png')}}" class="img-fluid" style="height: 250px;">
           </div>
-          <div class="col-lg-8 mx-auto">
+          <div class="col-lg-8 mx-auto my-auto">
             <br>
             <br>
             <h3 class="text-center">Olimpiade tingkat Nasional untuk SMA/MA Sederajat yang diadakan<br> oleh Jurusan Teknik Elektro , Teknik Multimedia dan Jaringan, serta<br> Teknik Biomedik Institut Teknologi Sepuluh Nopember</h3>
             <br>
           </div>
-          <div class="col-lg-10 mx-auto">
+          <div class="col-lg-10 mx-auto my-auto">
             <a href="#section02"><button type="button" class="btn btn-info" style="margin: 2em">Petunjuk</button></a>
             <a href="https://drive.google.com/open?id=1_NkrSUGVpBEb5aIgZaf04uP9TLcdn5ex"><button type="button" class="btn btn-info" style="margin: 2em">Kisi Kisi</button></a>
             <a href="https://drive.google.com/open?id=1GzyCHyB5kT9fLcMtk66ixiss3amoD6OL"><button type="button" class="btn btn-info" style="margin: 2em">Soal Soal</button></a>
+          </div>
+          <div class="col-lg-10 mx-auto my-auto">
+            <a href="https://drive.google.com/open?id=18VApGRtVI4PktabrgMdXZoMo3Zic-UTl"><button type="button" class="btn btn-info" style="margin: 2em">Materi</button></a>
+            <a href="#section02"><button type="button" class="btn btn-info" style="margin: 2em">Pengumuman</button></a>
           </div>
         </div>
       </div>
