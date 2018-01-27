@@ -18,7 +18,7 @@
             <table id="IDtabel" class="table">
               <thead>
                 <tr>
-                  <th>Hapus</th>
+                  <th class="hapusth">Hapus</th>
                   <th>Edit</th>
                   <th class="statusth">Status</th>
                   <th class="buktith">Bukti</th>
@@ -49,7 +49,7 @@
 @foreach($jumlahuser as $user)
  <tr>
   <td>
-    <form method="post" action="/admin/delete">
+    <form method="post" action="/admin/baronas/delete">
       {{csrf_field()}}
       <input type="hidden" name="deleteID" value="{{$user->id}}">
       <button class="btn btn-unverif" type="submit">Hapus</button>
@@ -198,6 +198,16 @@
 @endforeach
               </tbody>
             </table>
+            <script>
+                var tables = document.getElementsByTagName('table');
+                var table = tables[tables.length -1];
+                var rows = table.rows;
+                for(var i = 0, td; i < rows.length; i++){
+                    td = document.createElement('td');
+                    td.appendChild(document.createTextNode(i));
+                    rows[i].insertBefore(td, rows[i].firstChild);
+                }
+            </script>
           </div>
         </div>
       </div>

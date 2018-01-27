@@ -77,6 +77,7 @@ public function baronasindex()
   {
     DB::table('users')->insert([
       ['namatim' => $inputnya->input('namatim'),
+      'no_peserta' => $inputnya->input('no_peserta'),
       'region' => $inputnya->input('region'),
       'asalsekolah' => $inputnya->input('asalsekolah'),
       'alamatsekolah' => $inputnya->input('alamatsekolah'),
@@ -180,5 +181,14 @@ public function baronasindex()
     DB::table('users')->where('id', '=', $IDdelete)->delete();
     // $delete->save();
     return redirect('/admin');
+  }
+
+  public function baronasdelete(Request $request){
+    
+    $IDdelete = $request->input('deleteID');
+    // $delete = User::find($IDdelete);
+    DB::table('users')->where('id', '=', $IDdelete)->delete();
+    // $delete->save();
+    return redirect('/admin/baronas');
   }
 }

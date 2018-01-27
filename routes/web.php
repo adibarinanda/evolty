@@ -24,6 +24,7 @@ Route::view('/register/baronas', 'registerbaronas');
 Route::view('/register/baronas/success', 'success_registerbaronas');
 Route::post('admin', 'VerifController@update');
 Route::post('/admin/delete', 'AdminController@delete');
+Route::post('/admin/baronas/delete', 'AdminController@baronasdelete');
 Route::post('/admin/nopes', 'AdminController@nopes');
 Route::post('/admin/update', 'AdminController@update');
 Route::post('/admin/tambah', 'AdminController@tambah');

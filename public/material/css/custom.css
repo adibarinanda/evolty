@@ -201,6 +201,20 @@
     display:block !important;
 }
 
+.ddtf-processed th.hapusth > select{
+    display:none;
+}
+.ddtf-processed th.hapusth > div{
+    display:block !important;
+}
+
+.ddtf-processed th.urutth > select{
+    display:none;
+}
+.ddtf-processed th.urutth > div{
+    display:block !important;
+}
+
 /*BUAT COUNTDOWN TIMER*/
 
 @import url('https://fonts.googleapis.com/css?family=Lobster');

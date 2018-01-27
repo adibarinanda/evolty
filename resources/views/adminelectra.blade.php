@@ -7,7 +7,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12">
-        <div class="card">
+        <div class="card" style="max-height: 720px">
           <div class="card-header d-flex align-items-center">
             <h3 class="h4 col-lg-10 pull-left">Electra Admin</h3>
             <button type="button" data-toggle="modal" data-uid="1" class="col-lg-2 update btn btn-biru btn-sm" data-target="#tambah_user">Tambah Peserta Electra</button>
@@ -18,12 +18,13 @@
             <table id="IDtabel" class="table">
               <thead>
                 <tr>
-                  <th>Hapus</th>
+                  <th class="urutth">#</th>
+                  <th class="hapusth">Hapus</th>
                   <th>Edit</th>
                   <th>Status</th>
                   <th class="tipedaftarth">Tipe Daftar</th>
                   <th class="nopesth">No. Peserta</th>
-                  <th class="tipetesth">Tipe Tes</th>
+                  <th class="">Tipe Tes</th>
                   <th class="buktith">Bukti</th>
                   <th class="verifth">Verif</th>
                   <th>Region</th>
@@ -262,6 +263,16 @@
 @endforeach
               </tbody>
             </table>
+            <script>
+                var tables = document.getElementsByTagName('table');
+                var table = tables[tables.length -1];
+                var rows = table.rows;
+                for(var i = 1, td; i < rows.length; i++){
+                    td = document.createElement('td');
+                    td.appendChild(document.createTextNode(i));
+                    rows[i].insertBefore(td, rows[i].firstChild);
+                }
+            </script>
           </div>
         </div>
       </div>
@@ -317,6 +328,20 @@
                             </select>
                           </div>
                         </div>
+
+                      <div class="form-group{{ $errors->has('no_peserta') ? ' has-error' : '' }}">
+                        <div class="input-group">
+                          <p class="my-auto col-lg-4">Nomor Peserta :</p>
+                          <input id="no_peserta" type="text" class="no_peserta form-control" name="no_peserta" placeholder="Nomor Peserta" value="{{ old('no_peserta') }}" required >
+                            @if ($errors->has('no_peserta'))
+                            <span class="help-block">
+                                <strong>{{ $errors->first('no_peserta') }}</strong>
+                            </span>
+                            @endif
+                        </div>
+                      </div>
+
+                      
 
                         <div class="form-group{{ $errors->has('namatim') ? ' has-error' : '' }}">
                           <div class="input-group">
