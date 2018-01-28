@@ -271,7 +271,7 @@
 
 
     <section class="theme text-white d-flex cd-section" id="section03">
-        <div class="container-fluid my-auto mx-auto">
+        <div class="container my-auto mx-auto">
           <div class="row">
             <div class="col-lg-4">
               <div class="bluebox">
@@ -320,7 +320,7 @@
     </section>
 
      <section class="theme1 slide text-white d-flex cd-section" id="section05">
-        <div class="container">
+        <div class="container my-auto mx-auto">
           <div class="row">
 
              <div class="col-lg-12" style="margin-bottom: 3em;">
@@ -338,30 +338,30 @@
                   <div class="carousel-inner">
 
                     <div class="carousel-item active">-->
-                      <div class="col-lg-12" style="margin-bottom: 35px">
+                      <div class="col-12" style="margin-bottom: 35px">
                         <div class="whitebox">
                           <div class="row">
-                            <div class="col-lg-2"><img src="{{url('native/img/bulet1.png')}}"></div>
+                            <div class="col-2"><img class="img-fluid" src="{{url('native/img/bulet1.png')}}"></div>
 
-                            <div class="col-lg-10 my-auto">
+                            <div class="col-10 my-auto">
                               <div class="row">
-                                  <div class="col-lg-12 col-sm-12 col-md-12"><h3 class="spacing" style="font-size: 2.5vw"><strong>Aldo Pradipta</strong></h3></div>
-                                  <div class="col-lg-12"><p class="spacing" style="font-size: 1.25vw"><strong>"Seru banget! Electra bener-bener bisa bikin paham tentang dunia perkuliahan terutama teknik elektro, karena electra juga dapet pencerahan tentang teknik elektro dan akhirnya masuk ke jurusan ini meskipun cuman sampai semifinal"</strong></p></div>
+                                  <p class="spacing" style="font-size: 2.5vmax"><strong>Aldo Pradipta</strong></p>
+                                  <p class="spacing" style="font-size: 1.25vmax"><strong>"Seru banget! Electra bener-bener bisa bikin paham tentang dunia perkuliahan terutama teknik elektro, karena electra juga dapet pencerahan tentang teknik elektro dan akhirnya masuk ke jurusan ini meskipun cuman sampai semifinal"</strong></p>
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
 
-                      <div class="col-lg-12" style="margin-bottom: 30px">
+                      <div class="col-12" style="margin-bottom: 30px">
                         <div class="whitebox">
                           <div class="row">
-                            <div class="col-lg-2"><img src="{{url('native/img/bulet2.png')}}"></div>
+                            <div class="col-2"><img src="{{url('native/img/bulet2.png')}}"></div>
 
-                            <div class="col-lg-10 my-auto">
+                            <div class="col-10 my-auto">
                               <div class="row">
-                                  <div class="col-lg-12 col-sm-12 col-md-12"><h3 class="spacing" style="font-size: 2.5vw"><strong>Muhammad Roychan Meliaz</strong></h3></div>
-                                  <div class="col-lg-12"><p class="spacing" style="font-size: 1vw"><strong>"Dari sini saya belajar bahwa perjuangan memang tidak akan mengkhianati hasil. Apapun yang ingin kamu raih, fokuslah pada tujuan utama dan kesampingkan hal-hal yang tidak terlalu bermanfaat. Perjalanan jauh kami dari Batam hingga Surabaya terbayar sudah. Jika bukan karena MAGE 2017, mungkin saya sekarang tidak akan bisa berada disini,berkuliah di kampus impian, kampus pahlawan, Institut Teknologi Sepuluh Nopember Surabaya"</strong></p></div>
+                                  <p class="spacing" style="font-size: 2.5vmax"><strong>Muhammad Roychan Meliaz</strong></p>
+                                  <p class="spacing" style="font-size: 1vmax"><strong>"Dari sini saya belajar bahwa perjuangan memang tidak akan mengkhianati hasil. Apapun yang ingin kamu raih, fokuslah pada tujuan utama dan kesampingkan hal-hal yang tidak terlalu bermanfaat. Perjalanan jauh kami dari Batam hingga Surabaya terbayar sudah. Jika bukan karena MAGE 2017, mungkin saya sekarang tidak akan bisa berada disini,berkuliah di kampus impian, kampus pahlawan, Institut Teknologi Sepuluh Nopember Surabaya"</strong></p>
                               </div>
                             </div>
                           </div>
