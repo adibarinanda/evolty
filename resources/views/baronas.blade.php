@@ -89,16 +89,16 @@
       <div class="container mx-auto my-auto" style="margin-top: 10vh">
         <div class="row">
 
-          <div class="col-lg-10 mx-auto">
+          <div class="col-lg-10 mx-auto my-auto">
             <img src="{{url('native/img/baronas/logo.png')}}" class="img-fluid" style="height: 200px;">
           </div>
-          <div class="col-lg-10 mx-auto">
+          <div class="col-lg-10 mx-auto my-auto">
             <br>
             <br>
             <h3 class="text-center">Baronas adalah lomba robot tingkat nasional yang diperuntukan untuk pelajar tingkat SD, SMP, SMA dan Umum yang bertujuan untuk mengenalkan dan mengasah kemampuan para pelajar dan masyarakat umum di Indonesia khususnya dalam bidan teknologi robotika</h3>
             <br>
           </div>
-          <div class="col-lg-10 mx-auto" style="margin-top: 2em">
+          <div class="col-lg-10 mx-auto my-auto" style="margin-top: 2em">
             <a><button type="button" class="btn btn-success outline">Selengkapnya</button></a>
           </div>
         </div>
@@ -106,8 +106,8 @@
     </header>
 
     <header class="cd-section" id="section02">
-      <div class="container" style="margin-top: 7vh;min-height: 100vh">
-        <div class="text-center">
+      <div class="container my-auto mx-auto" style="min-height: 100vh">
+        <div class="text-center"  style="margin-top: 10%">
           <h2>TIMELINE</h2>
           <hr class="hijau">
         </div>
@@ -134,136 +134,142 @@
     </header>
 
     <header class="kategoribaron text-white cd-section d-flex" id="section03">
-        <div class="container" style="margin-top: 5vh">
+        <div class="container my-auto mx-auto">
+          <br>
           <div class="text-center">
             <h2>KATEGORI</h2>
             <hr class="hijau">
+            <br>
                   <div id="kategori">
-                    <button type="button"  class="btn btn-success" id="btn-elementary" style="margin-left: 1em;margin-right: 1em">Elementary</button>
-                    <button type="button"  class="btn btn-success" id="btn-junior" style="margin-left: 1em;margin-right: 1em">Junior</button>
-                    <button type="button"  class="btn btn-success" id="btn-senior" style="margin-left: 1em;margin-right: 1em">Senior</button>
-                    <button type="button"  class="btn btn-success" id="btn-umum" style="margin-left: 1em;margin-right: 1em">Open</button>
+                    <div class="row">
+                      <div class="col-sm-3">
+                        <button type="button"  class="btn btn-success" id="btn-elementary" style="margin-left: 1em;margin-right: 1em;margin-top: 1em;margin-bottom: 1em;font-size: 1vmax">Elementary</button>
+                      </div>
+                      <div class="col-sm-3">
+                        <button type="button"  class="btn btn-success" id="btn-junior" style="margin-left: 1em;margin-right: 1em;margin-top: 1em;margin-bottom: 1em;font-size: 1vmax">Junior</button>
+                      </div>
+                      <div class="col-sm-3">
+                        <button type="button"  class="btn btn-success" id="btn-senior" style="margin-left: 1em;margin-right: 1em;margin-top: 1em;margin-bottom: 1em;font-size: 1vmax">Senior</button>
+                      </div>
+                      <div class="col-sm-3">
+                        <button type="button"  class="btn btn-success" id="btn-umum" style="margin-left: 1em;margin-right: 1em;margin-top: 1em;margin-bottom: 1em;font-size: 1vmax">Open</button>
+                      </div>
+                    </div>
                   </div>
           </div>
 
-          <div class="container" style="margin-top: 5vh;" id="elementary">
-            <div class="row">
-              <div class="col-sm-4">
-                <img src="{{url('native/img/baronas/kategori-1.png')}}" style="height: 350px" class="img-fluid">
+          <div class="container my-auto mx-auto" id="elementary">
+            <div class="row" style="margin-top: 5%">
+              <div class="col-4">
+                <img src="{{url('native/img/baronas/kategori-1.png')}}" style="height: 300px" class="img-fluid">
               </div>
-              <div class="col-sm-8">
+              <div class="col-8">
                 <h3 style="color: #6C9D4C">Elementary Category</h3>
                 <h3 style="color: #6C9D4C">"Courier Assistant"</h3>
                 <br>
-                <p style="font-size: 1em">Jenis Robot: Line Tracer Analog</p>
-                <p style="font-size: 1em">Jumlah Robot yang digunakan: 1</p>
+                <p style="font-size: 1vmax">Jenis Robot: Line Tracer Analog</p>
+                <p style="font-size: 1vmax">Jumlah Robot yang digunakan: 1</p>
                 <br>
-                <p style="font-size: 1em">Spesifikasi Robot:</p>
-                <p style="font-size: 1em">- Dimensi robot 25cmx25cmx25cm</p>
-                <p style="font-size: 1em">- Maks tegangan batterai 12 Volt (Toleransi +1 Volt)</p>
+                <p style="font-size: 1vmax">Spesifikasi Robot:</p>
+                <p style="font-size: 1vmax">- Dimensi robot 25cmx25cmx25cm</p>
+                <p style="font-size: 1vmax">- Maks tegangan batterai 12 Volt (Toleransi +1 Volt)</p>
                 <br>
-                <p style="font-size: 1em;text-align: justify;">Robot bertugas mengikuti garis dengan paket (kelereng) warna-warni dari Express Corp. Di Kota ke perumahan penduduk dengan melintasi rintangan berupa jembatan, zigzag, warna garis yang berbeda, dll.</p>
+                <p style="font-size: 1vmax;text-align: justify;">Robot bertugas mengikuti garis dengan paket (kelereng) warna-warni dari Express Corp. Di Kota ke perumahan penduduk dengan melintasi rintangan berupa jembatan, zigzag, warna garis yang berbeda, dll.</p>
                 <br>
-                <p style="font-size: 1em">Sistem Pertandingan:</p>
-                <p style="font-size: 1em">- Peserta akan melakukan 3 kali Running</p>
-                <p style="font-size: 1em">- Durasi per pertandingan 5 menit dengan 1 menit persiapan dan 4 menit running</p>
-                <p style="font-size: 1em">- Diambil point dan waktu terbaik</p>
+                <p style="font-size: 1vmax">Sistem Pertandingan:</p>
+                <p style="font-size: 1vmax">- Peserta akan melakukan 3 kali Running</p>
+                <p style="font-size: 1vmax">- Durasi per pertandingan 5 menit dengan 1 menit persiapan dan 4 menit running</p>
+                <p style="font-size: 1vmax">- Diambil point dan waktu terbaik</p>
                 <br>
-                <p style="font-size: 1em">Pendaftaran: 150.000</p>
+                <p style="font-size: 1vmax">Pendaftaran: 175.000</p>
                 <br>
                 <a href="https://drive.google.com/folderview?id=1PyfaLXVjwAqnyAA01XQv91Fe0P0qENHS" target="_blank"><p style="color: #6C9D4C;">DOWNLOAD RULEBOOK</p></a>
               </div>
             </div>
           </div>
 
-          <div class="container" style="margin-top: 5vh;" id="junior">
-            <div class="row">
-              <div class="col-sm-4">
-                <img src="{{url('native/img/baronas/kategori-2.png')}}" style="height: 350px" class="img-fluid">
+          <div class="container my-auto mx-auto" id="junior">
+            <div class="row" style="margin-top: 5%">
+              <div class="col-4">
+                <img src="{{url('native/img/baronas/kategori-2.png')}}" style="height: 300px" class="img-fluid">
               </div>
-              <div class="col-sm-8">
+              <div class="col-8">
                 <h3 style="color: #6C9D4C">Junior Category</h3>
                 <h3 style="color: #6C9D4C">"Home Assistant"</h3>
                 <br>
-                <p style="font-size: 1em">Jenis Robot: Robot Manual Transporter</p>
-                <p style="font-size: 1em">Jumlah Robot yang digunakan: 1</p>
+                <p style="font-size: 1vmax">Jenis Robot: Robot Manual Transporter</p>
+                <p style="font-size: 1vmax">Jumlah Robot yang digunakan: 1</p>
                 <br>
-                <p style="font-size: 1em">Spesifikasi Robot:</p>
-                <p style="font-size: 1em">- Dimensi robot 25cmx25cmx25cm</p>
-                <p style="font-size: 1em">- Maks tegangan batterai 12 Volt (Toleransi +1 Volt)</p>
-                <p style="font-size: 1em">- Remot Kontrol kendali robot bebas (kabel/nirkabel)</p>
+                <p style="font-size: 1vmax">Spesifikasi Robot:</p>
+                <p style="font-size: 1vmax">- Dimensi robot 25cmx25cmx25cm</p>
+                <p style="font-size: 1vmax">- Maks tegangan batterai 12 Volt (Toleransi +1 Volt)</p>
+                <p style="font-size: 1vmax">- Remot Kontrol kendali robot bebas (kabel/nirkabel)</p>
                 <br>
-                <p style="font-size: 1em;text-align: justify;">Robot bertugas untuk mengerjakan serangkaian pekerjaan rumah berupa membersihkan pakaian seperti mencuci, menjemur, dan menata pakaian di lemari serta membuang sampah di TPA dengan melintasi berbagai rintangan di perjalanannya.</p>
+                <p style="font-size: 1vmax;text-align: justify;">Robot bertugas untuk mengerjakan serangkaian pekerjaan rumah berupa membersihkan pakaian seperti mencuci, menjemur, dan menata pakaian di lemari serta membuang sampah di TPA dengan melintasi berbagai rintangan di perjalanannya.</p>
                 <br>
-                <p style="font-size: 1em">Sistem Pertandingan:</p>
-                <p style="font-size: 1em">- Peserta akan melakukan 3 kali Running</p>
-                <p style="font-size: 1em">- Durasi per pertandingan 5 menit dengan 1 menit persiapan dan 4 menit running</p>
-                <p style="font-size: 1em">- Diambil point dan waktu terbaik</p>
+                <p style="font-size: 1vmax">Sistem Pertandingan:</p>
+                <p style="font-size: 1vmax">- Peserta akan melakukan 3 kali Running</p>
+                <p style="font-size: 1vmax">- Durasi per pertandingan 5 menit dengan 1 menit persiapan dan 4 menit running</p>
+                <p style="font-size: 1vmax">- Diambil point dan waktu terbaik</p>
                 <br>
-                <p style="font-size: 1em">Pendaftaran: 175.000</p>
-                <br>
-                <a href="https://drive.google.com/folderview?id=1LtuyvzGRl1Vhhc3Unv91svHtEmYT1SZI" target="_blank"><p style="color: #6C9D4C;">DOWNLOAD RULEBOOK</p></a>
+                <p style="font-size: 1vmax">Pendaftaran: 200.000</p>
               </div>
             </div>
           </div>
 
-          <div class="container" style="margin-top: 5vh;" id="senior">
-            <div class="row">
-              <div class="col-sm-4">
-                <img src="{{url('native/img/baronas/kategori-3.png')}}" style="height: 350px" class="img-fluid">
+          <div class="container my-auto mx-auto" id="senior">
+            <div class="row" style="margin-top: 5%">
+              <div class="col-4">
+                <img src="{{url('native/img/baronas/kategori-3.png')}}" style="height: 300px" class="img-fluid">
               </div>
-              <div class="col-sm-8">
+              <div class="col-8">
                 <h3 style="color: #6C9D4C">Senior Category</h3>
                 <h3 style="color: #6C9D4C">"Farming Assistant"</h3>
                 <br>
-                <p style="font-size: 1em">Jenis Robot: Line Tracer Micro dan Transporter</p>
-                <p style="font-size: 1em">Jumlah Robot yang digunakan: 2</p>
+                <p style="font-size: 1vmax">Jenis Robot: Line Tracer Micro dan Transporter</p>
+                <p style="font-size: 1vmax">Jumlah Robot yang digunakan: 2</p>
                 <br>
-                <p style="font-size: 1em">Spesifikasi Robot:</p>
-                <p style="font-size: 1em">- Dimensi robot 30cmx30cmx25cm</p>
-                <p style="font-size: 1em">- Maks tegangan batterai 12 Volt (Toleransi +1 Volt)</p>
-                <p style="font-size: 1em">- Remot Kontrol kendali robot transporter bebas (kabel/nirkabel)(?)</p>
+                <p style="font-size: 1vmax">Spesifikasi Robot:</p>
+                <p style="font-size: 1vmax">- Dimensi robot 30cmx30cmx25cm</p>
+                <p style="font-size: 1vmax">- Maks tegangan batterai 12 Volt (Toleransi +1 Volt)</p>
+                <p style="font-size: 1vmax">- Remot Kontrol kendali robot transporter bebas (kabel/nirkabel)(?)</p>
                 <br>
-                <p style="font-size: 1em;text-align: justify;">Robot Line Tracer Micro dan Transporter bekerja sama untuk mengumpulkan buah - buahan di kebun untuk di simpan di lumbung dan menanam benih buah buahan lainnya. LT Micro akan mengumpulkan buah buahan (bola pingpong) yang tersebar di area perkebunan lalu mengumpulkannya di Tempat Penimbangan. Robot transporter akan mengambil buah buahan dan mengantarkannya ke gudang. Setelah itu robot transporter akan mengambil benih benih di gudang untuk menanamnya di lahan lainnya.</p>
+                <p style="font-size: 1vmax;text-align: justify;">Robot Line Tracer Micro dan Transporter bekerja sama untuk mengumpulkan buah - buahan di kebun untuk di simpan di lumbung dan menanam benih buah buahan lainnya. LT Micro akan mengumpulkan buah buahan (bola pingpong) yang tersebar di area perkebunan lalu mengumpulkannya di Tempat Penimbangan. Robot transporter akan mengambil buah buahan dan mengantarkannya ke gudang. Setelah itu robot transporter akan mengambil benih benih di gudang untuk menanamnya di lahan lainnya.</p>
                 <br>
-                <p style="font-size: 1em">Sistem Pertandingan:</p>
-                <p style="font-size: 1em">- Peserta akan melakukan 3 kali Running</p>
-                <p style="font-size: 1em">- Durasi per pertandingan 5 menit dengan 1 menit persiapan dan 4 menit running</p>
-                <p style="font-size: 1em">- Diambil point dan waktu terbaik</p>
+                <p style="font-size: 1vmax">Sistem Pertandingan:</p>
+                <p style="font-size: 1vmax">- Peserta akan melakukan 3 kali Running</p>
+                <p style="font-size: 1vmax">- Durasi per pertandingan 5 menit dengan 1 menit persiapan dan 4 menit running</p>
+                <p style="font-size: 1vmax">- Diambil point dan waktu terbaik</p>
                 <br>
-                <p style="font-size: 1em">Pendaftaran: 200.000</p>
-                <br>
-                <a href="https://drive.google.com/folderview?id=1MFeG0_45ds1CGjR0nx8SjeHG8XF0hz-i" target="_blank"><p style="color: #6C9D4C;">DOWNLOAD RULEBOOK</p></a>
+                <p style="font-size: 1vmax">Pendaftaran: 225.000</p>
               </div>
             </div>
           </div>
 
-          <div class="container" style="margin-top: 5vh;" id="umum">
-            <div class="row">
-              <div class="col-sm-4">
-                <img src="{{url('native/img/baronas/kategori-4.png')}}" style="height: 350px" class="img-fluid">
+          <div class="container my-auto mx-auto" id="umum">
+            <div class="row" style="margin-top: 5%">
+              <div class="col-4">
+                <img src="{{url('native/img/baronas/kategori-4.png')}}" style="height: 300px" class="img-fluid">
               </div>
-              <div class="col-sm-8">
+              <div class="col-8">
                 <h3 style="color: #6C9D4C">Open Category</h3>
                 <h3 style="color: #6C9D4C">"Sumo RC"</h3>
                 <br>
-                <p style="font-size: 1em">Jenis Robot: Remote Control Sumo Robot</p>
-                <p style="font-size: 1em">Jumlah Robot yang digunakan: 1</p>
+                <p style="font-size: 1vmax">Jenis Robot: Remote Control Sumo Robot</p>
+                <p style="font-size: 1vmax">Jumlah Robot yang digunakan: 1</p>
                 <br>
-                <p style="font-size: 1em">Spesifikasi Robot:</p>
-                <p style="font-size: 1em">- Maks berat robot 3 Kg</p>
-                <p style="font-size: 1em">- Dimensi robot 20cmx20cmx20cm</p>
-                <p style="font-size: 1em">- Maks tegangan batterai 12 Volt (Toleransi +1 Volt)</p>
+                <p style="font-size: 1vmax">Spesifikasi Robot:</p>
+                <p style="font-size: 1vmax">- Maks berat robot 3 Kg</p>
+                <p style="font-size: 1vmax">- Dimensi robot 20cmx20cmx20cm</p>
+                <p style="font-size: 1vmax">- Maks tegangan batterai 12 Volt (Toleransi +1 Volt)</p>
                 <br>
-                <p style="font-size: 1em;text-align: justify;">Robot Sumo dikendalikan dengan Remote Control (wireless), Robot yang keluar daerah hitam dinyatakan kalah. Satu kali games terdapat 3 kali pertandingan. Diambil nilai terbaik.</p>
+                <p style="font-size: 1vmax;text-align: justify;">Robot Sumo dikendalikan dengan Remote Control (wireless), Robot yang keluar daerah hitam dinyatakan kalah. Satu kali games terdapat 3 kali pertandingan. Diambil nilai terbaik.</p>
                 <br>
-                <p style="font-size: 1em">Sistem Pertandingan:</p>
-                <p style="font-size: 1em">- Fase Group</p>
-                <p style="font-size: 1em">- Knock Out</p>
+                <p style="font-size: 1vmax">Sistem Pertandingan:</p>
+                <p style="font-size: 1vmax">- Fase Group</p>
+                <p style="font-size: 1vmax">- Knock Out</p>
                 <br>
-                <p style="font-size: 1em">Pendaftaran: 250.000</p>
-                <br>
-                <a href="https://drive.google.com/folderview?id=192GShjDJ_UI2gYDA5rmIbjH_4Scv8g6M" target="_blank"><p style="color: #6C9D4C;">DOWNLOAD RULEBOOK</p></a>
+                <p style="font-size: 1vmax">Pendaftaran: 275.000</p>
               </div>
             </div>
           </div>
@@ -272,17 +278,17 @@
     </header>
 
     <header id="section04" class="d-flex cd-section">
-      <div class="container" style="min-height: 100vh">
+      <div class="container my-auto mx-auto" style="min-height: 100vh">
         <img src="{{url('native/img/baronas/hadiah.png')}}" style="height: 100px;margin-top: 10vh" class="img-fluid">
         <div class="row">
-          <div class="col-sm-4 text-center">
+          <div class="col-4 text-center">
             <img src="{{url('native/img/baronas/piala.png')}}" style="height: 400px;margin-top: 5vh" class="img-fluid">
           </div>
-          <div class="col-sm-8" style="background-image: url(native/img/baronas/shadow-box.png);background-size: cover;height: 450px;">
-            <h1 style="font-size: 4.5em;margin-top: 1em;margin-left: 0.5em">TOTAL HADIAH</h1>
-            <h1 style="font-size: 4.5em;margin-left: 0.5em">LEBIH DARI</h1>
-            <h1 style="font-size: 4.5em;margin-left: 0.5em">30 JUTA</h1>
-            <img src="{{url('native/img/baronas/logo3.png')}}" class="img-fluid" style="height: 70px; margin-left: 2em">
+          <div class="col-8" style="background-color: whitesmoke;border-radius: 30px;border-style: solid;border-color: grey;">
+            <p style="font-size: 4vmax;margin-top: 20%;margin-left: 0.5em">TOTAL HADIAH</p>
+            <p style="font-size: 4vmax;margin-left: 0.5em">LEBIH DARI</p>
+            <p style="font-size: 4vmax;margin-left: 0.5em">40 JUTA</p>
+            <img src="{{url('native/img/baronas/logo3.png')}}" class="img-fluid" style="height: 70px; margin-left: 5%;margin-top: 5%">
           </div>
         </div>
       </div>
@@ -312,7 +318,7 @@
       </header>
         -->
       <header id="section06" class="d-flex cd-section text-center">
-        <div class="container" style="min-height: 100vh">
+        <div class="container my-auto mx-auto" style="min-height: 100vh">
           <h2 style="margin-top: 7vh">GALLERY</h2>
           <hr class="hijau">
           <div class="row" style="margin-top: 5vh">
