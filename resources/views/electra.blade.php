@@ -76,7 +76,7 @@
         <div class="row">
 
           <div class="col-lg-10 mx-auto my-auto">
-            <img src="{{url('native/img/electra-hd.png')}}" class="img-fluid" style="height: 250px;">
+            <img src="{{url('native/img/electra-hd.png')}}" class="img-fluid" style="height: 200px;">
           </div>
           <div class="col-lg-8 mx-auto my-auto">
             <br>
@@ -112,9 +112,10 @@
           <div class="carousel-inner">
             <div class="carousel-item active">-->
               <div style="background-image: url(native/img/electra/bg-biru-new.png);background-size: cover;min-height: 100vh;position: relative;">
+                <div class="container my-auto mx-auto">
                 <div class="row">
                   <div class="col-sm-5 my-auto">
-                    <img src="{{url('native/img/electra/logo-putih.png')}}" class="img-fluid" style="height: 150px;margin-top: 25vh;margin-left: 10%;">
+                    <img src="{{url('native/img/electra/logo-putih.png')}}" class="img-fluid" style="height: 150px;margin-top: 50%;">
                   </div>
                   <div class="col-sm-2 my-auto">
                     <img src="{{url('native/img/electra/vertical-line.png')}}" class="img-fluid" style="margin-left: 50%;margin-top: 15vh;height: 500px">
@@ -134,6 +135,7 @@
                       <p class="text-white" style="font-size: 1.5em"><b>Januari</b></p><br><p class="text-white" style="font-size: 1.5em"><b>2018</b></p>
                     </div>
                   </div>
+                </div>
                 </div>
               </div>   
             <!--</div>-->
@@ -181,14 +183,14 @@
     </header>
 
     <header class="cd-section" id="section03">
-        <div style="min-height: 100vh;position: relative;">
+        <div class="container mx-auto my-auto" style="min-height: 100vh;position: relative;">
           
-          <div class="col-lg-12" style="margin-top: 20vh;margin-bottom: 20vh; vertical-align: middle; text-align: center;">
+          <div class="col-lg-12" style="margin-top: 20vh;margin-bottom: 20vh;">
             <img src="{{url('native/img/electra-lg.png')}}" class="img-fluid" style="height: 100px;">
           </div>
-          <div class="container">
+          <div class="container my-auto mx-auto">
               <div class="row">
-                <div class="col-lg-6 my-auto">
+                <div class="col-lg-6 my-auto mx-auto">
                   <h1>SYARAT DAN <h1 style="color: #4ebcdc">KETENTUAN</h1></h1>
                   <br>
                   <h5>Peserta Electra 7 Competition adalah siswa aktif/ belum lulus, dengan jenjang pendidikan maksimal SMA/SMK/MA/SMP/MTs/ sederajat.</h5>
@@ -197,7 +199,7 @@
                   <br>
                   <h5>Setiap sekolah boleh mengirimkan lebih dari satu peserta.</h5>
                 </div>
-                <div class="col-lg-6 my-auto" style="border-left: solid 1px black;">
+                <div class="col-lg-6 my-auto mx-auto">
                   <h1>HADIAH DAN <h1 style="color: #4ebcdc">PENGHARGAAN</h1></h1>
                   <br>
                   <h5>Total Hadiah Rp 15.000.000,00</h5>
@@ -229,6 +231,7 @@
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <div style="background-image: url(native/img/electra/slide-bg-new.png);background-size: cover;min-height: 100vh;position: relative;">
+                    <div class="container mx-auto my-auto">
                     <div class="row">
                       <div class="col-sm-4">
                       
@@ -236,21 +239,27 @@
                       <div class="col-sm-4 text-center">
                         <h1 class="text-center" style="margin-top: 10vh"><b>TIMELINE</b></h1>
                         <br>
-                        <img src="{{url('native/img/electra/slide-1.png')}}" class="img-fluid" style="height: 150px;margin-top: 5vh">
-                        <h2 style="color: #4ebcdc;margin-top: 5vh"><b>PENDAFTARAN</b></h2>
-                        <h4 style="margin-top: 5vh"><b>14 DESEMBER 2017 - 28 JANUARI 2018</b></h4>
+                        <img src="{{url('native/img/electra/slide-1.png')}}" class="img-fluid" style="height: 150px;margin-top: 2.5%">
+                        <h2 style="color: #4ebcdc;margin-top: 2.5%"><b>PENDAFTARAN</b></h2>
+                        <h4 style="margin-top: 2.5%"><b>14 DESEMBER 2017 - 28 JANUARI 2018</b></h4>
                       </div>
                       <div class="col-sm-4">
                       
                       </div>
                     </div>
-                    <div>
-                      <h5 class="text-white" style="margin-top: 20vh;margin-left: 30vh">Pendaftaran Peserta Electra Competition Secara Online dan Offline</h5>
+                    </div>
+                    <div class="container my-auto mx-auto">
+                    <div class="row">
+                      <div class="col-sm-10">
+                      <p class="text-white" style="padding-top: 25vh;padding-left: 20%;font-size: 1.5vmax">Pendaftaran Peserta Electra Competition Secara Online dan Offline</p>
+                      </div>
+                    </div>
                     </div>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <div style="background-image: url(native/img/electra/slide-bg-new.png);background-size: cover;min-height: 100vh;position: relative;">
+                    <div class="container mx-auto my-auto">
                     <div class="row">
                       <div class="col-sm-4">
                       
@@ -258,21 +267,27 @@
                       <div class="col-sm-4 text-center">
                         <h1 class="text-center" style="margin-top: 10vh"><b>TIMELINE</b></h1>
                         <br>
-                        <img src="{{url('native/img/electra/slide-2.png')}}" class="img-fluid" style="height: 150px;margin-top: 5vh">
-                        <h2 style="color: #4ebcdc;margin-top: 5vh"><b>PENYISIHAN</b></h2>
-                        <h4 style="margin-top: 5vh"><b>4 FEBRUARI 2018</b></h4>
+                        <img src="{{url('native/img/electra/slide-2.png')}}" class="img-fluid" style="height: 150px;margin-top: 2.5%">
+                        <h2 style="color: #4ebcdc;margin-top: 2.5%"><b>PENYISIHAN</b></h2>
+                        <h4 style="margin-top: 2.5%"><b>4 FEBRUARI 2018</b></h4>
                       </div>
                       <div class="col-sm-4">
                       
                       </div>
                     </div>
-                    <div>
-                      <h5 class="text-white" style="margin-top: 20vh;margin-left: 30vh">Penyisihan Electra Competition yang berlangsung di masing masing region yang tersedia.</h5>
+                    </div>
+                    <div class="container mx-auto my-auto">
+                    <div class="row">
+                      <div class="col-sm-10">
+                      <p class="text-white" style="padding-top: 30vh;padding-left: 20%;font-size: 1.5vmax">Penyisihan Electra Competition yang berlangsung di masing masing region yang tersedia.</p>
+                      </div>
+                    </div>
                     </div>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <div style="background-image: url(native/img/electra/slide-bg-new.png);background-size: cover;min-height: 100vh;position: relative;">
+                    <div class="container mx-auto my-auto">
                     <div class="row">
                       <div class="col-sm-4">
                       
@@ -280,21 +295,27 @@
                       <div class="col-sm-4 text-center">
                         <h1 class="text-center" style="margin-top: 10vh"><b>TIMELINE</b></h1>
                         <br>
-                        <img src="{{url('native/img/electra/slide-3.png')}}" class="img-fluid" style="height: 150px;margin-top: 5vh">
-                        <h2 style="color: #4ebcdc;margin-top: 5vh"><b>PEREMPATFINAL<br>&<br>SEMIFINAL</b></h2>
-                        <h4 style="margin-top: 5vh"><b>10 FEBRUARI 2018</b></h4>
+                        <img src="{{url('native/img/electra/slide-3.png')}}" class="img-fluid" style="height: 150px;margin-top: 2.5%">
+                        <h2 style="color: #4ebcdc;margin-top: 2.5%"><b>PEREMPATFINAL<br>&<br>SEMIFINAL</b></h2>
+                        <h4 style="margin-top: 2.5%"><b>10 FEBRUARI 2018</b></h4>
                       </div>
                       <div class="col-sm-4">
                       
                       </div>
                     </div>
-                    <div>
-                      <h5 class="text-white" style="margin-top: 7vh;margin-left: 30vh">Perempatfinal & Semifinal Electra Competition dimana terdapat keseruan didalamnya, nantinya akan  berlangsung di Departemen Elektro ITS</h5>
+                    </div>
+                    <div class="container mx-auto my-auto">
+                    <div class="row">
+                      <div class="col-sm-10">
+                      <p class="text-white" style="padding-top: 18vh;padding-left: 20%;font-size: 1.5vmax">Perempatfinal & Semifinal Electra Competition dimana terdapat keseruan didalamnya, nantinya akan  berlangsung di Departemen Elektro ITS</p>
+                      </div>
+                    </div>
                     </div>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <div style="background-image: url(native/img/electra/slide-bg-new.png);background-size: cover;min-height: 100vh;position: relative;">
+                    <div class="container mx-auto my-auto">
                     <div class="row">
                       <div class="col-sm-4">
                       
@@ -302,16 +323,21 @@
                       <div class="col-sm-4 text-center">
                         <h1 class="text-center" style="margin-top: 10vh"><b>TIMELINE</b></h1>
                         <br>
-                        <img src="{{url('native/img/electra/slide-4.png')}}" class="img-fluid" style="height: 150px;margin-top: 5vh">
-                        <h2 style="color: #4ebcdc;margin-top: 5vh"><b>FINAL!</b></h2>
-                        <h4 style="margin-top: 5vh"><b>11 FEBRUARI 2018</b></h4>
+                        <img src="{{url('native/img/electra/slide-4.png')}}" class="img-fluid" style="height: 150px;margin-top: 2.5%">
+                        <h2 style="color: #4ebcdc;margin-top: 2.5%"><b>FINAL!</b></h2>
+                        <h4 style="margin-top: 2.5%"><b>11 FEBRUARI 2018</b></h4>
                       </div>
                       <div class="col-sm-4">
                       
                       </div>
                     </div>
-                    <div>
-                      <h5 class="text-white" style="margin-top: 20vh;margin-left: 30vh">Final Electra competition, nantikan keseruannya, dan nantikan apa yang ada di dalamnya.</h5>
+                    </div>
+                    <div class="container mx-auto my-auto">
+                    <div class="row">
+                      <div class="col-sm-10">
+                      <h5 class="text-white" style="padding-top: 30vh;padding-left: 20%;font-size: 1.5vmax">Final Electra competition, nantikan keseruannya, dan nantikan apa yang ada di dalamnya.</h5>
+                      </div>
+                    </div>
                     </div>
                   </div>
                 </div>
@@ -329,260 +355,328 @@
       </header>
       
       <header class="cd-section" id="section05"> 
-        <div>
-          </div>
-            <div id="demo2" class="carousel slide" data-ride="carousel">
+        
+        <div class="my-auto mx-auto">
+          <div id="demo" class="carousel slide" data-ride="carousel">
 
-              <!-- Indicators -->
-              <ul class="carousel-indicators">
-                <li data-target="#demo2" data-slide-to="0" class="active"></li>
-                <li data-target="#demo2" data-slide-to="1"></li>
-                <li data-target="#demo2" data-slide-to="2"></li>
-              </ul>
-              
-              <!-- The slideshow -->
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div style="background-image: url(native/img/electra/bg-biru-new.png);background-size: cover;min-height: 100vh;position: relative;">
-                    <div class="text-white text-center">
-                      <br><br><br>
-                      <h2>REGION</h2>
-                      <br><br>
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div style="background-image: url(native/img/electra/bg-biru-new.png);background-size: cover;min-height: 100vh;position: relative;">
+                    <div class="container my-auto mx-auto">
+                      <div class="text-white text-center">
+                        <br><br><br>
+                        <h2>REGION</h2>
+                        <br><br>
+                      </div>
+                      <div class="text-center">
+                        <img src="{{url('native/img/electra/slide-idn.png')}}" class="img-fluid" style="height: 300px">
+                      </div>
                     </div>
-                    <div class="text-center">
-                      <img src="{{url('native/img/electra/slide-idn.png')}}" class="img-fluid" style="height: 300px">
-                    </div>
+
                     <div class="row" style="margin-top: 10vh">
-                      <div class="col-sm-4" class="my-auto text-center">
-                        <img src="{{url('native/img/electra/logo-putih.png')}}" class="img-fluid" style="height: 100px;margin-left: 10vh">
-                      </div>
-                      <div class="col-sm-8" class="my-auto" style="border-left: solid 1px white">
-                        <h4 class="text-white">ELECTRA 2017 TERSEBAR di Beberapa Region Di Indonesia Ada 15 Region yaitu : Surabaya,Gresik,Malang,Tuban,kediri Madiun, Jember, probolinggo, Pamekasan, Solo, Semarang, Jakarta, Denpasar, Balikpapan, Jombang</h4>
-                      </div>
-                    </div>
+                        <div class="col-4 container my-auto mx-auto text-center">
+                          <img src="{{url('native/img/electra/logo-putih.png')}}" class="img-fluid" style="height: 100px;">
+                        </div>
+                        <div class="col-8 container my-auto mx-auto" style="border-left: solid 1px white">
+                          <p class="text-white" style="font-size: 1.5vmax">ELECTRA 2017 TERSEBAR di Beberapa Region Di Indonesia Ada 15 Region yaitu : Surabaya,Gresik,Malang,Tuban,kediri Madiun, Jember, probolinggo, Pamekasan, Solo, Semarang, Jakarta, Denpasar, Balikpapan, Jombang</p>
+                        </div>
                   </div>
-                </div>
-                <div class="carousel-item">
-                  <div style="background-image: url(native/img/electra/bg-biru-new.png);background-size: cover;min-height: 100vh;position: relative;">
-                    <div class="text-white text-center">
-                      <br><br><br>
-                      <h2>REGION</h2>
-                      <br><br><br>
-                    </div>
-                    <div>
-                      <div class="row" style="margin-top: 10vh">
-                        <div class="col-sm-3 text-center">
-                          <img src="{{url('native/img/electra/reg-kediri.png')}}" class="img-fluid" style="height: 50px">
-                          <div class="row">
-                            <div class="col-sm-4"></div>
-                            <div class="col-sm-4" style="background-color: white;border: solid 1px white;border-radius: 7px;height: 50px;width: 120px">
-                              <p style="color: #4ebcdc;font-size: 0.7em;margin-top: 0.5em">Rian</p>
-                              <p style="color: #4ebcdc;font-size: 0.7em">083113664487</p>
-                              <p style="color: #4ebcdc;font-size: 0.6em">LINE : syahrian.adil</p>
-                            </div>
-                            <div class="col-sm-4"></div>
-                          </div>
-                        </div>
-                        <div class="col-sm-3 text-center">
-                          <img src="{{url('native/img/electra/reg-malang.png')}}" class="img-fluid" style="height: 50px">
-                          <div class="row">
-                            <div class="col-sm-4"></div>
-                            <div class="col-sm-4" style="background-color: white;border: solid 1px white;border-radius: 7px;height: 50px;width: 120px">
-                              <p style="color: #4ebcdc;font-size: 0.7em;margin-top: 0.5em">Hilman Ridho</p>
-                              <p style="color: #4ebcdc;font-size: 0.7em">08985578810</p>
-                              <p style="color: #4ebcdc;font-size: 0.6em">LINE : hlmnrdh</p>
-                            </div>
-                            <div class="col-sm-4"></div>
-                          </div>
-                        </div>
-                        <div class="col-sm-3 text-center">
-                          <img src="{{url('native/img/electra/reg-jakarta.png')}}" class="img-fluid" style="height: 50px">
-                          <div class="row">
-                            <div class="col-sm-4"></div>
-                            <div class="col-sm-4" style="background-color: white;border: solid 1px white;border-radius: 7px;height: 50px;width: 120px">
-                              <p style="color: #4ebcdc;font-size: 0.7em;margin-top: 0.3em">Bimo</p>
-                              <p style="color: #4ebcdc;font-size: 0.7em">082228282840</p>
-                              <p style="color: #4ebcdc;font-size: 0.6em">LINE : enricoaryobimo</p>
-                            </div>
-                            <div class="col-sm-4"></div>
-                          </div>
-                        </div>
-                        <div class="col-sm-3 text-center">
-                          <img src="{{url('native/img/electra/reg-madiun.png')}}" class="img-fluid" style="height: 50px">
-                          <div class="row">
-                            <div class="col-sm-4"></div>
-                            <div class="col-sm-4" style="background-color: white;border: solid 1px white;border-radius: 7px;height: 50px;width: 120px">
-                              <p style="color: #4ebcdc;font-size: 0.7em;margin-top: 0.5em">Ilham</p>
-                              <p style="color: #4ebcdc;font-size: 0.7em">085790202790</p>
-                              <p style="color: #4ebcdc;font-size: 0.6em">LINE : hadiprmna</p>
-                            </div>
-                            <div class="col-sm-4"></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row" style="margin-top: 10vh">
-                        <div class="col-sm-3 text-center">
-                          <img src="{{url('native/img/electra/reg-solo.png')}}" class="img-fluid" style="height: 50px">
-                          <div class="row">
-                            <div class="col-sm-4"></div>
-                            <div class="col-sm-4" style="background-color: white;border: solid 1px white;border-radius: 7px;height: 50px;width: 120px">
-                              <p style="color: #4ebcdc;font-size: 0.7em;margin-top: 0.5em">Ismail</p>
-                              <p style="color: #4ebcdc;font-size: 0.7em">082242276845</p>
-                              <p style="color: #4ebcdc;font-size: 0.6em">LINE : elvhaj</p>
-                            </div>
-                            <div class="col-sm-4"></div>
-                          </div>
-                        </div>
-                        <div class="col-sm-3 text-center">
-                          <img src="{{url('native/img/electra/reg-gresik.png')}}" class="img-fluid" style="height: 50px">
-                          <div class="row">
-                            <div class="col-sm-4"></div>
-                            <div class="col-sm-4" style="background-color: white;border: solid 1px white;border-radius: 7px;height: 50px;width: 120px">
-                              <p style="color: #4ebcdc;font-size: 0.7em;margin-top: 0.5em">Aliv</p>
-                              <p style="color: #4ebcdc;font-size: 0.7em">082142737127</p>
-                              <p style="color: #4ebcdc;font-size: 0.6em">LINE : bbahddin99</p>
-                            </div>
-                            <div class="col-sm-4"></div>
-                          </div>
-                        </div>
-                        <div class="col-sm-3 text-center">
-                          <img src="{{url('native/img/electra/reg-semarang.png')}}" class="img-fluid" style="height: 50px">
-                          <div class="row">
-                            <div class="col-sm-4"></div>
-                            <div class="col-sm-4" style="background-color: white;border: solid 1px white;border-radius: 7px;height: 50px;width: 120px">
-                              <p style="color: #4ebcdc;font-size: 0.7em;margin-top: 0.5em">Pristi</p>
-                              <p style="color: #4ebcdc;font-size: 0.7em">081330058611</p>
-                              <p style="color: #4ebcdc;font-size: 0.6em">LINE : padhianugraha</p>
-                            </div>
-                            <div class="col-sm-4"></div>
-                          </div>
-                        </div>
-                        <div class="col-sm-3 text-center">
-                          <img src="{{url('native/img/electra/reg-pamekasan.png')}}" class="img-fluid" style="height: 50px">
-                          <div class="row">
-                            <div class="col-sm-4"></div>
-                            <div class="col-sm-4" style="background-color: white;border: solid 1px white;border-radius: 7px;height: 50px;width: 120px">
-                              <p style="color: #4ebcdc;font-size: 0.7em;margin-top: 0.3em">Fakhri</p>
-                              <p style="color: #4ebcdc;font-size: 0.7em">083123057856</p>
-                              <p style="color: #4ebcdc;font-size: 0.6em">LINE : mohammadfakhriali</p>
-                            </div>
-                            <div class="col-sm-4"></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div style="background-image: url(native/img/electra/bg-biru-new.png);background-size: cover;min-height: 100vh;position: relative;">
-                    <div class="text-white text-center">
-                      <br><br><br>
-                      <h2>REGION</h2>
-                      <br><br><br>
-                    </div>
-                    <div>
-                      <div class="row" style="margin-top: 10vh">
-                        <div class="col-sm-3 text-center">
-                          <img src="{{url('native/img/electra/reg-surabaya.png')}}" class="img-fluid" style="height: 50px">
-                          <div class="row">
-                            <div class="col-sm-4"></div>
-                            <div class="col-sm-4" style="background-color: white;border: solid 1px white;border-radius: 7px;height: 50px;width: 120px">
-                              <p style="color: #4ebcdc;font-size: 0.7em;margin-top: 0.5em">Hanif</p>
-                              <p style="color: #4ebcdc;font-size: 0.7em">087855570350</p>
-                              <p style="color: #4ebcdc;font-size: 0.6em">LINE : vianhanif</p>
-                            </div>
-                            <div class="col-sm-4"></div>
-                          </div>
-                        </div>
-                        <div class="col-sm-3 text-center">
-                          <img src="{{url('native/img/electra/reg-balikpapan.png')}}" class="img-fluid" style="height: 50px">
-                          <div class="row">
-                            <div class="col-sm-4"></div>
-                            <div class="col-sm-4" style="background-color: white;border: solid 1px white;border-radius: 7px;height: 50px;width: 120px">
-                              <p style="color: #4ebcdc;font-size: 0.7em;margin-top: 0.3em">Hari PU</p>
-                              <p style="color: #4ebcdc;font-size: 0.7em">082153564858</p>
-                              <p style="color: #4ebcdc;font-size: 0.6em">LINE : hariputrautamaliem</p>
-                            </div>
-                            <div class="col-sm-4"></div>
-                          </div>
-                        </div>
-                        <div class="col-sm-3 text-center">
-                          <img src="{{url('native/img/electra/reg-jember.png')}}" class="img-fluid" style="height: 50px">
-                          <div class="row">
-                            <div class="col-sm-4"></div>
-                            <div class="col-sm-4" style="background-color: white;border: solid 1px white;border-radius: 7px;height: 50px;width: 120px">
-                              <p style="color: #4ebcdc;font-size: 0.7em;margin-top: 0.5em">Erlanda</p>
-                              <p style="color: #4ebcdc;font-size: 0.7em">081219108267</p>
-                              <p style="color: #4ebcdc;font-size: 0.6em">LINE : erlanda_ss</p>
-                            </div>
-                            <div class="col-sm-4"></div>
-                          </div>
-                        </div>
-                        <div class="col-sm-3 text-center">
-                          <img src="{{url('native/img/electra/reg-jombang.png')}}" class="img-fluid" style="height: 50px">
-                          <div class="row">
-                            <div class="col-sm-4"></div>
-                            <div class="col-sm-4" style="background-color: white;border: solid 1px white;border-radius: 7px;height: 50px;width: 120px">
-                              <p style="color: #4ebcdc;font-size: 0.7em;margin-top: 0.3em">Calvin</p>
-                              <p style="color: #4ebcdc;font-size: 0.7em">082233727870</p>
-                              <p style="color: #4ebcdc;font-size: 0.6em">LINE : calvinrafindra</p>
-                            </div>
-                            <div class="col-sm-4"></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row" style="margin-top: 10vh">
-                        <div class="col-sm-4 text-center">
-                          <img src="{{url('native/img/electra/reg-probolinggo.png')}}" class="img-fluid" style="height: 50px">
-                          <div class="row">
-                            <div class="col-sm-4"></div>
-                            <div class="col-sm-4" style="background-color: white;border: solid 1px white;border-radius: 7px;height: 50px;width: 120px">
-                              <p style="color: #4ebcdc;font-size: 0.7em;margin-top: 0.5em">Danier</p>
-                              <p style="color: #4ebcdc;font-size: 0.7em">082334835371</p>
-                              <p style="color: #4ebcdc;font-size: 0.6em">LINE : deksarakadanier</p>
-                            </div>
-                            <div class="col-sm-4"></div>
-                          </div>
-                        </div>
-                        <div class="col-sm-4 text-center">
-                          <img src="{{url('native/img/electra/reg-denpasar.png')}}" class="img-fluid" style="height: 50px">
-                          <div class="row">
-                            <div class="col-sm-4"></div>
-                            <div class="col-sm-4" style="background-color: white;border: solid 1px white;border-radius: 7px;height: 50px;width: 120px">
-                              <p style="color: #4ebcdc;font-size: 0.7em;margin-top: 0.5em">Cok Yoga</p>
-                              <p style="color: #4ebcdc;font-size: 0.7em">087761344632</p>
-                              <p style="color: #4ebcdc;font-size: 0.6em">LINE : cok_yoga</p>
-                            </div>
-                            <div class="col-sm-4"></div>
-                          </div>
-                        </div>
-                        <div class="col-sm-4 text-center">
-                          <img src="{{url('native/img/electra/reg-tuban.png')}}" class="img-fluid" style="height: 50px">
-                          <div class="row">
-                            <div class="col-sm-4"></div>
-                            <div class="col-sm-4" style="background-color: white;border: solid 1px white;border-radius: 7px;height: 50px;width: 120px">
-                              <p style="color: #4ebcdc;font-size: 0.7em;margin-top: 0.5em">Hudan</p>
-                              <p style="color: #4ebcdc;font-size: 0.7em">082234532924</p>
-                              <p style="color: #4ebcdc;font-size: 0.6em">LINE : huudanakbar</p>
-                            </div>
-                            <div class="col-sm-4"></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+
                 </div>
               </div>
-              
-              <!-- Left and right controls -->
-              <a class="carousel-control-prev" href="#demo2" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-              </a>
-              <a class="carousel-control-next" href="#demo2" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-              </a>
+              <div class="carousel-item">
+                <div style="background-image: url(native/img/electra/bg-biru-new.png);background-size: cover;min-height: 100vh;position: relative;">
+                    <div class="container my-auto mx-auto">
+                      <div class="text-white text-center">
+                        <br><br><br>
+                        <h2>REGION</h2>
+                        <br><br>
+                      </div>
+                    </div>
+
+                    <div class="container my-auto mx-auto">
+
+                      <div class="row" style="margin-top: 10%">
+
+                        <div class="col-3 text-center">
+                          <img src="{{url('native/img/electra/reg-kediri.png')}}" class="img-fluid" style="height: 50px;margin-top: 5px">
+                          <div class="container mx-auto my-auto text-center">
+                          <div class="row">
+                            <div class="col-3"></div>
+                            <div class="col-sm-6" style="background-color: white;border: solid 1px white;border-radius: 7px">
+                              <p style="color: #4ebcdc;font-size: 0.7vmax;margin-top: 0.5em">Rian</p>
+                              <p style="color: #4ebcdc;font-size: 0.7vmax">081216585148</p>
+                              <p style="color: #4ebcdc;font-size: 0.6vmax">LINE : syahrian.adil</p>
+                            </div>
+                            <div class="col-3"></div>
+                          </div>
+                          </div>
+                        </div>
+
+                        <div class="col-3 text-center">
+                          <img src="{{url('native/img/electra/reg-malang.png')}}" class="img-fluid" style="height: 50px;margin-top: 5px">
+                          <div class="container mx-auto my-auto text-center">
+                          <div class="row">
+                            <div class="col-3"></div>
+                            <div class="col-sm-6" style="background-color: white;border: solid 1px white;border-radius: 7px;">
+                              <p style="color: #4ebcdc;font-size: 0.7vmax;margin-top: 0.5em">Hilman Ridho</p>
+                              <p style="color: #4ebcdc;font-size: 0.7vmax">08985578810</p>
+                              <p style="color: #4ebcdc;font-size: 0.6vmax">LINE : hlmnrdh</p>
+                            </div>
+                            <div class="col-3"></div>
+                          </div>
+                          </div>
+                        </div>
+
+                        <div class="col-3 text-center">
+                          <img src="{{url('native/img/electra/reg-jakarta.png')}}" class="img-fluid" style="height: 50px;margin-top: 5px">
+                          <div class="container mx-auto my-auto text-center">
+                          <div class="row">
+                            <div class="col-3"></div>
+                            <div class="col-sm-6" style="background-color: white;border: solid 1px white;border-radius: 7px;">
+                              <p style="color: #4ebcdc;font-size: 0.7vmax;margin-top: 0.5em">Bimo</p>
+                              <p style="color: #4ebcdc;font-size: 0.7vmax">082228282840</p>
+                              <p style="color: #4ebcdc;font-size: 0.6vmax">LINE : enricoaryobimo</p>
+                            </div>
+                            <div class="col-3"></div>
+                          </div>
+                          </div>
+                        </div>
+
+                        <div class="col-3 text-center">
+                          <img src="{{url('native/img/electra/reg-madiun.png')}}" class="img-fluid" style="height: 50px;margin-top: 5px">
+                          <div class="container mx-auto my-auto text-center">
+                          <div class="row">
+                            <div class="col-3"></div>
+                            <div class="col-sm-6" style="background-color: white;border: solid 1px white;border-radius: 7px;">
+                              <p style="color: #4ebcdc;font-size: 0.7vmax;margin-top: 0.5em">Ilham</p>
+                              <p style="color: #4ebcdc;font-size: 0.7vmax">085790202790</p>
+                              <p style="color: #4ebcdc;font-size: 0.6vmax">LINE : hadiprmna</p>
+                            </div>
+                            <div class="col-3"></div>
+                          </div>
+                          </div>
+                        </div>
+
+                      </div>
+
+                      <div class="row" style="margin-top: 5vh">
+
+                        <div class="col-3 text-center">
+                          <img src="{{url('native/img/electra/reg-solo.png')}}" class="img-fluid" style="height: 50px;margin-top: 5px">
+                          <div class="container mx-auto my-auto text-center">
+                          <div class="row">
+                            <div class="col-3"></div>
+                            <div class="col-sm-6" style="background-color: white;border: solid 1px white;border-radius: 7px">
+                              <p style="color: #4ebcdc;font-size: 0.7vmax;margin-top: 0.5em">Ismail</p>
+                              <p style="color: #4ebcdc;font-size: 0.7vmax">082242276845</p>
+                              <p style="color: #4ebcdc;font-size: 0.6vmax">LINE : elvhaj</p>
+                            </div>
+                            <div class="col-3"></div>
+                          </div>
+                          </div>
+                        </div>
+
+                        <div class="col-3 text-center">
+                          <img src="{{url('native/img/electra/reg-gresik.png')}}" class="img-fluid" style="height: 50px;margin-top: 5px">
+                          <div class="container mx-auto my-auto text-center">
+                          <div class="row">
+                            <div class="col-3"></div>
+                            <div class="col-sm-6" style="background-color: white;border: solid 1px white;border-radius: 7px;">
+                              <p style="color: #4ebcdc;font-size: 0.7vmax;margin-top: 0.5em">Aliv</p>
+                              <p style="color: #4ebcdc;font-size: 0.7vmax">082142737127</p>
+                              <p style="color: #4ebcdc;font-size: 0.6vmax">LINE : bbahddin99</p>
+                            </div>
+                            <div class="col-3"></div>
+                          </div>
+                          </div>
+                        </div>
+
+                        <div class="col-3 text-center">
+                          <img src="{{url('native/img/electra/reg-semarang.png')}}" class="img-fluid" style="height: 50px;margin-top: 5px">
+                          <div class="container mx-auto my-auto text-center">
+                          <div class="row">
+                            <div class="col-3"></div>
+                            <div class="col-sm-6" style="background-color: white;border: solid 1px white;border-radius: 7px;">
+                              <p style="color: #4ebcdc;font-size: 0.7vmax;margin-top: 0.5em">Pristi</p>
+                              <p style="color: #4ebcdc;font-size: 0.7vmax">081330058611</p>
+                              <p style="color: #4ebcdc;font-size: 0.6vmax">LINE : padhianugraha</p>
+                            </div>
+                            <div class="col-3"></div>
+                          </div>
+                          </div>
+                        </div>
+
+                        <div class="col-3 text-center">
+                          <img src="{{url('native/img/electra/reg-pamekasan.png')}}" class="img-fluid" style="height: 50px;margin-top: 5px">
+                          <div class="container mx-auto my-auto text-center">
+                          <div class="row">
+                            <div class="col-3"></div>
+                            <div class="col-sm-6" style="background-color: white;border: solid 1px white;border-radius: 7px;">
+                              <p style="color: #4ebcdc;font-size: 0.7vmax;margin-top: 0.5em">Fakhri</p>
+                              <p style="color: #4ebcdc;font-size: 0.7vmax">083123057856</p>
+                              <p style="color: #4ebcdc;font-size: 0.6vmax">LINE : mohammadfakhriali</p>
+                            </div>
+                            <div class="col-3"></div>
+                          </div>
+                          </div>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div style="background-image: url(native/img/electra/bg-biru-new.png);background-size: cover;min-height: 100vh;position: relative;">
+                    <div class="container my-auto mx-auto">
+                      <div class="text-white text-center">
+                        <br><br><br>
+                        <h2>REGION</h2>
+                        <br><br>
+                      </div>
+                    </div>
+
+                    <div class="container my-auto mx-auto">
+
+                      <div class="row" style="margin-top: 10%">
+
+                        <div class="col-3 text-center">
+                          <img src="{{url('native/img/electra/reg-surabaya.png')}}" class="img-fluid" style="height: 50px;margin-top: 5px">
+                          <div class="container mx-auto my-auto text-center">
+                          <div class="row">
+                            <div class="col-3"></div>
+                            <div class="col-sm-6" style="background-color: white;border: solid 1px white;border-radius: 7px">
+                              <p style="color: #4ebcdc;font-size: 0.7vmax;margin-top: 0.5em">Hanif</p>
+                              <p style="color: #4ebcdc;font-size: 0.7vmax">087855570350</p>
+                              <p style="color: #4ebcdc;font-size: 0.6vmax">LINE : vianhanif</p>
+                            </div>
+                            <div class="col-3"></div>
+                          </div>
+                          </div>
+                        </div>
+
+                        <div class="col-3 text-center">
+                          <img src="{{url('native/img/electra/reg-balikpapan.png')}}" class="img-fluid" style="height: 50px;margin-top: 5px">
+                          <div class="container mx-auto my-auto text-center">
+                          <div class="row">
+                            <div class="col-3"></div>
+                            <div class="col-sm-6" style="background-color: white;border: solid 1px white;border-radius: 7px;">
+                              <p style="color: #4ebcdc;font-size: 0.7vmax;margin-top: 0.5em">Hari PU</p>
+                              <p style="color: #4ebcdc;font-size: 0.7vmax">082153564858</p>
+                              <p style="color: #4ebcdc;font-size: 0.6vmax">LINE : hariputrautamaliem</p>
+                            </div>
+                            <div class="col-3"></div>
+                          </div>
+                          </div>
+                        </div>
+
+                        <div class="col-3 text-center">
+                          <img src="{{url('native/img/electra/reg-jember.png')}}" class="img-fluid" style="height: 50px;margin-top: 5px">
+                          <div class="container mx-auto my-auto text-center">
+                          <div class="row">
+                            <div class="col-3"></div>
+                            <div class="col-sm-6" style="background-color: white;border: solid 1px white;border-radius: 7px;">
+                              <p style="color: #4ebcdc;font-size: 0.7vmax;margin-top: 0.5em">Erlanda</p>
+                              <p style="color: #4ebcdc;font-size: 0.7vmax">081219108267</p>
+                              <p style="color: #4ebcdc;font-size: 0.6vmax">LINE : erlanda_ss</p>
+                            </div>
+                            <div class="col-3"></div>
+                          </div>
+                          </div>
+                        </div>
+
+                        <div class="col-3 text-center">
+                          <img src="{{url('native/img/electra/reg-jombang.png')}}" class="img-fluid" style="height: 50px;margin-top: 5px">
+                          <div class="container mx-auto my-auto text-center">
+                          <div class="row">
+                            <div class="col-3"></div>
+                            <div class="col-sm-6" style="background-color: white;border: solid 1px white;border-radius: 7px;">
+                              <p style="color: #4ebcdc;font-size: 0.7vmax;margin-top: 0.5em">Calvin</p>
+                              <p style="color: #4ebcdc;font-size: 0.7vmax">082233727870</p>
+                              <p style="color: #4ebcdc;font-size: 0.6vmax">LINE : calvinrafindra</p>
+                            </div>
+                            <div class="col-3"></div>
+                          </div>
+                          </div>
+                        </div>
+
+                      </div>
+
+                      <div class="row" style="margin-top: 5vh">
+
+                        <div class="col-4 text-center">
+                          <img src="{{url('native/img/electra/reg-probolinggo.png')}}" class="img-fluid" style="height: 50px;margin-top: 5px">
+                          <div class="container mx-auto my-auto text-center">
+                          <div class="row">
+                            <div class="col-4"></div>
+                            <div class="col-sm-4" style="background-color: white;border: solid 1px white;border-radius: 7px">
+                              <p style="color: #4ebcdc;font-size: 0.7vmax;margin-top: 0.5em">Danier</p>
+                              <p style="color: #4ebcdc;font-size: 0.7vmax">082334835371</p>
+                              <p style="color: #4ebcdc;font-size: 0.6vmax">LINE : deksarakadanier</p>
+                            </div>
+                            <div class="col-4"></div>
+                          </div>
+                          </div>
+                        </div>
+
+                        <div class="col-4 text-center">
+                          <img src="{{url('native/img/electra/reg-denpasar.png')}}" class="img-fluid" style="height: 50px;margin-top: 5px">
+                          <div class="container mx-auto my-auto text-center">
+                          <div class="row">
+                            <div class="col-4"></div>
+                            <div class="col-sm-4" style="background-color: white;border: solid 1px white;border-radius: 7px;">
+                              <p style="color: #4ebcdc;font-size: 0.7vmax;margin-top: 0.5em">Cok Yoga</p>
+                              <p style="color: #4ebcdc;font-size: 0.7vmax">087761344632</p>
+                              <p style="color: #4ebcdc;font-size: 0.6vmax">LINE : cok_yoga</p>
+                            </div>
+                            <div class="col-4"></div>
+                          </div>
+                          </div>
+                        </div>
+
+                        <div class="col-4 text-center">
+                          <img src="{{url('native/img/electra/reg-tuban.png')}}" class="img-fluid" style="height: 50px;margin-top: 5px">
+                          <div class="container mx-auto my-auto text-center">
+                          <div class="row">
+                            <div class="col-4"></div>
+                            <div class="col-sm-4" style="background-color: white;border: solid 1px white;border-radius: 7px;">
+                              <p style="color: #4ebcdc;font-size: 0.7vmax;margin-top: 0.5em">Hudan</p>
+                              <p style="color: #4ebcdc;font-size: 0.7vmax">082234532924</p>
+                              <p style="color: #4ebcdc;font-size: 0.6vmax">LINE : huudanakbar</p>
+                            </div>
+                            <div class="col-4"></div>
+                          </div>
+                          </div>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                </div>
             </div>
+            
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
         </div>
+      </div>
+
       </header>
         
       <header class="cd-section" id="section06">
