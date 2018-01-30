@@ -19,7 +19,7 @@
 Route::view('/','welcome');
 Route::view('/electra', 'electra');
 Route::view('/baronas', 'baronas');
-Route::view('/register/electra', 'registerelectra');
+Route::view('/register/electra', 'closed_registerelectra');
 Route::view('/register/baronas', 'registerbaronas');
 Route::view('/register/baronas/success', 'success_registerbaronas');
 Route::post('admin', 'VerifController@update');
