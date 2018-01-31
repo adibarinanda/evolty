@@ -91,7 +91,7 @@
           </div>
           <div class="col-lg-10 mx-auto my-auto">
             <a href="https://drive.google.com/open?id=18VApGRtVI4PktabrgMdXZoMo3Zic-UTl"><button type="button" class="btn btn-info" style="margin: 2em">Materi</button></a>
-            <a href="#section02"><button type="button" class="btn btn-info" style="margin: 2em">Pengumuman</button></a>
+            <a href="https://drive.google.com/open?id=1dDxNmoStb3CNdLTpC5Um5kNGr-8L0fvh"><button type="button" class="btn btn-info" style="margin: 2em">Pengumuman</button></a>
           </div>
         </div>
       </div>
