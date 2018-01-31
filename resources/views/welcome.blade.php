@@ -356,7 +356,7 @@
                       <div class="col-12" style="margin-bottom: 30px">
                         <div class="whitebox">
                           <div class="row">
-                            <div class="col-2"><img src="{{url('native/img/bulet2.png')}}"></div>
+                            <div class="col-2"><img class="img-fluid" src="{{url('native/img/bulet2.png')}}"></div>
 
                             <div class="col-10 my-auto">
                               <div class="row">
