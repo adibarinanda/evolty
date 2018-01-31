@@ -33,7 +33,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="/"><img src="purple/img/logokecil.png"></a>
+        <a class="navbar-brand js-scroll-trigger" href="/"><img src="native/img/baronas/logo-evolty3.png" style="height: 50px"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -91,26 +91,26 @@
       z-index:1; 
       }
    </style>
-    <header class="masthead text-center text-white d-flex">
+    <header class="masthead" style="min-height: 80vh">
       <div id="particles-js"></div>
-      <div class="container">
+      <div class="container my-auto mx-auto">
         <div class="row">
-          <div class="col-sm-3"></div>
-          <div class="col-sm-6">
-            <div class="text-center text-white" style="margin-top: 5em;margin-bottom: 3em">
-              <p style="font-size: 4em">Pembayaran</p>
-              <p style="font-size: 3em">Electra Competition</p>
+          <div class="col-3"></div>
+          <div class="col-6">
+            <div class="text-center text-white" style="margin-top: 20%;margin-bottom: 10%">
+              <p style="font-size: 4vmax">Pembayaran</p>
+              <p style="font-size: 3vmax">Electra Competition</p>
             </div>
           </div>
-          <div class="col-sm-3"></div>
+          <div class="col-3"></div>
         </div>
       </div>
-      <div class="container">
+      <div class="container my-auto mx-auto">
         <div class="row">
-          <div class="col-sm-3"></div>
-          <div class="col-sm-6">
+          <div class="col-3"></div>
+          <div class="col-6">
             <div style="background-color: white;border: 1px solid white;border-radius: 5px;height: 30vh">
-              <div class="text-center" style="margin-top: 5vh">
+              <div class="text-center" style="margin-top: 3%">
                 <p style="margin-bottom: 0.3em">Transfer sejumlah</p>
                 <p style="margin-bottom: 0.3em">Rp 120.000,00</p>
                 <p style="margin-bottom: 0.3em">ke rekening</p>
@@ -119,14 +119,14 @@
                 <p style="margin-bottom: 0.3em">Siti Halimah Tualeka</p>
               </div>
             </div>
-            <div style="background-color: white;border: 1px solid white;border-radius: 5px;height: 10vh;margin-top: 5vh">
-              <div class="text-center" style="margin-top: 2vh">
+            <div style="background-color: white;border: 1px solid white;border-radius: 5px;height: 10vh;margin-top: 2.5%">
+              <div class="text-center" style="margin-top: 2%">
                 <p style="margin-bottom: 0.3em">Contact Person</p>
                 <p style="margin-bottom: 0.3em">0812-3149-9988</p>
               </div>
             </div>
           </div>
-          <div class="col-sm-3"></div>
+          <div class="col-3"></div>
         </div>
       </div>
     </header>

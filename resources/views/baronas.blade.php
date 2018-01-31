@@ -90,12 +90,12 @@
         <div class="row">
 
           <div class="col-lg-10 mx-auto my-auto">
-            <img src="{{url('native/img/baronas/logo.png')}}" class="img-fluid" style="height: 200px;">
+            <img src="{{url('native/img/baronas/logo.png')}}" class="img-fluid">
           </div>
           <div class="col-lg-10 mx-auto my-auto">
             <br>
             <br>
-            <h3 class="text-center">Baronas adalah lomba robot tingkat nasional yang diperuntukan untuk pelajar tingkat SD, SMP, SMA dan Umum yang bertujuan untuk mengenalkan dan mengasah kemampuan para pelajar dan masyarakat umum di Indonesia khususnya dalam bidan teknologi robotika</h3>
+            <p class="text-center" style="font-size: 2vmax">Baronas adalah lomba robot tingkat nasional yang diperuntukan untuk pelajar tingkat SD, SMP, SMA dan Umum yang bertujuan untuk mengenalkan dan mengasah kemampuan para pelajar dan masyarakat umum di Indonesia khususnya dalam bidan teknologi robotika</p>
             <br>
           </div>
           <div class="col-lg-10 mx-auto my-auto" style="margin-top: 2em">
@@ -135,11 +135,12 @@
 
     <header class="kategoribaron text-white cd-section d-flex" id="section03">
         <div class="container my-auto mx-auto">
-          <br>
-          <div class="text-center">
+          <div class="text-center" style="padding-top: 2%">
             <h2>KATEGORI</h2>
             <hr class="hijau">
+          </div>
             <br>
+                <div class="text-center">
                   <div id="kategori">
                     <div class="row">
                       <div class="col-sm-3">
@@ -156,12 +157,12 @@
                       </div>
                     </div>
                   </div>
-          </div>
+                </div>
 
           <div class="container my-auto mx-auto" id="elementary">
-            <div class="row" style="margin-top: 5%">
+            <div class="row" style="margin-top: 1%">
               <div class="col-4">
-                <img src="{{url('native/img/baronas/kategori-1.png')}}" style="height: 300px" class="img-fluid">
+                <img src="{{url('native/img/baronas/kategori-1.png')}}" class="img-fluid">
               </div>
               <div class="col-8">
                 <h3 style="color: #6C9D4C">Elementary Category</h3>
@@ -189,9 +190,9 @@
           </div>
 
           <div class="container my-auto mx-auto" id="junior">
-            <div class="row" style="margin-top: 5%">
+            <div class="row" style="margin-top: 2%">
               <div class="col-4">
-                <img src="{{url('native/img/baronas/kategori-2.png')}}" style="height: 300px" class="img-fluid">
+                <img src="{{url('native/img/baronas/kategori-2.png')}}" class="img-fluid">
               </div>
               <div class="col-8">
                 <h3 style="color: #6C9D4C">Junior Category</h3>
@@ -218,9 +219,9 @@
           </div>
 
           <div class="container my-auto mx-auto" id="senior">
-            <div class="row" style="margin-top: 5%">
+            <div class="row" style="margin-top: 2%">
               <div class="col-4">
-                <img src="{{url('native/img/baronas/kategori-3.png')}}" style="height: 300px" class="img-fluid">
+                <img src="{{url('native/img/baronas/kategori-3.png')}}" class="img-fluid">
               </div>
               <div class="col-8">
                 <h3 style="color: #6C9D4C">Senior Category</h3>
@@ -247,9 +248,9 @@
           </div>
 
           <div class="container my-auto mx-auto" id="umum">
-            <div class="row" style="margin-top: 5%">
+            <div class="row" style="margin-top: 2%">
               <div class="col-4">
-                <img src="{{url('native/img/baronas/kategori-4.png')}}" style="height: 300px" class="img-fluid">
+                <img src="{{url('native/img/baronas/kategori-4.png')}}" class="img-fluid">
               </div>
               <div class="col-8">
                 <h3 style="color: #6C9D4C">Open Category</h3>
@@ -278,17 +279,17 @@
     </header>
 
     <header id="section04" class="d-flex cd-section">
-      <div class="container my-auto mx-auto" style="min-height: 100vh">
-        <img src="{{url('native/img/baronas/hadiah.png')}}" style="height: 100px;margin-top: 10vh" class="img-fluid">
+      <div class="container my-auto mx-auto">
+        <img src="{{url('native/img/baronas/hadiah.png')}}" style="margin-top: 1%" class="img-fluid">
         <div class="row">
           <div class="col-4 text-center">
-            <img src="{{url('native/img/baronas/piala.png')}}" style="height: 400px;margin-top: 5vh" class="img-fluid">
+            <img src="{{url('native/img/baronas/piala.png')}}" style="margin-top: 5%" class="img-fluid">
           </div>
           <div class="col-8" style="background-color: whitesmoke;border-radius: 30px;border-style: solid;border-color: grey;">
             <p style="font-size: 4vmax;margin-top: 20%;margin-left: 0.5em">TOTAL HADIAH</p>
             <p style="font-size: 4vmax;margin-left: 0.5em">LEBIH DARI</p>
             <p style="font-size: 4vmax;margin-left: 0.5em">40 JUTA</p>
-            <img src="{{url('native/img/baronas/logo3.png')}}" class="img-fluid" style="height: 70px; margin-left: 5%;margin-top: 5%">
+            <img src="{{url('native/img/baronas/logo3.png')}}" class="img-fluid" style="margin-left: 1%;margin-top: 5%">
           </div>
         </div>
       </div>

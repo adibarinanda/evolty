@@ -75,23 +75,32 @@
       <div class="container my-auto mx-auto">
         <div class="row">
 
-          <div class="col-lg-10 mx-auto my-auto">
-            <img src="{{url('native/img/electra-hd.png')}}" class="img-fluid" style="height: 200px;">
+          <div class="col-sm-12 mx-auto my-auto">
+            <div class="row">
+              <div class="col-sm-2"></div>
+              <div class="col-sm-8">
+                <img src="{{url('native/img/electra-hd.png')}}" class="img-fluid" style="margin-top: 1%">
+              </div>
+              <div class="col-sm-2"></div>
+            </div>
           </div>
-          <div class="col-lg-8 mx-auto my-auto">
-            <br>
-            <br>
-            <h3 class="text-center">Olimpiade tingkat Nasional untuk SMA/MA Sederajat yang diadakan<br> oleh Jurusan Teknik Elektro , Teknik Multimedia dan Jaringan, serta<br> Teknik Biomedik Institut Teknologi Sepuluh Nopember</h3>
-            <br>
+          <div class="col-sm-12 mx-auto my-auto">
+            <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+            <p class="text-center" style="font-size: 2vmax;margin-top: 5%;margin-bottom: 5%">Olimpiade tingkat Nasional untuk SMA/MA Sederajat yang diadakan oleh Jurusan Teknik Elektro , Teknik Multimedia dan Jaringan, serta Teknik Biomedik Institut Teknologi Sepuluh Nopember</p>
+            </div>
+            <div class="col-sm-2"></div>
+            </div>
           </div>
-          <div class="col-lg-10 mx-auto my-auto">
-            <a href="#section02"><button type="button" class="btn btn-info" style="margin: 2em">Petunjuk</button></a>
-            <a href="https://drive.google.com/open?id=1_NkrSUGVpBEb5aIgZaf04uP9TLcdn5ex"><button type="button" class="btn btn-info" style="margin: 2em">Kisi Kisi</button></a>
-            <a href="https://drive.google.com/open?id=1GzyCHyB5kT9fLcMtk66ixiss3amoD6OL"><button type="button" class="btn btn-info" style="margin: 2em">Soal Soal</button></a>
+          <div class="col-12 mx-auto my-auto">
+            <a href="#section02"><button type="button" class="btn btn-info" style="margin: 0.5%">Petunjuk</button></a>
+            <a href="https://drive.google.com/open?id=1_NkrSUGVpBEb5aIgZaf04uP9TLcdn5ex"><button type="button" class="btn btn-info" style="margin: 0.5%">Kisi Kisi</button></a>
+            <a href="https://drive.google.com/open?id=1GzyCHyB5kT9fLcMtk66ixiss3amoD6OL"><button type="button" class="btn btn-info" style="margin: 0.5%">Soal Soal</button></a>
           </div>
-          <div class="col-lg-10 mx-auto my-auto">
-            <a href="https://drive.google.com/open?id=18VApGRtVI4PktabrgMdXZoMo3Zic-UTl"><button type="button" class="btn btn-info" style="margin: 2em">Materi</button></a>
-            <a href="https://drive.google.com/open?id=1dDxNmoStb3CNdLTpC5Um5kNGr-8L0fvh"><button type="button" class="btn btn-info" style="margin: 2em">Pengumuman</button></a>
+          <div class="col-12 mx-auto my-auto">
+            <a href="https://drive.google.com/open?id=18VApGRtVI4PktabrgMdXZoMo3Zic-UTl"><button type="button" class="btn btn-info" style="margin: 0.5%">Materi</button></a>
+            <a href="https://drive.google.com/open?id=1dDxNmoStb3CNdLTpC5Um5kNGr-8L0fvh"><button type="button" class="btn btn-info" style="margin: 0.5%">Pengumuman</button></a>
           </div>
         </div>
       </div>
@@ -185,32 +194,32 @@
     <header class="cd-section" id="section03">
         <div class="container mx-auto my-auto" style="min-height: 100vh;position: relative;">
           
-          <div class="col-lg-12" style="margin-top: 20vh;margin-bottom: 20vh;">
-            <img src="{{url('native/img/electra-lg.png')}}" class="img-fluid" style="height: 100px;">
+          <div class="col-sm-12 text-center" style="margin-top: 10%;margin-bottom: 10%">
+            <img src="{{url('native/img/electra-lg.png')}}" class="img-fluid">
           </div>
-          <div class="container my-auto mx-auto">
-              <div class="row">
-                <div class="col-lg-6 my-auto mx-auto">
-                  <h1>SYARAT DAN <h1 style="color: #4ebcdc">KETENTUAN</h1></h1>
-                  <br>
-                  <h5>Peserta Electra 7 Competition adalah siswa aktif/ belum lulus, dengan jenjang pendidikan maksimal SMA/SMK/MA/SMP/MTs/ sederajat.</h5>
-                  <br>
-                  <h5>Peserta mendaftar secara online di website Evolty 2018 www.evolty-its.com atau bisa secara offline melalui panitia Electra 7 2018 secara langsung serta melunasi biaya pendaftaran sebesar Rp 120.000,00.</h5>
-                  <br>
-                  <h5>Setiap sekolah boleh mengirimkan lebih dari satu peserta.</h5>
-                </div>
-                <div class="col-lg-6 my-auto mx-auto">
-                  <h1>HADIAH DAN <h1 style="color: #4ebcdc">PENGHARGAAN</h1></h1>
-                  <br>
-                  <h5>Total Hadiah Rp 15.000.000,00</h5>
-                  <br>
-                  <h5>Juara 1 : Rp 7.500.000 + Sertifikat + Trofi  + Freepass*</h5>
-                  <h5>Juara 2 : Rp 5.000.000 + Sertifikat + Trofi</h5>
-                  <h5>Juara 3 : Rp 2.500.000 + Sertifikat + Trofi</h5>
-                  <br>
-                  <h5>*Diterima di Departemen Elektro ITS melalui jalur SNMPTN tahun 2018 berlaku untuk peserta yang duduk di kelas 12 saat lomba berlangsung dan lulus UN</h5>
-                </div>
-              </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-6">
+              <p style="font-size: 2.5vmax">SYARAT DAN <p style="color: #4ebcdc;font-size: 2.5vmax">KETENTUAN</p></p>
+              <br>
+              <p style="font-size: 1.5vmax">Peserta Electra 7 Competition adalah siswa aktif/ belum lulus, dengan jenjang pendidikan maksimal SMA/SMK/MA/SMP/MTs/ sederajat.</p>
+              <br>
+              <p style="font-size: 1.5vmax">Peserta mendaftar secara online di website Evolty 2018 www.evolty.com atau bisa secara offline melalui panitia Electra 7 2018 secara langsung serta melunasi biaya pendaftaran sebesar Rp 120.000,00.</p>
+              <br>
+              <p style="font-size: 1.5vmax">Setiap sekolah boleh mengirimkan lebih dari satu peserta.</p>
+            </div>
+            <div class="col-6">
+              <p style="font-size: 2.5vmax">HADIAH DAN <p style="color: #4ebcdc;font-size: 2.5vmax">PENGHARGAAN</p></p>
+              <br>
+              <p style="font-size: 1.5vmax">Total Hadiah Rp 15.000.000,00</p>
+              <br>
+              <p style="font-size: 1.5vmax">Juara 1 : Rp 7.500.000 + Sertifikat + Trofi  + Freepass*</p>
+              <p style="font-size: 1.5vmax">Juara 2 : Rp 5.000.000 + Sertifikat + Trofi</p>
+              <p style="font-size: 1.5vmax">Juara 3 : Rp 2.500.000 + Sertifikat + Trofi</p>
+              <br>
+              <p style="font-size: 1.5vmax">*Diterima di Departemen Elektro ITS melalui jalur SNMPTN tahun 2018 berlaku untuk peserta yang duduk di kelas 12 saat lomba berlangsung dan lulus UN</p>
+            </div>  
+          </div>
           </div>
         </div>
     </header>
@@ -685,11 +694,11 @@
         </div>
         <hr class="black" style="margin-top: 2vh">
         <div class="text-center" style="margin-top: 5vh">
-          <h1><b>THROWBACK</b></h1>
+          <p style="font-size: 2.5vmax"><b>THROWBACK</b></p>
         </div>
         <div class="row" style="margin-top: 2vh">
           <div class="col-sm-4"></div>
-          <div class="col-sm-4 text-center"><h4>Ingin tau keseruan dan ada apa saja di Electra Competition sebelumnya? Kuy, cek video diatas ya guys.</h4></div>
+          <div class="col-sm-4 text-center"><p style="font-size: 1.5vmax">Ingin tau keseruan dan ada apa saja di Electra Competition sebelumnya? Kuy, cek video diatas ya guys.</p></div>
           <div class="col-sm-4"></div>
         </div>
         

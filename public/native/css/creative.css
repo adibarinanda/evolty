@@ -441,7 +441,7 @@ body {
 
 
 header.masthead {
-  padding-top: 10rem;
+  padding-top: 5rem;
   padding-bottom: calc(10rem - 56px);
   background-image: url("../img/background1.png");
   background-position: center center;
@@ -473,7 +473,7 @@ header.masthead {
       font-size: 4rem; } }
 
 header.mastheadelect {
-  padding-top: 10rem;
+  padding-top: 5rem;
   padding-bottom: calc(10rem - 56px);
   background-image: url("../img/electra-bg.png");
   background-position: center center;
@@ -504,7 +504,7 @@ header.mastheadelect {
       font-size: 4rem; } }
 
     header.mastheadbaron {
-  padding-top: 10rem;
+  padding-top: 5rem;
   padding-bottom: calc(10rem - 56px);
   background-image: url("../img/baronas/bg.png");
   background-position: center center;
@@ -535,7 +535,7 @@ header.mastheadelect {
       font-size: 4rem; } }
 
   header.kategoribaron {
-  padding-top: 10rem;
+  padding-top: 5rem;
   padding-bottom: calc(10rem - 56px);
   background-image: url("../img/baronas/bg_kategori.png");
   background-position: center center;
@@ -563,7 +563,7 @@ header.mastheadelect {
       font-size: 4rem; } }
 
   header.videobaron {
-  padding-top: 10rem;
+  padding-top: 5rem;
   padding-bottom: calc(10rem - 56px);
   background-image: url("../img/baronas/bg_video.png");
   background-position: center center;

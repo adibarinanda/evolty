@@ -212,7 +212,7 @@ body {
             color: #33CCFF; } }
 
 header.masthead {
-  padding-top: 10rem;
+  padding-top: 5rem;
   padding-bottom: calc(10rem - 56px);
   background-image: url("../img/background1.png");
   background-position: center center;
