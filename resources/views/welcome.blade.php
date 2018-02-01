@@ -345,8 +345,8 @@
 
                             <div class="col-10 my-auto">
                               <div class="row">
-                                  <p class="spacing" style="font-size: 2.5vmax"><strong>Aldo Pradipta</strong></p>
-                                  <p class="spacing" style="font-size: 1.25vmax"><strong>"Seru banget! Electra bener-bener bisa bikin paham tentang dunia perkuliahan terutama teknik elektro, karena electra juga dapet pencerahan tentang teknik elektro dan akhirnya masuk ke jurusan ini meskipun cuman sampai semifinal"</strong></p>
+                                  <p class="spacing" style="font-size: 2vmax"><strong>Aldo Pradipta</strong></p>
+                                  <p class="spacing" style="font-size: 1vmax"><strong>"Seru banget! Electra bener-bener bisa bikin paham tentang dunia perkuliahan terutama teknik elektro, karena electra juga dapet pencerahan tentang teknik elektro dan akhirnya masuk ke jurusan ini meskipun cuman sampai semifinal"</strong></p>
                               </div>
                             </div>
                           </div>
@@ -360,7 +360,7 @@
 
                             <div class="col-10 my-auto">
                               <div class="row">
-                                  <p class="spacing" style="font-size: 2.5vmax"><strong>Muhammad Roychan Meliaz</strong></p>
+                                  <p class="spacing" style="font-size: 2vmax"><strong>Muhammad Roychan Meliaz</strong></p>
                                   <p class="spacing" style="font-size: 1vmax"><strong>"Dari sini saya belajar bahwa perjuangan memang tidak akan mengkhianati hasil. Apapun yang ingin kamu raih, fokuslah pada tujuan utama dan kesampingkan hal-hal yang tidak terlalu bermanfaat. Perjalanan jauh kami dari Batam hingga Surabaya terbayar sudah. Jika bukan karena MAGE 2017, mungkin saya sekarang tidak akan bisa berada disini,berkuliah di kampus impian, kampus pahlawan, Institut Teknologi Sepuluh Nopember Surabaya"</strong></p>
                               </div>
                             </div>
@@ -456,8 +456,7 @@
   <div class="container-fluid p-0">
     <iframe  width="100%" height="100%"
   frameborder="0" style="border:0"
-  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAtyavZgbsptubk2NC-mSo0mrFWsGGRGGg
-    &q=Departemen+Teknologi+Elektro+ITS" allowfullscreen>
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.610051375433!2d112.79440601432026!3d-7.285130794741785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa6d27f3c93b%3A0xfb9aa9acef1c1691!2sDepartment+of+Electrical+Engineering+ITS!5e0!3m2!1sen!2sid!4v1517470026191" allowfullscreen>
 </iframe>
 
   </div>

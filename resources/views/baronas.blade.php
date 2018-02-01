@@ -182,9 +182,9 @@
                 <p style="font-size: 1vmax">- Durasi per pertandingan 5 menit dengan 1 menit persiapan dan 4 menit running</p>
                 <p style="font-size: 1vmax">- Diambil point dan waktu terbaik</p>
                 <br>
-                <p style="font-size: 1vmax">Pendaftaran: 175.000</p>
+                <p style="font-size: 1vmax">Pendaftaran: 150.000</p>
                 <br>
-                <a href="https://drive.google.com/folderview?id=1PyfaLXVjwAqnyAA01XQv91Fe0P0qENHS" target="_blank"><p style="color: #6C9D4C;">DOWNLOAD RULEBOOK</p></a>
+                <a href=" https://drive.google.com/folderview?id=1PyfaLXVjwAqnyAA01XQv91Fe0P0qENHS" target="_blank"><p style="color: #6C9D4C;">DOWNLOAD RULEBOOK</p></a>
               </div>
             </div>
           </div>
@@ -213,7 +213,9 @@
                 <p style="font-size: 1vmax">- Durasi per pertandingan 5 menit dengan 1 menit persiapan dan 4 menit running</p>
                 <p style="font-size: 1vmax">- Diambil point dan waktu terbaik</p>
                 <br>
-                <p style="font-size: 1vmax">Pendaftaran: 200.000</p>
+                <p style="font-size: 1vmax">Pendaftaran: 175.000</p>
+                <br>
+                <a href="https://drive.google.com/folderview?id=1LtuyvzGRl1Vhhc3Unv91svHtEmYT1SZI" target="_blank"><p style="color: #6C9D4C;">DOWNLOAD RULEBOOK</p></a>
               </div>
             </div>
           </div>
@@ -242,7 +244,9 @@
                 <p style="font-size: 1vmax">- Durasi per pertandingan 5 menit dengan 1 menit persiapan dan 4 menit running</p>
                 <p style="font-size: 1vmax">- Diambil point dan waktu terbaik</p>
                 <br>
-                <p style="font-size: 1vmax">Pendaftaran: 225.000</p>
+                <p style="font-size: 1vmax">Pendaftaran: 200.000</p>
+                <br>
+                <a href="https://drive.google.com/folderview?id=1MFeG0_45ds1CGjR0nx8SjeHG8XF0hz-i" target="_blank"><p style="color: #6C9D4C;">DOWNLOAD RULEBOOK</p></a>
               </div>
             </div>
           </div>
@@ -270,7 +274,9 @@
                 <p style="font-size: 1vmax">- Fase Group</p>
                 <p style="font-size: 1vmax">- Knock Out</p>
                 <br>
-                <p style="font-size: 1vmax">Pendaftaran: 275.000</p>
+                <p style="font-size: 1vmax">Pendaftaran: 250.000</p>
+                <br>
+                <a href="https://drive.google.com/folderview?id=192GShjDJ_UI2gYDA5rmIbjH_4Scv8g6M" target="_blank"><p style="color: #6C9D4C;">DOWNLOAD RULEBOOK</p></a>
               </div>
             </div>
           </div>
@@ -288,7 +294,7 @@
           <div class="col-8" style="background-color: whitesmoke;border-radius: 30px;border-style: solid;border-color: grey;">
             <p style="font-size: 4vmax;margin-top: 20%;margin-left: 0.5em">TOTAL HADIAH</p>
             <p style="font-size: 4vmax;margin-left: 0.5em">LEBIH DARI</p>
-            <p style="font-size: 4vmax;margin-left: 0.5em">40 JUTA</p>
+            <p style="font-size: 4vmax;margin-left: 0.5em">30 JUTA</p>
             <img src="{{url('native/img/baronas/logo3.png')}}" class="img-fluid" style="margin-left: 1%;margin-top: 5%">
           </div>
         </div>
@@ -350,6 +356,21 @@
               <img src="{{url('native/img/baronas/galeri-8.png')}}" class="img-fluid" style="height: 150px;">
             </div>
           </div>
+
+        <div class="container my-auto mx-auto">
+          <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8 text-center text-white" style="background-color: #424242;border-radius: 10px;margin-top: 1%">
+              <p style="font-size: 1.5vmax;margin: 1%;">Untuk informasi lebih lanjut dapat menghubungi nomor dibawah ini</p>
+              <p style="font-size: 1.5vmax;margin: 1%;"><strong>Andre</strong> - 0857 3595 0340 (Koordinator)</p>
+              <p style="font-size: 1.5vmax;margin: 1%;"><strong>Audie</strong> - 0838 3001 3302 (Track & Rule)</p>
+              <p style="font-size: 1.5vmax;margin: 1%;"><strong>Nina</strong> - 0822 4516 0164 (Pendaftaran)</p>
+              <p style="font-size: 1.5vmax"><strong>Fahri</strong> - 0811 9973 33 (Akomodasi & Transportasi)</p>
+            </div>
+            <div class="col-2"></div>
+          </div>
+        </div>
+
         </div>
       </header>
 
@@ -357,8 +378,7 @@
   <div class="container-fluid p-0">
     <iframe  width="100%" height="100%"
   frameborder="0" style="border:0"
-  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAtyavZgbsptubk2NC-mSo0mrFWsGGRGGg
-    &q=Departemen+Teknologi+Elektro+ITS" allowfullscreen>
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.610051375433!2d112.79440601432026!3d-7.285130794741785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa6d27f3c93b%3A0xfb9aa9acef1c1691!2sDepartment+of+Electrical+Engineering+ITS!5e0!3m2!1sen!2sid!4v1517470026191" allowfullscreen>
 </iframe>
 
   </div>
