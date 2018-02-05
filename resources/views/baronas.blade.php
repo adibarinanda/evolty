@@ -121,7 +121,7 @@
             <div class="col-sm-4">
               <img src="{{url('native/img/baronas/timeline-2.png')}}" class="img-fluid" style="height: 300px">
               <h2 style="color: #6C9D4C">Technical Meeting</h2>
-              <h3>8 Januari - 17 Maret</h3>
+              <h3>"To Be Announced"</h3>
             </div>
             <div class="col-sm-4">
               <img src="{{url('native/img/baronas/timeline-3.png')}}" class="img-fluid" style="height: 300px">
