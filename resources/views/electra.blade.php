@@ -100,7 +100,7 @@
           </div>
           <div class="col-12 mx-auto my-auto">
             <a href="https://drive.google.com/open?id=18VApGRtVI4PktabrgMdXZoMo3Zic-UTl"><button type="button" class="btn btn-info" style="margin: 0.5%">Materi</button></a>
-            <a href="https://drive.google.com/open?id=1dDxNmoStb3CNdLTpC5Um5kNGr-8L0fvh"><button type="button" class="btn btn-info" style="margin: 0.5%">Pengumuman</button></a>
+            <a href="intip.in/Goodluck"><button type="button" class="btn btn-info" style="margin: 0.5%">Pengumuman</button></a>
           </div>
         </div>
       </div>
