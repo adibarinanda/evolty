@@ -357,10 +357,20 @@
             </div>
           </div>
 
-        <div class="container my-auto mx-auto">
+        </div>
+      </header>
+
+      <header id="section07" class="videobaron cd-section d-flex text-center"> 
+        <div class="container my-auto mx-auto" style="margin-top: 7vh">
+          <h2 class="text-white">VIDEO AFTERMOVIE</h2>
+          <hr class="hijau">
+          
+          <iframe width="850" height="400" src="https://www.youtube.com/embed/omB4ZD7YMjQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="max-width: 100%;max-height: 100%"></iframe>
+
+          <div class="container my-auto mx-auto">
           <div class="row">
             <div class="col-2"></div>
-            <div class="col-8 text-center text-white" style="background-color: #424242;border-radius: 10px;margin-top: 1%">
+            <div class="col-8 text-center" style="background-color: white;border-radius: 10px;margin-top: 1%">
               <p style="font-size: 1.5vmax;margin: 1%;">Untuk informasi lebih lanjut dapat menghubungi nomor dibawah ini</p>
               <p style="font-size: 1.5vmax;margin: 1%;"><strong>Andre</strong> - 0857 3595 0340 (Koordinator)</p>
               <p style="font-size: 1.5vmax;margin: 1%;"><strong>Audie</strong> - 0838 3001 3302 (Track & Rule)</p>
@@ -370,7 +380,7 @@
             <div class="col-2"></div>
           </div>
         </div>
-
+          
         </div>
       </header>
 
