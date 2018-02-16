@@ -55,7 +55,7 @@ function makeTimer() {
               });
 
 $(document).ready(function(){
-                $('.no_peserta_baronas').mask('AA-0000-000');
+                $('.no_peserta_baronas').mask('AA-000000-000');
               });
 
 // BUAT NAMPILIN MENU POPUP KALO TOMBOL VERIF DIPENCET
