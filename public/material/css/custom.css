@@ -1,0 +1,263 @@
+/* your styles go here */
+
+.btn-unverif {
+	color: #fff;
+	background-color: red;
+  	border-color: red;
+}
+
+.btn-biru {
+	color: #fff;
+	background-color: #0080ff;
+  	border-color: #0080ff;
+}
+
+.ddtf-processed th.statusth > select{
+    display:none;
+}
+.ddtf-processed th.statusth > div{
+    display:block !important;
+}
+
+.ddtf-processed th.tipedaftarth > select{
+    display:none;
+}
+.ddtf-processed th.tipedaftarth > div{
+    display:block !important;
+}
+
+.ddtf-processed th.nopesth > select{
+    display:none;
+}
+.ddtf-processed th.nopesth > div{
+    display:block !important;
+}
+
+.ddtf-processed th.tipetesth > select{
+    display:none;
+}
+.ddtf-processed th.tipetesth > div{
+    display:block !important;
+}
+
+.ddtf-processed th.buktith > select{
+    display:none;
+}
+.ddtf-processed th.buktith > div{
+    display:block !important;
+}
+
+.ddtf-processed th.verifth > select{
+    display:none;
+}
+.ddtf-processed th.verifth > div{
+    display:block !important;
+}
+
+.ddtf-processed th.namatimth > select{
+    display:none;
+}
+.ddtf-processed th.namatimth > div{
+    display:block !important;
+}
+
+.ddtf-processed th.emailth > select{
+    display:none;
+}
+.ddtf-processed th.emailth > div{
+    display:block !important;
+}
+
+.ddtf-processed th.notelpth > select{
+    display:none;
+}
+.ddtf-processed th.notelpth > div{
+    display:block !important;
+}
+
+.ddtf-processed th.asalsekolahth > select{
+    display:none;
+}
+.ddtf-processed th.asalsekolahth > div{
+    display:block !important;
+}
+
+.ddtf-processed th.alamatsekolahth > select{
+    display:none;
+}
+.ddtf-processed th.alamatsekolahth > div{
+    display:block !important;
+}
+
+.ddtf-processed th.namaketuath > select{
+    display:none;
+}
+.ddtf-processed th.namaketuath > div{
+    display:block !important;
+}
+
+.ddtf-processed th.kelasketuath > select{
+    display:none;
+}
+.ddtf-processed th.kelasketuath > div{
+    display:block !important;
+}
+
+.ddtf-processed th.namaanggota1th > select{
+    display:none;
+}
+.ddtf-processed th.namaanggota1th > div{
+    display:block !important;
+}
+
+.ddtf-processed th.kelasanggota1th > select{
+    display:none;
+}
+.ddtf-processed th.kelasanggota1th > div{
+    display:block !important;
+}
+
+.ddtf-processed th.namaanggota2th > select{
+    display:none;
+}
+.ddtf-processed th.namaanggota2th > div{
+    display:block !important;
+}
+
+.ddtf-processed th.kelasanggota2th > select{
+    display:none;
+}
+.ddtf-processed th.kelasanggota2th > div{
+    display:block !important;
+}
+
+.ddtf-processed th.cpth > select{
+    display:none;
+}
+.ddtf-processed th.cpth > div{
+    display:block !important;
+}
+
+.ddtf-processed th.kategorith > select{
+    display:none;
+}
+.ddtf-processed th.kategorith > div{
+    display:block !important;
+}
+
+.ddtf-processed th.namaanggota3th > select{
+    display:none;
+}
+.ddtf-processed th.namaanggota3th > div{
+    display:block !important;
+}
+
+.ddtf-processed th.namapembimbingth > select{
+    display:none;
+}
+.ddtf-processed th.namapembimbingth > div{
+    display:block !important;
+}
+
+.ddtf-processed th.kartupelajar1th > select{
+    display:none;
+}
+.ddtf-processed th.kartupelajar1th > div{
+    display:block !important;
+}
+
+.ddtf-processed th.foto1th > select{
+    display:none;
+}
+.ddtf-processed th.foto1th > div{
+    display:block !important;
+}
+
+.ddtf-processed th.kartupelajar2th > select{
+    display:none;
+}
+.ddtf-processed th.kartupelajar2th > div{
+    display:block !important;
+}
+
+.ddtf-processed th.foto2th > select{
+    display:none;
+}
+.ddtf-processed th.foto2th > div{
+    display:block !important;
+}
+
+.ddtf-processed th.kartupelajar3th > select{
+    display:none;
+}
+.ddtf-processed th.kartupelajar3th > div{
+    display:block !important;
+}
+
+.ddtf-processed th.foto3th > select{
+    display:none;
+}
+.ddtf-processed th.foto3th > div{
+    display:block !important;
+}
+
+.ddtf-processed th.hapusth > select{
+    display:none;
+}
+.ddtf-processed th.hapusth > div{
+    display:block !important;
+}
+
+.ddtf-processed th.urutth > select{
+    display:none;
+}
+.ddtf-processed th.urutth > div{
+    display:block !important;
+}
+
+/*BUAT COUNTDOWN TIMER*/
+
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+#days {
+  font-size: 50px;
+  color: #db4844;
+}
+#hours {
+  font-size: 50px;
+  color: #f07c22;
+}
+#minutes {
+  font-size: 50px;
+  color: #f6da74;
+}
+#seconds {
+  font-size: 50px;
+  color: #abcd58;
+}
+
+.rata {
+  display: inline-block;
+  line-height: 1;
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+}
+
+/*span {
+  display: block;
+  font-size: 20px;
+  color: white;
+}
+
+body {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  color: white;
+  background: #222;
+}*/
+
+/*------------ we are  -----*/
+.we a{
+    font-size:12px;
+}
