@@ -114,7 +114,7 @@
           <div class="content" style="max-height: 500px">
             <div class="row">
 
-              <div class="col-sm-4">
+              <div class="col-sm-6">
                 <a href="/register/electra">
                   <div class="events-card">
                     <div class="events-header">
@@ -129,7 +129,7 @@
                 </a>
               </div>
 
-              <div class="col-sm-4">
+              <div class="col-sm-6">
                 <a href="/register/baronas">
                   <div class="events-card">
                     <div class="events-header">
@@ -146,7 +146,7 @@
             </div>
 
               <div class="row">
-              <div class="col-sm-4">
+              <div class="col-sm-6">
                 <a href="/register/ns">
                   <div class="events-card">
                     <div class="events-header">
@@ -161,7 +161,7 @@
                 </a>
               </div>
 
-              <div class="col-sm-4">
+              <div class="col-sm-6">
                 <a href="http://mage.telematics.its.ac.id" target="_blank">
                   <div class="events-card">
                     <div class="events-header">
