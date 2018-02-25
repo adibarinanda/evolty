@@ -119,7 +119,7 @@
                   <div class="events-card">
                     <div class="events-header">
                       <figure class="imghvr-fade" style="border-radius:  10px">
-                        <img src="native/img/electra123.png" height="285px" width="250px">
+                        <img src="img/electra123.png" class="img-fluid" style="margin-top: 30%">
                         <figcaption>
                           <p class="spacing"><strong><br><br><br><br>Electra</strong></p>
                         </figcaption>
@@ -134,7 +134,7 @@
                   <div class="events-card">
                     <div class="events-header">
                       <figure class="imghvr-fade" style="border-radius:  10px">
-                        <img src="native/img/baronas1234.png" height="285px" width="250px">
+                        <img src="img/baronas1234.png" class="img-fluid" style="margin-top: 30%">
                         <figcaption>
                           <p class="spacing"><strong><br><br><br><br>Baronas</strong></p>
                         </figcaption>
@@ -151,7 +151,7 @@
                   <div class="events-card">
                     <div class="events-header">
                       <figure class="imghvr-fade" style="border-radius:  10px">
-                        <img src="native/img/ns123.png" height="285px" width="250px">
+                        <img src="img/ns123.png" class="img-fluid" style="margin-top: 30%">
                         <figcaption>
                           <p class="spacing"><strong><br><br><br><br>National Symphosium</strong></p>
                         </figcaption>
@@ -166,7 +166,7 @@
                   <div class="events-card">
                     <div class="events-header">
                       <figure class="imghvr-fade" style="border-radius:  10px">
-                        <img src="native/img/mage123.png" height="285px" width="250px">
+                        <img src="img/mage123.png" class="img-fluid" style="margin-top: 30%">
                         <figcaption>
                           <p class="spacing"><strong><br><br><br><br>Mage</strong></p>
                         </figcaption>
