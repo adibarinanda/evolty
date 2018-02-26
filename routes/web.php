@@ -21,6 +21,7 @@ Route::view('/electra', 'electra');
 Route::view('/baronas', 'baronas');
 Route::view('/register/electra', 'closed_registerelectra');
 Route::view('/register/baronas', 'registerbaronas');
+Route::view('/register/ns', 'registerns');
 Route::view('/register/baronas/success', 'success_registerbaronas');
 Route::post('admin', 'VerifController@update');
 Route::post('/admin/delete', 'AdminController@delete');
