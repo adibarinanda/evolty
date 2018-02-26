@@ -37,7 +37,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container" style="z-index: 1;">
-        <a class="navbar-brand js-scroll-trigger" href="/"><img src="native/img/baronas/logo-evolty3.png" style="height: 50px"></a>
+        <a class="navbar-brand js-scroll-trigger" href="/"><img src="{{url('native/img/baronas/logo-evolty3.png')}}" style="height: 50px"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -85,7 +85,7 @@
 
 <style>
       #particles-js {
-      background: url('img/background1.png');
+      background: url('native/img/background1.png');
       background-size: cover;
       position:fixed;
       top:0;
@@ -114,12 +114,12 @@
           <div class="content" style="max-height: 500px">
             <div class="row">
 
-              <div class="col-sm-4">
+              <div class="col-sm-6">
                 <a href="/register/electra">
                   <div class="events-card">
                     <div class="events-header">
                       <figure class="imghvr-fade" style="border-radius:  10px">
-                        <img src="img/electra123.png" class="img-fluid" style="margin-top: 30%">
+                        <img src="native/img/electra123.png" class="img-fluid" style="margin-top: 30%">
                         <figcaption>
                           <p class="spacing"><strong><br><br><br><br>Electra</strong></p>
                         </figcaption>
@@ -129,12 +129,12 @@
                 </a>
               </div>
 
-              <div class="col-sm-4">
+              <div class="col-sm-6">
                 <a href="/register/baronas">
                   <div class="events-card">
                     <div class="events-header">
                       <figure class="imghvr-fade" style="border-radius:  10px">
-                        <img src="img/baronas1234.png" class="img-fluid" style="margin-top: 30%">
+                        <img src="native/img/baronas1234.png" class="img-fluid" style="margin-top: 30%">
                         <figcaption>
                           <p class="spacing"><strong><br><br><br><br>Baronas</strong></p>
                         </figcaption>
@@ -146,12 +146,12 @@
             </div>
 
               <div class="row">
-              <div class="col-sm-4">
+              <div class="col-sm-6">
                 <a href="/register/ns">
                   <div class="events-card">
                     <div class="events-header">
                       <figure class="imghvr-fade" style="border-radius:  10px">
-                        <img src="img/ns123.png" class="img-fluid" style="margin-top: 30%">
+                        <img src="native/img/ns123.png" class="img-fluid" style="margin-top: 30%">
                         <figcaption>
                           <p class="spacing"><strong><br><br><br><br>National Symphosium</strong></p>
                         </figcaption>
@@ -161,12 +161,12 @@
                 </a>
               </div>
 
-              <div class="col-sm-4">
+              <div class="col-sm-6">
                 <a href="http://mage.telematics.its.ac.id" target="_blank">
                   <div class="events-card">
                     <div class="events-header">
                       <figure class="imghvr-fade" style="border-radius:  10px">
-                        <img src="img/mage123.png" class="img-fluid" style="margin-top: 30%">
+                        <img src="native/img/mage123.png" class="img-fluid" style="margin-top: 30%">
                         <figcaption>
                           <p class="spacing"><strong><br><br><br><br>Mage</strong></p>
                         </figcaption>
