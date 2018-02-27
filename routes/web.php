@@ -23,6 +23,7 @@ Route::view('/register/electra', 'closed_registerelectra');
 Route::view('/register/baronas', 'registerbaronas');
 Route::view('/register/ns', 'registerns');
 Route::view('/register/baronas/success', 'success_registerbaronas');
+Route::view('/register/ns/success', 'success_registerns');
 Route::post('admin', 'VerifController@update');
 Route::post('/admin/delete', 'AdminController@delete');
 Route::post('/admin/baronas/delete', 'AdminController@baronasdelete');
@@ -35,6 +36,7 @@ Route::post('/admin/baronas/tambah', 'AdminController@baronaskestari');
 Route::view('/admin/nopes', 'admin');
 Route::get('/admin/baronas', 'AdminController@baronasindex');
 Route::post('/register/baronas/register', 'RegisterBaronasController@daftar');
+Route::post('/register/ns/register', 'RegisterNSController@daftar');
 
 Auth::routes();
 

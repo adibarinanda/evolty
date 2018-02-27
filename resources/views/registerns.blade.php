@@ -112,8 +112,9 @@
 
         <div class="col-lg-6" >
           <div class="content" style="overflow: auto; max-height: 500px">
-           <form class="col-sm-12" method="POST" action="{{ route('register')}}" enctype="multipart/form-data">
+           <form class="col-sm-12" method="POST" action="/register/ns/register" enctype="multipart/form-data">
             {{ csrf_field()}}
+            <input type="hidden" name="event" value="ns">
 
 
                 <!-- <div class="form-group{{ $errors->has('name' ? 'has-error' : '')}} ">
@@ -142,21 +143,15 @@
 
                     </div>
                 </div> -->
-                <input type="hidden" name="tipedaftar" value="Online">
-                <input type="hidden" name="event" value="electra">
-
-                
-
-                
               
-                <div class="form-group{{ $errors->has('namatim') ? ' has-error' : '' }}">
+                <div class="form-group{{ $errors->has('ns_nama') ? ' has-error' : '' }}">
                     <div class="input-group">
                         <!-- <span class="input-group-addon" id="addon_username"><i class="fa fa-envelope fa-fw"></i></span> -->
-                        <input id="namatim" type="text" class="form-control" name="namatim" placeholder="Nama" value="{{ old('namatim') }}"  >
+                        <input id="ns_nama" type="text" class="form-control" name="ns_nama" placeholder="Nama" value="{{ old('ns_nama') }}"  >
 
-                        @if ($errors->has('namatim'))
+                        @if ($errors->has('ns_nama'))
                             <span class="help-block">
-                                <strong>{{ $errors->first('namatim') }}</strong>
+                                <strong>{{ $errors->first('ns_nama') }}</strong>
                             </span>
                         @endif
                     </div>
@@ -195,40 +190,40 @@
                     </div>
                 </div>
 
-                <div class="form-group{{ $errors->has('namatim') ? ' has-error' : '' }}">
+                <div class="form-group{{ $errors->has('ns_kampus') ? ' has-error' : '' }}">
                     <div class="input-group">
                         <!-- <span class="input-group-addon" id="addon_username"><i class="fa fa-envelope fa-fw"></i></span> -->
-                        <input id="namatim" type="text" class="form-control" name="namatim" placeholder="Kampus" value="{{ old('namatim') }}"  >
+                        <input id="ns_kampus" type="text" class="form-control" name="ns_kampus" placeholder="Kampus" value="{{ old('ns_kampus') }}"  >
 
-                        @if ($errors->has('namatim'))
+                        @if ($errors->has('ns_kampus'))
                             <span class="help-block">
-                                <strong>{{ $errors->first('namatim') }}</strong>
+                                <strong>{{ $errors->first('ns_kampus') }}</strong>
                             </span>
                         @endif
                     </div>
                 </div>
 
-                <div class="form-group{{ $errors->has('notelp') ? ' has-error' : '' }}">
+                <div class="form-group{{ $errors->has('ns_notelp') ? ' has-error' : '' }}">
                     <div class="input-group">
                         <!-- <span class="input-group-addon" id="addon_username"><i class="fa fa-envelope fa-fw"></i></span> -->
-                        <input id="notelp" type="notelp" class="form-control" name="notelp" placeholder="Nomor Telepon" value="{{ old('notelp') }}">
+                        <input id="ns_notelp" type="text" class="form-control" name="ns_notelp" placeholder="Nomor Telepon" value="{{ old('ns_notelp') }}">
 
-                        @if ($errors->has('notelp'))
+                        @if ($errors->has('ns_notelp'))
                             <span class="help-block">
-                                <strong>{{ $errors->first('notelp') }}</strong>
+                                <strong>{{ $errors->first('ns_notelp') }}</strong>
                             </span>
                         @endif
                     </div>
                 </div>
 
-                <div class="form-group{{ $errors->has('namatim') ? ' has-error' : '' }}">
+                <div class="form-group{{ $errors->has('ns_line') ? ' has-error' : '' }}">
                     <div class="input-group">
                         <!-- <span class="input-group-addon" id="addon_username"><i class="fa fa-envelope fa-fw"></i></span> -->
-                        <input id="namatim" type="text" class="form-control" name="namatim" placeholder="ID Line" value="{{ old('namatim') }}"  >
+                        <input id="ns_line" type="text" class="form-control" name="ns_line" placeholder="ID Line" value="{{ old('ns_line') }}"  >
 
-                        @if ($errors->has('namatim'))
+                        @if ($errors->has('ns_line'))
                             <span class="help-block">
-                                <strong>{{ $errors->first('namatim') }}</strong>
+                                <strong>{{ $errors->first('ns_line') }}</strong>
                             </span>
                         @endif
                     </div>
@@ -236,10 +231,10 @@
 
                 <div class="form-group" style="text-align: left;">
                                 <label>Upload Bukti Pembayaran</label>
-                                <input type="file" name="bukti" value="" />
+                                <input type="file" name="ns_bukti" value="" />
                             </div>
                                 <span class="text-danger">
-                                        {{ $errors->first('bukti') }}
+                                        {{ $errors->first('ns_bukti') }}
                                 </span>
 
                 

@@ -100,7 +100,7 @@
       <div class="container mx-auto my-auto" style="z-index: 1;">
       <div class="row">
         <div class="col-sm-12" style="margin-bottom:2%;margin-top: 5em">
-          <p style="font-size: 5vmax">Registration Page</p>
+          <p style="font-size: 4vmax">Registration Page</p>
         </div>
 
         <div class="my-auto mx-auto col-sm-6" style="z-index: 1;">
@@ -119,7 +119,7 @@
                   <div class="events-card">
                     <div class="events-header">
                       <figure class="imghvr-fade" style="border-radius:  10px">
-                        <img src="native/img/electra123.png" class="img-fluid" style="margin-top: 30%">
+                        <img src="native/img/electra123.png" class="img-fluid my-auto" style="margin-top: 30%">
                         <figcaption>
                           <p class="spacing"><strong><br><br><br><br>Electra</strong></p>
                         </figcaption>
@@ -134,7 +134,7 @@
                   <div class="events-card">
                     <div class="events-header">
                       <figure class="imghvr-fade" style="border-radius:  10px">
-                        <img src="native/img/baronas1234.png" class="img-fluid" style="margin-top: 30%">
+                        <img src="native/img/baronas1234.png" class="img-fluid my-auto" style="margin-top: 30%">
                         <figcaption>
                           <p class="spacing"><strong><br><br><br><br>Baronas</strong></p>
                         </figcaption>
@@ -151,7 +151,7 @@
                   <div class="events-card">
                     <div class="events-header">
                       <figure class="imghvr-fade" style="border-radius:  10px">
-                        <img src="native/img/ns123.png" class="img-fluid" style="margin-top: 30%">
+                        <img src="native/img/ns123.png" class="img-fluid my-auto" style="margin-top: 30%">
                         <figcaption>
                           <p class="spacing"><strong><br><br><br><br>National Symphosium</strong></p>
                         </figcaption>
@@ -166,7 +166,7 @@
                   <div class="events-card">
                     <div class="events-header">
                       <figure class="imghvr-fade" style="border-radius:  10px">
-                        <img src="native/img/mage123.png" class="img-fluid" style="margin-top: 30%">
+                        <img src="native/img/mage123.png" class="img-fluid my-auto" style="margin-top: 30%">
                         <figcaption>
                           <p class="spacing"><strong><br><br><br><br>Mage</strong></p>
                         </figcaption>
