@@ -91,6 +91,7 @@
               <ul id="adminevent" class="collapse list-unstyled">
                 <li><a href="{{url('admin')}}">Electra</a></li>
                 <li><a href="{{url('admin/baronas')}}">Baronas</a></li>
+                <li><a href="{{url('admin/ns')}}">National Symphosium</a></li>
                 <!-- <li><a href="#">Baronas</a></li>
                 <li><a href="#">NS</a></li> -->
                 <!-- <li><a href="#">Lupa Password</a></li> -->

@@ -42,6 +42,12 @@ public function baronasindex()
       return view('adminbaronas', compact('jumlahuser'));
   }
 
+  public function nsindex()
+  {
+    $jumlahuser = DB::table('users')->where('event','ns')->get();
+      return view('adminns', compact('jumlahuser'));
+  }
+
   public function nopes(Request $inpute)
   {
     $IDtambahnopes = $inpute->input('tambahnopesID');
@@ -71,6 +77,21 @@ public function baronasindex()
     $baru->kelasanggota2 = $inputnya->input('kelasanggota2');
     $baru->save();
     return redirect('/admin');
+  }
+
+  public function nsupdate(Request $inputnya)
+  {
+    $IDupdate = $inputnya->input('updateID');
+    $baru = User::find($IDupdate);
+    $baru->no_peserta = $inputnya->input('no_peserta');
+    $baru->ns_nama = $inputnya->input('ns_nama');
+    $baru->email = $inputnya->input('email');
+    $baru->ns_notelp = $inputnya->input('ns_notelp');
+    $baru->ns_kampus = $inputnya->input('ns_kampus');
+    $baru->ns_line = $inputnya->input('ns_line');
+    
+    $baru->save();
+    return redirect('/admin/ns');
   }
 
   public function tambah(Request $inputnya)

@@ -58,6 +58,10 @@ $(document).ready(function(){
                 $('.no_peserta_baronas').mask('AA-000000-000');
               });
 
+$(document).ready(function(){
+                $('.no_peserta_ns').mask('NS-07-2018-000');
+              });
+
 // BUAT NAMPILIN MENU POPUP KALO TOMBOL VERIF DIPENCET
 function centerModal() {
     $(this).css('display', 'block');

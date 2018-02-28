@@ -29,12 +29,14 @@ Route::post('/admin/delete', 'AdminController@delete');
 Route::post('/admin/baronas/delete', 'AdminController@baronasdelete');
 Route::post('/admin/nopes', 'AdminController@nopes');
 Route::post('/admin/update', 'AdminController@update');
+Route::post('/admin/ns/update', 'AdminController@nsupdate');
 Route::post('/admin/tambah', 'AdminController@tambah');
 Route::post('/home/baronas/update-profile', 'RegisterBaronasController@updateuserbaronas');
 Route::post('/admin/baronas/adduser', 'AdminController@baronasadduser');
 Route::post('/admin/baronas/tambah', 'AdminController@baronaskestari');
 Route::view('/admin/nopes', 'admin');
 Route::get('/admin/baronas', 'AdminController@baronasindex');
+Route::get('/admin/ns', 'AdminController@nsindex');
 Route::post('/register/baronas/register', 'RegisterBaronasController@daftar');
 Route::post('/register/ns/register', 'RegisterNSController@daftar');
 
