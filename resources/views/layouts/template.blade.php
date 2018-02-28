@@ -80,7 +80,7 @@
             <li><a href="#dashvariants" aria-expanded="false" data-toggle="collapse"> <i class="icon-interface-windows"></i>User </a>
               <ul id="dashvariants" class="collapse list-unstyled">
                 <li><a href="#">Logout</a></li>
-                <li><a href="#">Lupa Password</a></li>
+                <!-- <li><a href="#">Lupa Password</a></li> -->
                 <!-- <li><a href="#">Page</a></li>
                 <li><a href="#">Page</a></li> -->
               </ul>
@@ -116,14 +116,16 @@
         <div class="content-inner">
           <!-- Page Header-->
           <header class="page-header">
-            <div class="container-fluid">
-              <h2 class="no-margin-bottom">Status Akun : </h2>
-              @if (Auth::user()->status==0)
-              <h2>Nonaktif</h2>
-              @else
-              <h2>Aktif</h2>
-              @endif
-            </div>
+            @if (Auth::user()->event!='ns')
+              <div class="container-fluid">
+                <h2 class="no-margin-bottom">Status Akun : </h2>
+                @if (Auth::user()->status==0)
+                <h2>Nonaktif</h2>
+                @else
+                <h2>Aktif</h2>
+                @endif
+              </div>
+            @endif
           </header>
           @yield('content')
           
