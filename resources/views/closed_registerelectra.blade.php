@@ -101,7 +101,7 @@
       <div class="row">
 
         <div class="col-lg-12" style="z-index: 1;">
-          <img style="margin-top: 5em;height: 150px;margin-bottom: 2em;" src="{{url('purple/img/logobesar.png')}}">
+          <img style="margin-top: 5em;height: 150px;margin-bottom: 2em;" src="{{url('native/img/baronas/logo-evolty3.png')}}">
           <div class="form-group pull-center">
                   <a href="/"><button type="button" class="btn btn-info outline">Kembali ke Halaman Depan</button></a>
               </div>
