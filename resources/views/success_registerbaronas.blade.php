@@ -100,14 +100,14 @@
       <div class="container mx-auto my-auto" style="z-index: 1;">
       <div class="row">
 
-        <div class="col-lg-12" style="z-index: 1;">
-          <img style="margin-top: 5em;height: 150px;margin-bottom: 2em;" src="{{url('native/img/baronas/logo-evolty3.png')}}">
+        <div class="col-sm-12" style="z-index: 1;">
+          <img style="margin-top: 5em;height: 150px;margin-bottom: 2em;" src="{{url('native/img/baronas/logo-evolty3.png')}}" class="img-fluid">
           <div class="form-group pull-center">
                   <a href="/"><button type="button" class="btn btn-info outline">Kembali ke Halaman Depan</button></a>
               </div>
         </div>
 
-        <div class="col-lg-12" style="margin-bottom:2em;margin-top: 1em">
+        <div class="col-sm-12" style="margin-bottom:2em;margin-top: 1em">
           <h1>Pendaftaran Berhasil!</h1> 
             <h5>Username dan password akan dikirim via contact person, silahkan tunggu max 1x24 jam. Jika belum username dan password belum dikirim, silahkan hubungi 082245160164 (Nina)</h5>
         </div>

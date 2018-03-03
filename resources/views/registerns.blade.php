@@ -99,18 +99,18 @@
         <div id="particles-js"></div>
       <div class="mx-auto my-auto" style="z-index: 1;">
       <div class="row">
-        <div class="col-lg-12" style="margin-bottom:2em;margin-top: 5em">
+        <div class="col-sm-12" style="margin-bottom:2em;margin-top: 5em">
           <h1>Registration Page</h1>
         </div>
 
-        <div class="col-lg-6" style="z-index: 1;">
-          <img style="margin-top: 5em;height: 150px;margin-bottom: 2em; margin-right:5em;" src="{{url('purple/img/logobesar.png')}}">
+        <div class="col-sm-6" style="z-index: 1;">
+          <img style="margin-top: 5em;height: 150px;margin-bottom: 2em; margin-right:5em;" src="{{url('native/img/baronas/logo-evolty3.png')}}" class="img-fluid">
           <div class="form-group pull-center">
                   <a style="text-decoration: none" href="login">Sudah punya akun? Login Disini</a>
               </div>
         </div>
 
-        <div class="col-lg-6" >
+        <div class="col-sm-6" >
           <div class="content" style="overflow: auto; max-height: 500px">
            <form class="col-sm-12" method="POST" action="/register/ns/register" enctype="multipart/form-data">
             {{ csrf_field()}}
