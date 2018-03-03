@@ -22,6 +22,7 @@ Route::view('/baronas', 'baronas');
 Route::view('/register/electra', 'closed_registerelectra');
 Route::view('/register/baronas', 'registerbaronas');
 Route::view('/register/ns', 'registerns');
+Route::view('/nationalsymphosium', 'registerns');
 Route::view('/register/baronas/success', 'success_registerbaronas');
 Route::view('/register/ns/success', 'success_registerns');
 Route::post('admin', 'VerifController@update');

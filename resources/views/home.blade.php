@@ -7,7 +7,7 @@
       @if(Auth::user()->status==0 && Auth::user()->event=='electra')
         Akun anda belum diaktifkan. Hubungi panitia untuk mengaktifkan akun anda.
 
-      @elseif(Auth::user()->status==0 && Auth::user()->event=='ns')
+      @elseif(Auth::user()->event=='ns')
         
         <!-- Work Amount  -->
         <div class="col-lg-12">

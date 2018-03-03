@@ -221,9 +221,9 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">×</button>
-                    <h4 class="modal-title">Tambah Peserta Baru Electra</h4>
+                    <h4 class="modal-title">otw dikerjain gan bentar, deadline tugas kuliah:(</h4>
                   </div>
-                  <form method="post" action="/admin/tambah">
+                 <!--  <form method="post" action="/admin/tambah">
                     {{csrf_field()}}
                       <div class="modal-body" style="overflow-x: auto; overflow-y: auto; max-height: 700px">
                       
@@ -432,7 +432,7 @@
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                       </div>
                     </div>
-                  </form>
+                  </form> -->
               </div>
             </div>
 

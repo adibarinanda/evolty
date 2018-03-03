@@ -7,7 +7,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12">
-        <div class="card">
+        <div class="card"  style="max-height: 720px">
           <div class="card-header d-flex align-items-center">
             <h3 class="h4 col-lg-10 pull-left">Baronas Admin</h3>
             <button type="button" data-toggle="modal" data-uid="1" class="col-lg-2 update btn btn-biru btn-sm" data-target="#tambah_user">Tambah Peserta Baronas</button>

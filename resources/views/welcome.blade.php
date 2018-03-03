@@ -217,7 +217,7 @@
           </div>
           </a>
 
-          <a href="/ns">
+          <a href="/nationalsymphosium">
             <div class="events-card">
             <div class="events-header">
               <figure class="imghvr-fade" style="border-top-left-radius: 10px; border-top-right-radius: 10px">
