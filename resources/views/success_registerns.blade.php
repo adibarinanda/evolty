@@ -37,7 +37,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container" style="z-index: 1;">
-        <a class="navbar-brand js-scroll-trigger" href="/"><img src="{{url('purple/img/logokecil.png')}}"></a>
+        <a class="navbar-brand js-scroll-trigger" href="/"><img src="{{url('native/img/baronas/logo-evolty3.png')}}"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -101,7 +101,7 @@
       <div class="row">
 
         <div class="col-lg-12" style="z-index: 1;">
-          <img style="margin-top: 5em;height: 150px;margin-bottom: 2em;" src="{{url('purple/img/logobesar.png')}}">
+          <img style="margin-top: 5em;height: 150px;margin-bottom: 2em;" src="{{url('native/img/baronas/logo-evolty3.png')}}">
           <div class="form-group pull-center">
                   <a href="/login"><button type="button" class="btn btn-info outline">Login disini!</button></a>
               </div>

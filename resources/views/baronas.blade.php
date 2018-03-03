@@ -284,6 +284,27 @@
         </div>
     </header>
 
+    <header id="section05" class="videobaron cd-section d-flex text-white text-center"> 
+        <div class="container my-auto mx-auto" style="margin-top: 5vh">
+          <h2>VIDEO TUTORIAL</h2>
+          <hr class="hijau">
+          <div class="row" style="margin-top: 2em;margin-bottom: 1em">
+            <div class="col-sm-4">
+              <p style="margin-bottom: 1em">Kategori Elementary</p>
+              <iframe height="250" width="350" src="https://www.youtube.com/embed/TEIPHq14sy0?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen style="max-width: 100%;max-height: 100%"></iframe>
+            </div>
+            <div class="col-sm-4">
+              <p style="margin-bottom: 1em">Kategori Junior</p>
+              <iframe height="250" width="350" src="https://www.youtube.com/embed/eZE0wLRWEOI?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen style="max-width: 100%;max-height: 100%"></iframe>
+            </div>
+            <div class="col-sm-4">
+              <p style="margin-bottom: 1em">Kategori Senior</p>
+              <iframe height="250" width="350" src="https://www.youtube.com/embed/RO-xysQzoPg?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen style="max-width: 100%;max-height: 100%"></iframe>
+            </div>
+          </div>
+        </div>
+      </header>
+
     <header id="section04" class="d-flex cd-section">
       <div class="container my-auto mx-auto">
         <img src="{{url('native/img/baronas/hadiah.png')}}" style="margin-top: 1%" class="img-fluid">
