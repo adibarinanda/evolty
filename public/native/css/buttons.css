@@ -73,14 +73,15 @@
 	box-shadow: none;
 }
 .btn-warning {
-	background: #eb8f34;
+	background: #ba29ff;
 	color: #ffffff;
 }
 .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open > .dropdown-toggle.btn-warning {
-	background: #eba259;
+	background: #ba29ff;
+	color: #ba29ff;
 }
 .btn-warning:active, .btn-warning.active {
-	background: #b87430;
+	background: #ba29ff;
 	box-shadow: none;
 }
 .btn-danger {

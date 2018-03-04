@@ -33,7 +33,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="/"><img src="native/img/baronas/logo-evolty3.png" style="height: 50px"></a>
+        <a class="navbar-brand js-scroll-trigger" href="/"><img src="native/img/ns/logo_baru_bawah.png" style="height: 50px"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -97,7 +97,7 @@
         <div class="row">
           <form method="POST" class="col-sm-12" action="{{ route('login')}} ">
             {{ csrf_field()}}
-            <img style="margin-top: 10%;margin-bottom: 5%;" src="native/img/baronas/logo-evolty3.png" class="img-fluid">
+            <img style="margin-top: 10%;margin-bottom: 5%;" src="native/img/ns/logo_baru_bawah.png" class="img-fluid">
 
 
                 <div class="form-group {{ $errors->has('email') ? ' has-error' : ''}} ">

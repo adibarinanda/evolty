@@ -37,7 +37,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container" style="z-index: 1;">
-        <a class="navbar-brand js-scroll-trigger" href="/"><img src="{{url('native/img/baronas/logo-evolty3.png')}}" style="height: 50px"></a>
+        <a class="navbar-brand js-scroll-trigger" href="/"><img src="{{url('native/img/ns/logo_baru_bawah.png')}}" style="height: 50px"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -104,7 +104,7 @@
         </div>
 
         <div class="my-auto mx-auto col-sm-6" style="z-index: 1;">
-          <img style="margin-top: 5%;height: 150px;margin-bottom: 2%; margin-right:5%;" src="native/img/baronas/logo-evolty3.png">
+          <img style="margin-top: 5%;height: 150px;margin-bottom: 2%; margin-right:5%;" src="native/img/ns/logo_baru_bawah.png">
           <div class="form-group pull-center">
                   <a style="text-decoration: none" href="login">Sudah punya akun? Login Disini</a>
               </div>

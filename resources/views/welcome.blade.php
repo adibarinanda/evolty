@@ -86,7 +86,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light" id="mainNavEvolty">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="{{url('native/img/baronas/logo-evolty3.png')}}" style="height: 50px"></a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="{{url('native/img/ns/logo_baru_bawah.png')}}" style="height: 50px"></a>
 
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -150,7 +150,7 @@
       <div class="container mx-auto my-auto">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-12 col-lg-12 mx-auto">
-            <img src="{{url('native/img/baronas/logo-evolty3.png')}}" style="max-height: 100%; max-width: 100%" class="img-fluid">
+            <img src="{{url('native/img/ns/logo_baru_bawah.png')}}" style="max-height: 100%; max-width: 100%" class="img-fluid">
           </div>
           <div class="col-12 col-sm-12 col-md-12 col-lg-12  mx-auto">
             <br>
@@ -466,7 +466,7 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-3" style="margin-top: 5vh">
-              <img src="{{url('native/img/baronas/logo-evolty3.png')}}" class="img-fluid" style="height: 70px">
+              <img src="{{url('native/img/ns/logo_baru_bawah.png')}}" class="img-fluid" style="height: 70px">
               <div class="row">
                 <div class="col-sm-4" style="margin-top: 1vh">
                   <img src="{{url('native/img/baronas/scan.png')}}" class="img-fluid" style="height: 70px">
@@ -507,6 +507,12 @@
           </div>
         </div>
       </footer>
+
+      <div class="container my-auto mx-auto text-center" style="min-height: 20vh">
+        <p style="font-size: 2vmax;margin-top: 2.5%">Sponsored By</p>
+        <hr class="ungu">
+        <img src="{{url('native/img/ns/sponsor.png')}}" class="img-fluid" style="height: 100px">
+      </div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>

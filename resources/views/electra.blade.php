@@ -714,7 +714,7 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-3" style="margin-top: 5vh">
-              <img src="{{url('native/img/baronas/logo-evolty3.png')}}" class="img-fluid" style="height: 70px">
+              <img src="{{url('native/img/ns/logo_baru_atas.png')}}" class="img-fluid" style="height: 70px">
               <div class="row">
                 <div class="col-sm-4" style="margin-top: 1vh">
                   <img src="{{url('native/img/baronas/scan.png')}}" class="img-fluid" style="height: 70px">
@@ -755,6 +755,12 @@
           </div>
         </div>
       </footer>
+
+      <div class="container my-auto mx-auto text-center" style="min-height: 20vh">
+        <p style="font-size: 2vmax;margin-top: 2.5%">Sponsored By</p>
+        <hr class="ungu">
+        <img src="{{url('native/img/ns/sponsor.png')}}" class="img-fluid" style="height: 100px">
+      </div>
 
      <!-- Bootstrap core JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>

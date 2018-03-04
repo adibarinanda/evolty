@@ -31,6 +31,16 @@ hr.hijau {
   border-color: #6C9D4C;
 }
 
+hr.ungu {
+  max-width: 200px;
+  border-color: #ba29ff;
+}
+
+hr.kuning {
+  max-width: 200px;
+  border-color: #ffff00;
+}
+
 a {
   color: #F05F40;
   -webkit-transition: all 0.2s;
@@ -587,6 +597,38 @@ header.mastheadelect {
         font-size: 3rem; } }
   @media (min-width: 1200px) {
     header.videobaron h1 {
+      font-size: 4rem; } }
+
+
+header.mastheadns {
+  padding-top: 5rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("../img/ns/back_ns_1.png");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  header.mastheadns hr {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  header.mastheadns h1 {
+    font-size: 2rem; }
+  header.mastheadns p {
+    font-weight: 300; }
+  @media (min-width: 768px) {
+    header.mastheadns p {
+      font-size: 1.15rem; } }
+  @media (min-width: 992px) {
+    header.mastheadns {
+      height: 100vh;
+      min-height: 650px;
+      padding-top: 0;
+      padding-bottom: 0; }
+      header.mastheadns h1 {
+        font-size: 3rem; } }
+  @media (min-width: 1200px) {
+    header.mastheadns h1 {
       font-size: 4rem; } }
 
 .service-box {
