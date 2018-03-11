@@ -133,6 +133,56 @@
       </div>  
     </header>
 
+    <header class="cd-section">
+      <div class="container my-auto mx-auto" style="min-height: 100vh">
+        <div class="container text-center my-auto mx-auto" style="margin-top: 10vh">
+          <div class="text-center">
+            <h2>TANGGAL PENTING</h2>
+            <hr class="hijau">
+          </div>
+          <div>
+            <h2 style="color: #6C9D4C;margin-bottom: 2%">Technical Meeting</h2>
+            <div class="row">
+              <div class="col-sm-6" style="margin-bottom: 3%">
+                <h3>Elementary (SD)</h3>
+                <h3>31 Maret 2018</h3>
+                <h3>Pukul 07.00 WIB</h3>
+              </div>
+              <div class="col-sm-6" style="margin-bottom: 3%">
+                <h3>Junior (SMP)</h3>
+                <h3>31 Maret 2018</h3>
+                <h3>Pukul 09.00 WIB</h3>
+              </div>
+              <div class="col-sm-6" style="margin-bottom: 3%">
+                <h3>Senior (SMA)</h3>
+                <h3>31 Maret 2018</h3>
+                <h3>Pukul 08.00 WIB</h3>
+              </div>
+              <div class="col-sm-6" style="margin-bottom: 3%">
+                <h3>Open (Umum)</h3>
+                <h3>31 Maret 2018</h3>
+                <h3>Pukul 15.00 WIB</h3>
+              </div>
+            </div>
+          </div>    
+          
+          <div>
+            <h2 style="color: #6C9D4C;margin-bottom: 2%">Pelaksanaan</h2>
+            <div class="row">
+              <div class="col-sm-12" style="margin-bottom: 3%">
+                <h3>Elementary (SD), Junior (SMP), Senior (SMA)</h3>
+                <h3>31 Maret 2018 sampai 1 April 2018</h3>
+              </div>
+              <div class="col-sm-12" style="margin-bottom: 3%">
+                <h3>Open (Umum)</h3>
+                <h3>1 April 2018</h3>
+              </div>
+            </div>
+          </div>    
+        </div>
+      </div>  
+    </header>
+
     <header class="kategoribaron text-white cd-section d-flex" id="section03">
         <div class="container my-auto mx-auto">
           <div class="text-center" style="padding-top: 2%">
@@ -381,7 +431,7 @@
         </div>
       </header>
 
-      <header id="section07" class="videobaron cd-section d-flex text-center"> 
+      <header class="videobaron cd-section d-flex text-center"> 
         <div class="container my-auto mx-auto" style="margin-top: 7vh">
           <h2 class="text-white">VIDEO AFTERMOVIE</h2>
           <hr class="hijau">
@@ -409,7 +459,7 @@
   <div class="container-fluid p-0">
     <iframe  width="100%" height="100%"
   frameborder="0" style="border:0"
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.610051375433!2d112.79440601432026!3d-7.285130794741785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa6d27f3c93b%3A0xfb9aa9acef1c1691!2sDepartment+of+Electrical+Engineering+ITS!5e0!3m2!1sen!2sid!4v1517470026191" allowfullscreen>
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.6799431913905!2d112.79528611432022!3d-7.277211494747375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa11b35fed03%3A0x9c97f605616e686b!2sITS+Robotics+Center!5e0!3m2!1sen!2sid!4v1520692161121" allowfullscreen>
 </iframe>
 
   </div>
