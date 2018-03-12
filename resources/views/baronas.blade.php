@@ -145,23 +145,23 @@
             <div class="row">
               <div class="col-sm-6" style="margin-bottom: 3%">
                 <h3>Elementary (SD)</h3>
-                <h3>31 Maret 2018</h3>
-                <h3>Pukul 07.00 WIB</h3>
+                <!--<h3>31 Maret 2018</h3>-->
+                <!--<h3>Pukul 07.00 WIB</h3>-->
               </div>
               <div class="col-sm-6" style="margin-bottom: 3%">
                 <h3>Junior (SMP)</h3>
-                <h3>31 Maret 2018</h3>
-                <h3>Pukul 09.00 WIB</h3>
+                <!--<h3>31 Maret 2018</h3>-->
+                <!--<h3>Pukul 09.00 WIB</h3>-->
               </div>
               <div class="col-sm-6" style="margin-bottom: 3%">
                 <h3>Senior (SMA)</h3>
-                <h3>31 Maret 2018</h3>
-                <h3>Pukul 08.00 WIB</h3>
+                <!--<h3>31 Maret 2018</h3>-->
+                <!--<h3>Pukul 08.00 WIB</h3>-->
               </div>
               <div class="col-sm-6" style="margin-bottom: 3%">
                 <h3>Open (Umum)</h3>
-                <h3>31 Maret 2018</h3>
-                <h3>Pukul 15.00 WIB</h3>
+                <!--<h3>31 Maret 2018</h3>-->
+                <!--<h3>Pukul 15.00 WIB</h3>-->
               </div>
             </div>
           </div>    
