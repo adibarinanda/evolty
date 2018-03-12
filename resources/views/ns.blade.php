@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Baronas 2018</title>
+    <title>National Symposium 2018</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{url('native/css/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
@@ -110,26 +110,32 @@
             <div class="col-sm-4" style="margin-top: 5%">
               <img src="{{url('native/img/ns/pemb_1.png')}}" class="img-fluid" style="height: 300px;margin-bottom: 5%">
               <div class="col-12" style="min-height: 100px;background-color: #ba29ff;border-radius: 20px;border-style: solid;border-color: #ba29ff;">
-                <h5>Dr.Muhammad Nur Yuniarto, S.T.</h5>
-                <br>
-                <h5>Ketua Mobil Listrik Nasional ITS</h5>
+                <div style="padding: 3%">
+                  <h5>Dr.Muhammad Nur Yuniarto, S.T.</h5>
+                  <br>
+                  <h5>Ketua Mobil Listrik Nasional ITS</h5>
+                </div>
               </div>
 
             </div>
             <div class="col-sm-4" style="margin-top: 5%">
               <img src="{{url('native/img/ns/pemb_2.png')}}" class="img-fluid" style="height: 300px;margin-bottom: 5%">
               <div class="col-12" style="min-height: 100px;background-color: #ba29ff;border-radius: 20px;border-style: solid;border-color: #ba29ff;">
-                <h5>Prof. Dr. (H.C) Dahlan Iskan</h5>
-                <br>
-                <h5>Menteri BUMN Tahun 2011-2014</h5>
+                <div style="padding: 3%">
+                  <h5>Prof. Dr. (H.C) Dahlan Iskan</h5>
+                  <br>
+                  <h5>Menteri BUMN Tahun 2011-2014</h5>  
+                </div>
               </div>
             </div>
             <div class="col-sm-4" style="margin-top: 5%">
               <img src="{{url('native/img/ns/pemb_3.png')}}" class="img-fluid" style="height: 300px;margin-bottom: 5%">
               <div class="col-12" style="min-height: 100px;background-color: #ba29ff;border-radius: 20px;border-style: solid;border-color: #ba29ff;">
-                <h5>Ricky Elson</h5>
-                <br>
-                <h5>Perancang Mobil Listrik Selo</h5>
+                <div style="padding: 3%">
+                  <h5>Ricky Elson</h5>
+                  <br>
+                  <h5>Perancang Mobil Listrik Selo</h5>
+                </div>
               </div>
             </div>
           </div>
@@ -157,7 +163,7 @@
               <p>5. Tunjukkan nomor peserta saat registrasi ulang</p>
               <p>6. Ambil toolkit dan sertifikat</p>
               <div class="text-center" style="margin-top: 5%">
-                <a><button type="button" class="btn btn-warning btn-sm">Daftar</button></a>
+                <a href="/register"><button type="button" class="btn btn-warning btn-sm">Daftar</button></a>
               </div>  
             </div>
             <div class="col-sm-4 text-white text-center container" style="margin-top: 5%">

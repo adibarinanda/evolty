@@ -217,7 +217,7 @@
           </div>
           </a>
 
-          <a href="/nationalsymphosium">
+          <a href="/nationalsymposium">
             <div class="events-card">
             <div class="events-header">
               <figure class="imghvr-fade" style="border-top-left-radius: 10px; border-top-right-radius: 10px">

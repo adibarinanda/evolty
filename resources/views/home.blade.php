@@ -323,7 +323,7 @@
                   <h3>{{Auth::user()->namaanggota1}}</h3>
                   <small>Kartu Pelajar</small>
                   <h3><a href="public/uploads/baronas_kartupelajar/{{Auth::user()->baronas_kartupelajar1}}" target="_blank">Lihat di tab baru</a></h3>
-                  <small>Bukti Pembayaran</small>
+                  <small>Foto</small>
                   <h3><a href="public/uploads/baronas_foto/{{Auth::user()->baronas_foto1}}" target="_blank">Lihat di tab baru</a></h3>
                 </div>
               </div>
@@ -337,7 +337,7 @@
                   <h3>{{Auth::user()->namaanggota2}}</h3>
                   <small>Kartu Pelajar</small>
                   <h3><a href="public/uploads/baronas_kartupelajar/{{Auth::user()->baronas_kartupelajar2}}" target="_blank">Lihat di tab baru</a></h3>
-                  <small>Bukti Pembayaran</small>
+                  <small>Foto</small>
                   <h3><a href="public/uploads/baronas_foto/{{Auth::user()->baronas_foto2}}" target="_blank">Lihat di tab baru</a></h3>
                 </div>
               </div>
@@ -351,7 +351,7 @@
                   <h3>{{Auth::user()->namaanggota3}}</h3>
                   <small>Kartu Pelajar</small>
                   <h3><a href="public/uploads/baronas_kartupelajar/{{Auth::user()->baronas_kartupelajar3}}" target="_blank">Lihat di tab baru</a></h3>
-                  <small>Bukti Pembayaran</small>
+                  <small>Foto</small>
                   <h3><a href="public/uploads/baronas_foto/{{Auth::user()->baronas_foto3}}" target="_blank">Lihat di tab baru</a></h3>
                 </div>
               </div>

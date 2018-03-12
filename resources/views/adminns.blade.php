@@ -221,51 +221,16 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">×</button>
-                    <h4 class="modal-title">otw dikerjain gan bentar, deadline tugas kuliah:(</h4>
+                    <h4 class="modal-title">Tambah Peserta Baru National Symposium</h4>
                   </div>
-                 <!--  <form method="post" action="/admin/tambah">
+                  <form method="post" action="/admin/tambah">
                     {{csrf_field()}}
                       <div class="modal-body" style="overflow-x: auto; overflow-y: auto; max-height: 700px">
                       
                         <div id="form-electra" style="margin-bottom: 2em">
 
-                          <input type="hidden" name="tipedaftar" value="Offline">
-                          <input type="hidden" name="event" value="electra">
-
-                          <div class="form-group{{ $errors->has('region') ? ' has-error' : '' }}">
-                            <div class="input-group">
-                              <p class="my-auto col-lg-4">Region :</p>
-                              <select id="region" name="region" placeholder="Pilih Region" class="form-control">
-                                <option>Pilih Region</option>
-                                <option value="Balikpapan" @if (old('balikpapan') == "Balikpapan") selected @endif>Balikpapan</option>
-                                <option value="Denpasar" @if (old('denpasar') == "denpasar") selected @endif>Denpasar</option>
-                                <option value="Gresik" @if (old('gresik') == "gresik") selected @endif>Gresik</option>
-                                <option value="Jakarta" @if (old('jakarta') == "jakarta") selected @endif>Jakarta</option>
-                                <option value="Jember" @if (old('jember') == "jember") selected @endif>Jember</option>
-                                <option value="Jombang" @if (old('jombang') == "jombang") selected @endif>Jombang</option>
-                                <option value="Kediri" @if (old('kediri') == "kediri") selected @endif>Kediri</option>
-                                <option value="Madiun" @if (old('madiun') == "madiun") selected @endif>Madiun</option>
-                                <option value="Malang" @if (old('malang') == "malang") selected @endif>Malang</option>
-                                <option value="Pamekasan" @if (old('pamekasan') == "pamekasan") selected @endif>Pamekasan</option>
-                                <option value="Probolinggo" @if (old('probolinggo') == "probolinggo") selected @endif>Probolinggo</option>
-                                <option value="Semarang" @if (old('semarang') == "semarang") selected @endif>Semarang</option>
-                                <option value="Solo" @if (old('solo') == "solo") selected @endif>Solo</option>
-                                <option value="Surabaya" @if (old('surabaya') == "surabaya") selected @endif>Surabaya</option>
-                                <option value="Tuban" @if (old('tuban') == "tuban") selected @endif>Tuban</option>
-                                <option value="Online" @if (old('online') == "online") selected @endif>Online</option>
-                              </select>
-                            </div>
-                        </div>
-
-                         <div id="tipetes-id" class="form-group{{ $errors->has('tipetes') ? ' has-error' : '' }}">
-                          <div class="input-group">
-                            <p class="my-auto col-lg-4">Tipe Tes :</p>
-                            <select id="IDtipetes" name="tipetes" placeholder="Jenis Tes" class="form-control">
-                              <option value="Online">Online</option>
-                              <option value="Offline">Offline</option>
-                            </select>
-                          </div>
-                        </div>
+                          <!-- <input type="hidden" name="tipedaftar" value="Offline"> -->
+                          <input type="hidden" name="event" value="ns">
 
                       <div class="form-group{{ $errors->has('no_peserta') ? ' has-error' : '' }}">
                         <div class="input-group">
@@ -279,160 +244,91 @@
                         </div>
                       </div>
 
-                      
-
-                        <div class="form-group{{ $errors->has('namatim') ? ' has-error' : '' }}">
+                        <div class="form-group{{ $errors->has('ns_nama') ? ' has-error' : '' }}">
                           <div class="input-group">
-                            <p class="my-auto col-lg-4">Nama Tim :</p>
-                            <input id="namatim" type="text" class="form-control" name="namatim" placeholder="Nama Tim" value="{{ old('namatim') }}" required >
-                            @if ($errors->has('namatim'))
+                            <p class="my-auto col-lg-4">Nama :</p>
+                            <input id="ns_nama" type="text" class="form-control" name="ns_nama" placeholder="Nama" value="{{ old('ns_nama') }}" required >
+                            @if ($errors->has('ns_nama'))
                             <span class="help-block">
-                                <strong>{{ $errors->first('namatim') }}</strong>
+                                <strong>{{ $errors->first('ns_nama') }}</strong>
                             </span>
                             @endif
                           </div>
                         </div>
 
-                        <div class="form-group{{ $errors->has('asalsekolah') ? ' has-error' : '' }}">
-                          <div class="input-group">
-                            <p class="my-auto col-lg-4">Asal Sekolah :</p>
-                            <input id="asalsekolah" type="text" class="form-control" name="asalsekolah" placeholder="Asal Sekolah" value="{{ old('asalsekolah') }}" required >
-                            @if ($errors->has('asalsekolah'))
-                            <span class="help-block">
-                                <strong>{{ $errors->first('asalsekolah') }}</strong>
-                            </span>
-                            @endif
-                          </div>
-                        </div>
+                      <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
+                        <div class="input-group">
+                          <p class="my-auto col-lg-4">Email :</p>
+                            <input id="email" type="email" class="form-control" name="email" placeholder="Email" value="{{ old('email') }}">
 
-                        <div class="form-group{{ $errors->has('alamatsekolah') ? ' has-error' : '' }}">
-                          <div class="input-group">
-                            <p class="my-auto col-lg-4">Alamat Sekolah :</p>
-                            <input id="alamatsekolah" type="text" class="form-control" name="alamatsekolah" placeholder="Alamat Sekolah" value="{{ old('alamatsekolah') }}" required >
-                            @if ($errors->has('alamatsekolah'))
-                            <span class="help-block">
-                                <strong>{{ $errors->first('alamatsekolah') }}</strong>
-                            </span>
-                            @endif
-                          </div>
-                        </div>
-
-                        <div class="form-group{{ $errors->has('namaketua') ? ' has-error' : '' }}">
-                          <div class="input-group">
-                            <p class="my-auto col-lg-4">Nama Ketua :</p>
-                            <input id="namaketua" type="text" class="form-control" name="namaketua" placeholder="Nama Ketua" value="{{ old('namaketua') }}" required >
-                            @if ($errors->has('namaketua'))
-                            <span class="help-block">
-                                <strong>{{ $errors->first('namaketua') }}</strong>
-                            </span>
-                            @endif
-                          </div>
-                        </div>
-
-                        <div class="form-group{{ $errors->has('kelasketua') ? ' has-error' : '' }}">
-                          <div class="input-group">
-                            <p class="my-auto col-lg-4">Kelas Ketua :</p>
-                            <select id="kelasketua" name="kelasketua" placeholder="Pilih Kelas Ketua" class="form-control">
-                              <option>Pilih Kelas Ketua</option>
-                              <option value="10" @if (old('10') == "10") selected @endif>10</option>
-                              <option value="11" @if (old('11') == "11") selected @endif>11</option>
-                              <option value="12" @if (old('12') == "12") selected @endif>12</option>
-                            </select>
-                          </div>
-                        </div>
-
-                        <div class="form-group{{ $errors->has('namaanggota1') ? ' has-error' : '' }}">
-                          <div class="input-group">
-                            <p class="my-auto col-lg-4">Nama Anggota 1 :</p>
-                            <input id="namaanggota1" type="text" class="form-control" name="namaanggota1" placeholder="Nama Anggota 1" value="{{ old('namaanggota1') }}" required >
-                            @if ($errors->has('namaanggota1'))
-                            <span class="help-block">
-                                <strong>{{ $errors->first('namaanggota1') }}</strong>
-                            </span>
-                            @endif
-                          </div>
-                        </div>
-
-                        <div class="form-group{{ $errors->has('kelasanggota1') ? ' has-error' : '' }}">
-                          <div class="input-group">
-                            <p class="my-auto col-lg-4">Kelas Anggota 1 :</p>
-                            <select id="kelasanggota1" name="kelasanggota1" placeholder="Pilih Kelas Anggota 1" class="form-control">
-                              <option>Pilih Kelas Anggota 1</option>
-                              <option value="10" @if (old('10') == "10") selected @endif>10</option>
-                              <option value="11" @if (old('11') == "11") selected @endif>11</option>
-                              <option value="12" @if (old('12') == "12") selected @endif>12</option>
-                            </select>
-                          </div>
-                        </div>
-
-                        <div class="form-group{{ $errors->has('namaanggota2') ? ' has-error' : '' }}">
-                          <div class="input-group">
-                            <p class="my-auto col-lg-4">Nama Anggota 2 :</p>
-                            <input id="namaanggota2" type="text" class="form-control" name="namaanggota2" placeholder="Nama Anggota 2" value="{{ old('namaanggota2') }}" required >
-                            @if ($errors->has('namaanggota2'))
-                            <span class="help-block">
-                                <strong>{{ $errors->first('namaanggota2') }}</strong>
-                            </span>
-                            @endif
-                          </div>
-                        </div>
-
-                        <div class="form-group{{ $errors->has('kelasanggota2') ? ' has-error' : '' }}">
-                          <div class="input-group">
-                            <p class="my-auto col-lg-4">Kelas Anggota 2 :</p>
-                            <select id="kelasanggota2" name="kelasanggota2" placeholder="Pilih Kelas Anggota 2" class="form-control">
-                              <option>Pilih Kelas Anggota 2</option>
-                              <option value="10" @if (old('10') == "10") selected @endif>10</option>
-                              <option value="11" @if (old('11') == "11") selected @endif>11</option>
-                              <option value="12" @if (old('12') == "12") selected @endif>12</option>
-                            </select>
-                          </div>
-                        </div>
-
-                        <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-                          <div class="input-group">
-                            <p class="my-auto col-lg-4">Email :</p>
-                            <input id="email" type="email" class="form-control" name="email" placeholder="Email" value="{{ old('email') }}" required >
                             @if ($errors->has('email'))
-                            <span class="help-block">
-                                <strong>{{ $errors->first('email') }}</strong>
-                            </span>
+                                <span class="help-block">
+                                    <strong>{{ $errors->first('email') }}</strong>
+                                </span>
                             @endif
-                          </div>
                         </div>
+                      </div>
 
-                        <div class="form-group{{ $errors->has('notelp') ? ' has-error' : '' }}">
-                          <div class="input-group">
-                            <p class="my-auto col-lg-4">Nomor Telepon :</p>
-                          <input id="notelp" type="notelp" class="form-control" name="notelp" placeholder="Nomor Telepon" value="{{ old('notelp') }}" required >
-                          @if ($errors->has('notelp'))
-                            <span class="help-block">
-                                <strong>{{ $errors->first('notelp') }}</strong>
-                            </span>
-                          @endif
-                          </div>
-                        </div>
+                <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
+                    <div class="input-group">
+                        <p class="my-auto col-lg-4">Password :</p>
+                        <input id="password" type="password" class="form-control" name="password" placeholder="Password" aria-describedby="addon_password1">
 
-                        <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
-                          <div class="input-group">
-                            <p class="my-auto col-lg-4">Password :</p>
-                            <input id="password" type="text" class="form-control" name="password" placeholder="Password" aria-describedby="addon_password1" required value="1234">
-                            @if ($errors->has('password'))
+                        @if ($errors->has('password'))
                             <span class="help-block">
                                 <strong>{{ $errors->first('password') }}</strong>
                             </span>
-                            @endif
-                          </div>
-                        </div>
+                        @endif
+                    </div>
+                </div>
+
+                <div class="form-group{{ $errors->has('ns_kampus') ? ' has-error' : '' }}">
+                    <div class="input-group">
+                        <p class="my-auto col-lg-4">Kampus :</p>
+                        <input id="ns_kampus" type="text" class="form-control" name="ns_kampus" placeholder="Kampus" value="{{ old('ns_kampus') }}"  >
+
+                        @if ($errors->has('ns_kampus'))
+                            <span class="help-block">
+                                <strong>{{ $errors->first('ns_kampus') }}</strong>
+                            </span>
+                        @endif
+                    </div>
+                </div>
+
+                <div class="form-group{{ $errors->has('ns_notelp') ? ' has-error' : '' }}">
+                    <div class="input-group">
+                        <p class="my-auto col-lg-4">No. Telp :</p>
+                        <input id="ns_notelp" type="text" class="form-control" name="ns_notelp" placeholder="Nomor Telepon" value="{{ old('ns_notelp') }}">
+
+                        @if ($errors->has('ns_notelp'))
+                            <span class="help-block">
+                                <strong>{{ $errors->first('ns_notelp') }}</strong>
+                            </span>
+                        @endif
+                    </div>
+                </div>
+
+                <div class="form-group{{ $errors->has('ns_line') ? ' has-error' : '' }}">
+                    <div class="input-group">
+                        <p class="my-auto col-lg-4">Line :</p>
+                        <input id="ns_line" type="text" class="form-control" name="ns_line" placeholder="ID Line" value="{{ old('ns_line') }}"  >
+
+                        @if ($errors->has('ns_line'))
+                            <span class="help-block">
+                                <strong>{{ $errors->first('ns_line') }}</strong>
+                            </span>
+                        @endif
+                    </div>
+                </div>
 
 
 
                       <div class="modal-footer">
-                        <button type="submit" class="btn btn-biru">Tambahkan Peserta Baru Electra</button>
+                        <button type="submit" class="btn btn-biru">Tambah Peserta Baru National Symposium</button>
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                       </div>
                     </div>
-                  </form> -->
+                  </form>
               </div>
             </div>
 

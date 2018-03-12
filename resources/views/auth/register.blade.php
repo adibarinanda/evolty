@@ -147,7 +147,7 @@
 
               <div class="row">
               <div class="col-sm-6">
-                <a href="/register/ns">
+                <a href="/register/nationalsymposium">
                   <div class="events-card">
                     <div class="events-header">
                       <figure class="imghvr-fade" style="border-radius:  10px">
